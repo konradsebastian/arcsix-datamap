@@ -27,4 +27,4 @@ See [open issues](../../issues) for specific tasks.
 
 ## Citation
 
-Schmidt et al. (in prep.), *ARCSIX 2024 campaign data overview*, ESSD.
+Taylor et al. (2026, in prep.), *ARCSIX 2024 campaign data overview*, ESSD.
