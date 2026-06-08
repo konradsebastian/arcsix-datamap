@@ -181,6 +181,11 @@
     line-height: 1.7;
     box-shadow: 0 1px 4px rgba(0,0,0,0.05);
   }
+  .intro-header { font-size: 15px; margin-bottom: 6px; display: flex; align-items: center; gap: 10px; }
+  .intro-status { font-size: 11px; background: #fff3cd; color: #856404; padding: 2px 8px; border-radius: 10px; font-weight: normal; }
+  .intro-desc { font-size: 12.5px; color: #444; margin-bottom: 8px; line-height: 1.55; }
+  .intro-how { font-size: 12px; color: #444; background: #f0f4ff; border-left: 3px solid #4a7fd4; padding: 7px 12px; border-radius: 0 4px 4px 0; margin-bottom: 10px; line-height: 1.7; }
+
   .intro strong { color: #0a2d6e; }
 
   /* ── Legend ──────────────────────────────────────────────── */
@@ -264,13 +269,24 @@
 <div class="container">
 
   <div class="intro">
-    <strong>Quick-access guide</strong> to ARCSIX 2024 datasets, instruments, and resources.
-    Click any category to expand. Each entry links directly to the data archive, relevant papers, and workshop presentations.
-    For comprehensive instrument descriptions, see the ESSD data paper (Taylor et al. 2026).
+    <div class="intro-header"><strong>ARCSIX 2024 — Instrument &amp; Dataset Reference</strong>
+    <span class="intro-status">Draft — work in progress</span></div>
+    <p class="intro-desc">This page provides a quick-access inventory of all instruments, datasets, and data archives
+    from the ARCSIX 2024 Arctic airborne campaign (NASA P-3B, NASA G-III, SPEC Learjet, and supporting ground/satellite datasets).
+    For full instrument descriptions see <a href="https://essd.copernicus.org" style="color:#1a4fa3;">Taylor et al. (2026, in prep.), ESSD</a>.
+    For questions about specific datasets, contact the listed PI or the NASA/LaRC data archive team.</p>
+    <div class="intro-how">
+      <strong>How to use:</strong>
+      Click a <em>section header</em> to expand a category &nbsp;·&nbsp;
+      Click <strong>▶ Variables</strong> on any instrument row to see key measured quantities and uncertainties &nbsp;·&nbsp;
+      <span style="background:#fffbe6;padding:1px 4px;border-radius:3px;">⚠️ yellow cells</span> mark where uncertainty information is still needed &nbsp;·&nbsp;
+      Links shown as <span style="background:#eee;color:#888;padding:1px 5px;border-radius:3px;font-size:11px;">[t.b.d.]</span> are pending — if you can fill one in, please use the
+      <a href="https://docs.google.com/spreadsheets" style="color:#1a4fa3;">collaboration spreadsheet</a> (link TBD) or contact Sebastian Schmidt.
+    </div>
     <div class="legend">
       <span class="legend-item"><span class="badge badge-p3">P-3B</span> NASA P-3B (WFF)</span>
       <span class="legend-item"><span class="badge badge-g3">G-III</span> NASA G-III (ARC)</span>
-      <span class="legend-item"><span class="badge badge-lj">Lear</span> Learjet (SPEC)</span>
+      <span class="legend-item"><span class="badge badge-lj">Lear</span> SPEC Learjet</span>
       <span class="legend-item"><span class="badge badge-sf">Surface</span> Ground-based</span>
       <span class="legend-item"><span class="badge badge-sat">Satellite</span> Satellite / model</span>
     </div>
