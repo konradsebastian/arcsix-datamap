@@ -249,6 +249,20 @@
     color: #b45309;
     font-style: normal;
   }
+
+  /* ── Sibling-tool navigation bar ── */
+  .tool-nav {
+    display: flex; gap: 6px; margin-bottom: 12px;
+  }
+  .tool-nav-item {
+    display: inline-block; padding: 5px 14px; border-radius: 20px;
+    font-size: 12.5px; font-weight: 600; text-decoration: none;
+    border: 1.5px solid #c5d5ea; color: #2e5fa3; background: #f0f5fb;
+    transition: background 0.15s;
+  }
+  .tool-nav-item:hover { background: #dce8f5; }
+  .tool-nav-item.active { background: #2e5fa3; color: #fff; border-color: #2e5fa3; }
+
 </style>
 </head>
 <body>
@@ -267,6 +281,11 @@
 </header>
 
 <div class="container">
+
+  <nav class="tool-nav">
+    <a class="tool-nav-item active" href="index.html">📋 Data Map</a>
+    <a class="tool-nav-item" href="collocations.html">✈️ Collocation Viewer</a>
+  </nav>
 
   <div class="intro">
     <div class="intro-header"><strong>ARCSIX 2024 — Instrument &amp; Dataset Reference</strong>
