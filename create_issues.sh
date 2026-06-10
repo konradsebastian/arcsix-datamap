@@ -192,5 +192,27 @@ gh issue create --repo $REPO --label "missing-doi,needs-PI-input" \
   --body "G-III and Lear jet navigation datasets show DOI placeholders. Confirm DOIs from data managers once data is published on ASDC." 2>/dev/null || true
 
 echo ""
+echo "=== Creating stale / catalog-link issues ==="
+
+gh label create "stale-link"        --color "#b60205" --description "Existing link is broken or outdated" --repo $REPO 2>/dev/null || true
+gh label create "catalog-link"      --color "#f9a825" --description "Link leads to EarthData catalog page, not granule search" --repo $REPO 2>/dev/null || true
+
+gh issue create --repo $REPO --label "stale-link,needs-PI-input" \
+  --title "Stale data link: THAAO archive (thuleatmos-it.it)" \
+  --body "The THAAO archive link in the datamap points to \`https://thuleatmos-it.it\` which is stale / unreachable. Please confirm the current data archive URL with PI Calì Quaglia and update the datamap. (High priority — link is broken for users today.)" 2>/dev/null || true
+
+gh issue create --repo $REPO --label "catalog-link,missing-data-link" \
+  --title "Catalog-only link: P-3B In-Situ Cloud Data (FCDP, CPI, HVPS-4, WCM-2000)" \
+  --body "Four instruments currently link to the EarthData catalog landing page (\`larc-cloud-arcsix-cloud-aircraftinsitu-p3b-data-1\`) rather than a filtered granule search. Identify the granule-ID patterns for FCDP, CPI, HVPS-4, and WCM-2000 in collection \`C3466130093-LARC_CLOUD\` and replace with direct \`search.earthdata.nasa.gov/search/granules?p=...&pg[0][id]=*INSTRUMENT*\` URLs. See LARGE links as the reference pattern." 2>/dev/null || true
+
+gh issue create --repo $REPO --label "catalog-link,missing-data-link" \
+  --title "Catalog-only link: Learjet In-Situ Cloud Data (FCDP, 2D-S, HVPS-4, Nevzorov)" \
+  --body "Four Learjet cloud-probe instruments link to the EarthData catalog landing page (\`larc-cloud-arcsix-cloud-aircraftinsitu-learjet-data-1\`) rather than a filtered granule search. Identify the collection ID and granule-ID patterns and replace with direct granule search URLs." 2>/dev/null || true
+
+gh issue create --repo $REPO --label "catalog-link,missing-data-link" \
+  --title "Catalog-only link: KPR — K-Band Precipitation Radar (Learjet)" \
+  --body "KPR currently links to the EarthData catalog landing page (\`larc-cloud-arcsix-aircraftremotesensing-learjet-kpr-data-1\`) rather than a filtered granule search. Identify the collection ID and granule-ID pattern for KPR and replace with a direct \`search.earthdata.nasa.gov/search/granules\` URL." 2>/dev/null || true
+
+echo ""
 echo "=== Done ==="
 echo "View issues at: https://github.com/${REPO}/issues"
