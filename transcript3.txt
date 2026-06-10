@@ -1,0 +1,1346 @@
+[00:00.000 --> 00:14.680]  Okay, so thanks for coming back from lunch.
+[00:14.680 --> 00:20.200]  So we are about half an hour late at this point, but we have a plan.
+[00:20.200 --> 00:24.400]  We have lots of buffer time.
+[00:24.400 --> 00:31.800]  The idea is that we will simply cut some of the discussion time slots a little short
+[00:31.800 --> 00:36.080]  and shift that to tomorrow.
+[00:36.080 --> 00:41.000]  So to be announced, but we will definitely get through all of our talks today and it
+[00:41.000 --> 00:42.360]  was worth the questions.
+[00:42.360 --> 00:44.920]  I think at this point we're ready for Michelle, right?
+[00:44.920 --> 00:49.640]  Dan, can you advance the slides for her?
+[00:49.640 --> 00:54.920]  Can you advance the slides for her once she asks?
+[00:54.920 --> 00:57.480]  Sure, that I speak.
+[00:57.480 --> 00:58.980]  You are.
+[00:58.980 --> 01:00.320]  You're really good at this, Dan.
+[01:00.320 --> 01:02.320]  You can do it.
+[01:02.320 --> 01:05.760]  Dan can do it.
+[01:05.760 --> 01:11.160]  You ready?
+[01:11.160 --> 01:19.760]  Am I good?
+[01:19.760 --> 01:20.760]  Yeah.
+[01:20.760 --> 01:21.760]  Okay.
+[01:21.760 --> 01:22.760]  All right.
+[01:22.760 --> 01:23.760]  Well, hey.
+[01:23.760 --> 01:24.760]  I'm Michelle Hofton.
+[01:24.760 --> 01:28.720]  For those of you who don't know me, I'm just going to talk about the Elvis Oxics data we
+[01:28.720 --> 01:30.800]  collected.
+[01:30.800 --> 01:35.080]  If you were in the field, you probably remember David Raybine and Albert Wu, who were, they
+[01:35.080 --> 01:39.760]  took care of all of the Elvis Ops and all of the data collection for us.
+[01:39.760 --> 01:40.760]  And that was great.
+[01:40.760 --> 01:47.240]  They dumped like a 20 terabyte set of drives back with us, it guarded for us to work through.
+[01:47.240 --> 01:49.680]  So what I'm going to do today is just going to give you a brief overview of the Elvis
+[01:49.680 --> 01:53.160]  data and then finish up with some of the lead detection work that we've been doing.
+[01:53.160 --> 01:57.240]  So next chart, Dan, please, thank you.
+[01:57.240 --> 02:02.100]  Okay, so yeah, Elvis is an airborne laser altimeter.
+[02:02.100 --> 02:04.600]  We operate at 1064 nanometers.
+[02:04.600 --> 02:08.160]  We record both the outgoing and return waveforms.
+[02:08.800 --> 02:14.080]  So we generate a true 3D picture of the overflowing surface.
+[02:14.080 --> 02:15.920]  Elvis flew on all of the Oxics flights.
+[02:15.920 --> 02:18.240]  We attempted data collection on all of them.
+[02:18.240 --> 02:22.240]  That's even though you guys, you know, love your clouds and we don't really love clouds
+[02:22.240 --> 02:26.240]  because we're a laser altimeter, but we took care of it.
+[02:26.240 --> 02:30.000]  So what really that means is that each day was unique in how much data got collected
+[02:30.000 --> 02:32.360]  and obviously some days were better than others.
+[02:32.360 --> 02:34.640]  So that's just the way it goes.
+[02:34.640 --> 02:39.120]  This was designed to fly high and our instrument is geared towards that, but we've got some
+[02:39.120 --> 02:44.400]  tricks that we can use that meant we were able to collect data at low altitude.
+[02:44.400 --> 02:48.320]  But as you'll see a couple of charts from now, our data pattern can look a little bit
+[02:48.320 --> 02:52.040]  strange when we're at low altitude and it's just something to be aware of if that matters
+[02:52.040 --> 02:55.400]  to your particular application.
+[02:55.400 --> 02:59.400]  But at 25,000 feet altitude, that was targeted for Elvis.
+[02:59.400 --> 03:04.240]  We've got about a one kilometer wide swath with six meter footprints and there's a hundred
+[03:04.240 --> 03:07.040]  percent coverage within that swath.
+[03:07.040 --> 03:10.000]  We flew two camera systems as well with Elvis.
+[03:10.000 --> 03:11.960]  These were located right next to the laser.
+[03:11.960 --> 03:17.640]  They're downlooking and they're taking images from one to three second intervals, depending
+[03:17.640 --> 03:19.560]  on the speed of the plane.
+[03:19.560 --> 03:24.360]  And that's, there should be about 67% overlap between two images.
+[03:24.360 --> 03:28.480]  I think that's for stereo photogrammetry applications.
+[03:28.480 --> 03:31.680]  Process data, they're all at NSIDC and Earth data.
+[03:31.680 --> 03:36.000]  And if you go to the Elvis website, there's some background supporting info on the different
+[03:36.000 --> 03:41.920]  instrument parameters, flight trajectories, KMZ that show where the LiDAR data are.
+[03:41.920 --> 03:47.440]  And there's some camera KMZs that they bring up like thumbnails of the imagery that was
+[03:47.440 --> 03:48.440]  taken throughout the flight.
+[03:48.440 --> 03:52.960]  So you can see what the conditions were like at that particular time.
+[03:52.960 --> 03:55.920]  Next chart.
+[03:55.920 --> 04:01.200]  So this is a map that shows where we successfully got data during the campaign.
+[04:01.200 --> 04:06.360]  And I separated it into the two different deployments and called them arc six one and
+[04:06.360 --> 04:08.120]  two, even though I know that's not official.
+[04:08.120 --> 04:12.000]  Orange is the first one, blue is the second one.
+[04:12.000 --> 04:16.280]  These show the data where the airplane was above four kilometer altitude, which means
+[04:16.280 --> 04:21.320]  Elvis had about a one kilometer wide swath and had six meter footprints.
+[04:21.320 --> 04:24.680]  Yeah, we collected data over the sea ice and the ocean.
+[04:24.680 --> 04:28.560]  We were on all the time, but so we got data on some of the transits too, which is great
+[04:28.560 --> 04:31.400]  over the land ice.
+[04:31.400 --> 04:35.720]  And we actually got several passes over Humboldt Glacier, which we were really happy about.
+[04:35.720 --> 04:40.600]  And we're using that to look at develop some sort of new change detection techniques using
+[04:40.600 --> 04:41.600]  waveform LiDAR.
+[04:41.600 --> 04:42.600]  So it was great.
+[04:42.600 --> 04:43.600]  Thank you.
+[04:43.600 --> 04:44.600]  Next chart.
+[04:44.600 --> 04:53.360]  Same chart, but now we're showing where the plane was below four kilometers.
+[04:53.360 --> 04:59.320]  So in these instances, Elvis has got a variable swath, a variable footprint size depends on
+[04:59.320 --> 05:02.040]  the altitude of the airplane.
+[05:02.040 --> 05:05.780]  You can also see the arc six two, the second deployment had a lot more low altitude data
+[05:05.780 --> 05:07.280]  than arc six one.
+[05:07.280 --> 05:09.480]  She care about that.
+[05:09.480 --> 05:13.880]  Next chart.
+[05:13.880 --> 05:16.240]  So this is just an example of the data we collected.
+[05:16.240 --> 05:21.800]  This was from 5,300 meters altitude on the very first flight day.
+[05:21.800 --> 05:24.520]  On the left there is surface topography.
+[05:24.520 --> 05:26.080]  Lower elevations are in dark blue.
+[05:26.080 --> 05:28.080]  The higher ones are in reds.
+[05:28.080 --> 05:33.840]  So our swath here was about 900 meters wide, a six meter footprint with a six meter spacing.
+[05:33.840 --> 05:36.960]  So it's 100% coverage of the data swath.
+[05:36.960 --> 05:38.120]  You can see leads in here.
+[05:38.120 --> 05:39.120]  You see ridges.
+[05:39.120 --> 05:41.120]  So the leads are in the dark blue color.
+[05:41.120 --> 05:44.280]  The ridges are in the reds.
+[05:44.280 --> 05:46.720]  On the right there is a sideways looking plot of the data.
+[05:46.720 --> 05:49.480]  So it's time versus elevation.
+[05:49.480 --> 05:51.760]  The lead shows up pretty clearly here.
+[05:51.760 --> 05:55.440]  It's underneath that much rougher CI surface.
+[05:55.440 --> 05:58.840]  But you can start to see how detecting melt ponds on this surface is going to be harder
+[05:58.840 --> 06:03.560]  to spot at least in these types of image views and data.
+[06:03.560 --> 06:06.920]  Next chart.
+[06:06.920 --> 06:11.800]  So yeah, I told you that Elvis is really optimized for high altitude.
+[06:11.800 --> 06:16.160]  One of the challenges that we have is that the laser is really overpowered for low altitude
+[06:16.160 --> 06:17.680]  flights.
+[06:17.680 --> 06:22.320]  So we were able to get around that using an attenuator on the low altitude flight.
+[06:22.320 --> 06:27.440]  So Alba and David were really adjusting every, you know, whenever they needed to, depending
+[06:27.440 --> 06:30.320]  on the conditions that they were seeing at the time.
+[06:30.320 --> 06:35.600]  So they were able to dial back the energy when we were flying through sort of clouds
+[06:35.600 --> 06:39.080]  that we were still able to range through, just to try to maximize what we were getting
+[06:39.080 --> 06:42.080]  back.
+[06:42.080 --> 06:45.920]  One of these shows that we can't get over is that we don't have 100% coverage within
+[06:45.920 --> 06:47.800]  the data swath from low altitude.
+[06:47.800 --> 06:51.360]  The scanning system just really can't keep up.
+[06:51.360 --> 06:57.040]  So on the left there, that's an example of the scan pattern from a 1200 meter altitude.
+[06:57.040 --> 06:59.640]  So you see that zigzag pattern that's going on.
+[06:59.640 --> 07:00.640]  Swath is narrow.
+[07:00.640 --> 07:03.560]  It's about 200 meters wide, but footprint size is smaller.
+[07:03.560 --> 07:04.560]  It's one meter wide.
+[07:04.560 --> 07:08.840]  So these are all things just to sort of bear in mind as you're looking at the data that,
+[07:08.840 --> 07:13.240]  you know, our swath width is variable, our footprint size is variable.
+[07:13.240 --> 07:17.880]  So just sort of pay attention to what you're looking at.
+[07:17.880 --> 07:21.640]  Next chart, please.
+[07:21.640 --> 07:26.760]  So yeah, we flew those two downlooking cameras next to Elvis.
+[07:26.760 --> 07:32.680]  One with a 150 megapixel lens, and this was really operated mostly above three kilometer
+[07:32.680 --> 07:33.680]  flight altitude.
+[07:33.680 --> 07:36.720]  It's just a huge amount of data.
+[07:36.720 --> 07:42.280]  And the second one, which was operated most of the time, either had a 20 megapixel or
+[07:42.280 --> 07:44.640]  a 50 megapixel lens.
+[07:44.640 --> 07:49.960]  All of the data available from NSIDC and Earth Data, what we've done is we've modified the
+[07:49.960 --> 07:56.240]  XF header in each photo with positioning and pointing of the camera at the time of the image.
+[07:56.240 --> 08:01.640]  So there's enough info in there to do a basic geolocation of the data.
+[08:01.640 --> 08:05.560]  If there's interest, we're able to geolocate these to the surface.
+[08:05.560 --> 08:10.160]  So basically we choose a geotiff image of each image.
+[08:10.160 --> 08:16.360]  It's just not part of our normal data processing stream, but we can do that if there's interest.
+[08:16.360 --> 08:18.000]  So on the left there, that's an example.
+[08:18.000 --> 08:24.920]  The Elvis data swath is on top of a couple, actually several of the phase one, 150 megapixel
+[08:24.920 --> 08:28.960]  images, just to show that what you would be getting.
+[08:28.960 --> 08:30.760]  And the table just has approximate sizes.
+[08:30.760 --> 08:35.680]  You can look at that later of the pixel and coverage of each image for a couple of different
+[08:35.680 --> 08:37.880]  altitudes.
+[08:37.880 --> 08:41.600]  Next chart.
+[08:41.600 --> 08:46.600]  So something that we've been working on recently is a way to try to identify water surfaces
+[08:46.600 --> 08:48.840]  using the Elvis data alone.
+[08:48.840 --> 08:52.480]  So what we're doing is we're trying to take advantage of polarization differences in
+[08:52.480 --> 08:58.640]  the laser returns when they're reflected from water versus non-water surfaces.
+[08:58.640 --> 09:02.560]  So on the left there, there's some elevations from about a five kilometer long section of
+[09:02.560 --> 09:09.760]  the ISAT-2 underflight on August, second of August, blue to low elevations again, reds
+[09:09.760 --> 09:10.760]  are higher.
+[09:10.760 --> 09:16.240]  Then we've run this energy detecting algorithm on it, and what we've pulled out there on
+[09:16.240 --> 09:20.920]  the image to the right is the areas that we've detected as being from water.
+[09:20.920 --> 09:23.560]  So those are shown in yellow.
+[09:23.560 --> 09:25.680]  You can see it looks pretty promising.
+[09:25.680 --> 09:30.680]  I mean, you can see that there's areas that are water are being identified as water, but
+[09:30.680 --> 09:35.000]  we still need to validate this against, I think, leads that have been detected from the
+[09:35.000 --> 09:43.600]  camera images, which is the usual way of doing this from the airborne operations.
+[09:43.600 --> 09:46.000]  And we've just started to do that.
+[09:46.000 --> 09:50.240]  So if you separate out the Elvis returns in the yellow areas versus everything else,
+[09:50.240 --> 09:56.240]  then the measurements from the water have a standard deviation of just over two centimeters.
+[09:56.240 --> 10:00.360]  So if we're able to validate the Elvis comes, these measurements are from the water and
+[10:00.360 --> 10:06.920]  that this relationship holds for the different altitudes, the different footprint sizes throughout
+[10:06.920 --> 10:13.760]  the mission, then it would be a way to pull out C-surface apogry from the laser data relaying.
+[10:13.760 --> 10:15.760]  Next chart.
+[10:15.760 --> 10:27.120]  Oh, next chart, hopefully, there should be another one.
+[10:27.120 --> 10:34.440]  Is there one more chart, Dan?
+[10:34.440 --> 10:37.840]  Number nine is there was one.
+[10:37.840 --> 10:38.840]  This one?
+[10:38.840 --> 10:45.240]  No, the one that we were on this chart, right, Michelle?
+[10:45.240 --> 10:48.160]  Can you see that, Michelle?
+[10:48.160 --> 10:50.360]  No, it's all blank on my screen.
+[10:50.360 --> 10:53.800]  Oh, we already switched.
+[10:53.800 --> 11:00.600]  There should be one more chart that says using Elvis LiDAR data.
+[11:00.600 --> 11:02.240]  The one with the profile?
+[11:02.240 --> 11:03.240]  Yeah, okay.
+[11:03.240 --> 11:09.000]  Yeah, yeah, let's let's switch to that one that we just had.
+[11:09.000 --> 11:14.360]  This one, Michelle, so it has a, yeah, there should be one.
+[11:14.360 --> 11:17.400]  Using Elvis LiDAR data, start with level two files.
+[11:17.400 --> 11:19.560]  Yes, that's the one I'm talking about.
+[11:19.560 --> 11:21.040]  Go for it.
+[11:21.040 --> 11:23.280]  Okay, it's not showing up on the screen here.
+[11:23.280 --> 11:26.880]  Yeah, anyway, this one is my last chart, and there's a lot of words, and I just wanted
+[11:26.880 --> 11:30.480]  to give you guys an idea of where to start with Elvis data.
+[11:30.480 --> 11:34.840]  So basically, if you're interested in using Elvis data, then start with the level two
+[11:34.840 --> 11:40.960]  files, these contain elevations, and it should get you moving pretty quickly.
+[11:40.960 --> 11:46.640]  You want to do more complex things, then you got to do your own waveform interpretation
+[11:46.640 --> 11:54.120]  algorithms than the level one B files, or what you're going to need, they're just bigger
+[11:54.120 --> 11:58.360]  and they're more difficult to get to grips with.
+[11:58.360 --> 12:04.960]  So I'm trying to remember what was in there, I think we talk about like the data files
+[12:04.960 --> 12:11.360]  are split on the basis of flight, they're temporarily ordered, and we cut them on the
+[12:11.360 --> 12:15.680]  basis of size, so there'll be multiple files per flight.
+[12:15.680 --> 12:22.200]  And then on the right, I think there was an image of a waveform, and it had multiple
+[12:22.200 --> 12:23.700]  modes in it.
+[12:23.700 --> 12:31.040]  I hope you guys are seeing it because I'm not seeing it, but anyway, so if we what happens
+[12:31.040 --> 12:35.120]  with the laser is you send out a Gaussian shaped pulse of light, and if the surface
+[12:35.120 --> 12:39.120]  is smooth, then the return you get back is also Gaussian shaped.
+[12:39.120 --> 12:43.360]  As soon as there's any quarter, any sort of like complexity or surface roughness going
+[12:43.360 --> 12:49.240]  on within your footprint, then you start to get multiple modes returned in your laser
+[12:49.240 --> 12:51.320]  return waveform.
+[12:51.320 --> 12:55.920]  And so then you can range to multiple surfaces within the footprint.
+[12:55.920 --> 12:59.960]  And the particular example that I showed had three different modes in it.
+[12:59.960 --> 13:06.760]  So maybe one is from a lead and then there's two from surrounding by surfaces that might
+[13:06.760 --> 13:08.960]  be happening in that footprint.
+[13:08.960 --> 13:13.480]  And so in the level two file, there's actually multiple elevation products in there that
+[13:13.480 --> 13:18.720]  are designed to try to help you get to grips with what's going on in there.
+[13:18.720 --> 13:20.960]  And yeah, that's it.
+[13:20.960 --> 13:22.400]  Thank you very much.
+[13:22.400 --> 13:26.960]  Thank you very much, Michel.
+[13:26.960 --> 13:32.680]  I'm sorry for the problems, and I'm sorry that you couldn't be here, but this was great.
+[13:32.680 --> 13:37.400]  Thanks for Michel as we move over to Avers.
+[13:37.400 --> 13:43.240]  Are there any?
+[13:43.240 --> 13:44.240]  Thank you again.
+[13:44.240 --> 13:47.920]  And will you stay on a little bit for the discussion phase later, Michel?
+[13:47.920 --> 13:48.920]  Yes.
+[13:48.920 --> 13:49.920]  Yes, I'll be there.
+[13:49.920 --> 13:50.920]  Thank you.
+[13:50.920 --> 13:52.160]  Thank you.
+[13:52.160 --> 13:58.480]  While we're moving to Nicholas, just a reminder that her data, so Elvis data doesn't live
+[13:58.480 --> 13:59.920]  in the Langley archive.
+[13:59.920 --> 14:13.320]  It lives at NSIDC.
+[14:13.320 --> 14:14.320]  It's very simple.
+[14:14.320 --> 14:15.320]  All right.
+[14:15.320 --> 14:16.320]  Thank you.
+[14:16.320 --> 14:17.320]  All right.
+[14:17.320 --> 14:18.320]  Hi, everyone.
+[14:18.320 --> 14:29.480]  I'm Nicholas, born from JPL, and it's so nice to be here.
+[14:29.480 --> 14:35.960]  It was initially not planned, but we had to switch a few of our meeting arrangements
+[14:35.960 --> 14:36.960]  this week.
+[14:36.960 --> 14:41.080]  So I could travel to at least the first day of this meeting, which is great.
+[14:41.080 --> 14:44.520]  So I could actually give the data presentation forever.
+[14:44.520 --> 14:50.680]  So I'm just going to show you a very high-level overview about Avers and the data and where
+[14:50.680 --> 14:54.360]  to access the data, actually.
+[14:54.360 --> 15:02.080]  So I think main and most important or main points here to remember are that Avers basically
+[15:02.080 --> 15:07.440]  is a kind of high-performance camera, so it's a spectrometer that measures the reflected
+[15:07.440 --> 15:12.560]  radiance from the surface and also from the clouds, so whichever surface type or whichever
+[15:12.560 --> 15:19.400]  you observe from the gold stream or the airplane the instrument is on, it gets kind of measured
+[15:19.400 --> 15:20.400]  with the spectrometer.
+[15:20.400 --> 15:25.680]  So you see Avers here installed on the gold stream 3.
+[15:25.680 --> 15:32.120]  This is a typical radian spectrum we get, so we have actually 425 channels covering
+[15:32.120 --> 15:38.000]  380 to 2500 nanometers, so it's a spectral resolution of 5 nanometers, pretty good, and
+[15:38.000 --> 15:43.640]  we can resolve a lot of different absorption features for all different surface types and
+[15:43.640 --> 15:45.400]  materials.
+[15:45.400 --> 15:50.600]  For the setup we had for our 6th, we ended up with pixel sizes of 11 meters.
+[15:50.600 --> 15:56.000]  That's a little bit larger than we usually have with Avers because we flew extremely
+[15:56.000 --> 16:02.080]  high with the G3, so we sometimes also get pixel sizes of just 2 to 5 meters, but just
+[16:02.080 --> 16:06.040]  a function of the aircraft altitude, of course.
+[16:06.040 --> 16:11.440]  So this is just an excerpt and I used to show these pictures because I could spend days
+[16:11.440 --> 16:15.080]  looking at these quick looks from Avers.
+[16:15.080 --> 16:20.000]  These are just a few examples from, I think it's from the spring deployment only, but
+[16:20.000 --> 16:23.600]  just walk through how these subsets from Avers data looked like.
+[16:23.600 --> 16:31.200]  These are just basically RGB images from the measured radiance cubes, and you can see all
+[16:31.200 --> 16:35.880]  the different colors, surface types, variations, and it's just, I think it's beautiful, it's
+[16:35.880 --> 16:42.240]  just like art, you can just put it on your wall and look at them all the time, or whatever.
+[16:42.240 --> 16:47.760]  So it's before you start working with the data, of course, that's the even more fun
+[16:47.760 --> 16:50.280]  part, of course.
+[16:50.280 --> 16:56.200]  So moving through them, CIs, surfaces, and clouds, and then we go actually to the radiance
+[16:56.200 --> 16:58.000]  to reflect those processing pipelines.
+[16:58.000 --> 17:02.320]  So what we do is we take our measurement and run it through our atmosphere and surface
+[17:02.320 --> 17:05.000]  modeling software, which is the isophage software.
+[17:05.000 --> 17:10.000]  You can scan the QR code that takes you to the open source GitHub repository.
+[17:10.000 --> 17:15.240]  So we model atmosphere and surface to get from the sensor radiance to the surface reflectance,
+[17:15.240 --> 17:20.720]  which, and this is important to note, it's not the albedo of the surface, it's the directional
+[17:20.720 --> 17:27.200]  reflectance because Avers does not measure different angles, it's just one single direction.
+[17:27.200 --> 17:32.120]  So if you want to do albedo, or if you want to get albedo off the surface, you would need
+[17:32.120 --> 17:36.200]  some angular measurements, or you would need a BRDF model or something else.
+[17:36.200 --> 17:41.440]  But these are examples from different surface types here, just in general.
+[17:41.440 --> 17:45.400]  So it's no one CIs, blue and dark CIs, and open ocean, and you can see the differences
+[17:45.400 --> 17:46.400]  in magnitude.
+[17:46.400 --> 17:51.320]  You can see some ice absorption features, for example, here very nicely.
+[17:51.320 --> 17:57.040]  A few examples of surface types we looked at specifically for ARC6 are of course the
+[17:57.040 --> 17:58.040]  melt ponds.
+[17:58.040 --> 18:02.400]  This is an example from the Miller Ice Cap on Exel Haberg Island.
+[18:02.400 --> 18:08.480]  You can see these melt ponds here, and they're pretty easy to find on these glaciers and
+[18:08.480 --> 18:09.480]  ice caps.
+[18:09.480 --> 18:13.520]  It's way harder on the CIs because on CIs they are smaller, they are shallower, but these
+[18:13.520 --> 18:17.560]  large ponds, and just remember, pixel size is 11 meters.
+[18:17.560 --> 18:21.160]  So this is basically a lake, it's not really a pond anymore.
+[18:21.160 --> 18:24.720]  And you can see the different reflectance spectra retrieved from Everest here.
+[18:24.720 --> 18:28.840]  So different pond depths lead to different reflectancies.
+[18:28.840 --> 18:33.960]  Of course, you have brighter pond reflectance for shallower depths than for the deep depths
+[18:33.960 --> 18:34.960]  here.
+[18:34.960 --> 18:38.320]  And also, you can nicely see how this compares to the CIs.
+[18:38.320 --> 18:41.720]  You don't have these ice absorption features anymore, and basically zero reflectance in
+[18:41.720 --> 18:44.400]  the near infrared.
+[18:44.400 --> 18:49.120]  What we also did for ARC6, what we usually don't do with Everest is looking at cloud
+[18:49.120 --> 18:50.120]  top reflectance.
+[18:50.120 --> 18:57.160]  So basically, 99% of our campaigns were hoping for a clear sky because we were basically
+[18:57.160 --> 19:02.400]  interested in the surface, but for ARC6 we took a lot of measurements over clouds because
+[19:02.400 --> 19:05.520]  ARC6 is, of course, interested in clouds as well.
+[19:05.520 --> 19:11.440]  This is an example from Everest showing three different cloud top reflectancies retrieved
+[19:11.440 --> 19:13.760]  from the radiances.
+[19:13.760 --> 19:18.920]  And you can see some changes in magnitude, of course, depending on where you look at.
+[19:18.920 --> 19:23.720]  But also, different absorption feature shapes are visible here.
+[19:23.720 --> 19:28.080]  So question if it's a liquid cloud, a mixed cloud, or an ice cloud, and you can see these
+[19:28.080 --> 19:29.680]  differences here.
+[19:29.680 --> 19:35.120]  This is all based, at least what I show here, on David Thompson's paper, which is almost
+[19:35.120 --> 19:37.920]  published 10 years ago.
+[19:37.920 --> 19:44.120]  But Colton and Kerry and Steve, they are doing even more work on this right now, and I think
+[19:44.120 --> 19:48.360]  we'll have another presentation on cloud products from Everest soon.
+[19:48.360 --> 19:51.520]  So this is also very interesting.
+[19:51.520 --> 19:56.000]  The most important part of this short presentation is, of course, where can you actually get
+[19:56.000 --> 19:57.000]  the data from?
+[19:57.000 --> 20:04.240]  So we have our own data portal, as has been mentioned before today, which is an open source
+[20:04.240 --> 20:10.480]  data portal where we use to put all our Everest products open source so you can not only download
+[20:10.480 --> 20:18.160]  the extensor radiance, you can also download the process reflectance products, some auxiliary
+[20:18.160 --> 20:23.880]  data, which are our so-called observation files to all the different angles, some angles,
+[20:23.880 --> 20:26.320]  view angles for each pixel.
+[20:26.320 --> 20:30.280]  And you can also, of course, get these extremely nice quick looks.
+[20:30.280 --> 20:36.480]  We do provide the data in NV binary format, but also in NetCDF, which makes it a little
+[20:36.480 --> 20:40.800]  bit more easier for many people to work with the data.
+[20:40.800 --> 20:46.760]  This is the QR code, which gets you to the data portal.
+[20:46.760 --> 20:49.720]  And this is just the overview here of all our flight lines.
+[20:49.720 --> 20:54.360]  I hope those are all the flight lines we did, but at least it's almost quite a bunch of
+[20:54.360 --> 20:55.360]  them.
+[20:55.360 --> 21:02.160]  So you can actually go to the portal, use the sliders down here to select different date
+[21:02.160 --> 21:05.360]  ranges, and then click on these lines.
+[21:05.360 --> 21:09.360]  You can see quick looks there, and then you can just click on the link and download different
+[21:09.360 --> 21:10.360]  products.
+[21:10.360 --> 21:11.360]  And that's it.
+[21:11.360 --> 21:12.960]  Thank you so much.
+[21:17.760 --> 21:19.760]  Thank you very much.
+[21:19.760 --> 21:21.760]  Questions?
+[21:23.760 --> 21:26.760]  And we can already start transitioning.
+[21:26.760 --> 21:28.760]  Carrie, are you going to be the one?
+[21:28.760 --> 21:29.760]  All right.
+[21:29.760 --> 21:30.760]  Good.
+[21:30.760 --> 21:32.760]  Thank you.
+[21:32.760 --> 21:34.760]  Beautiful images.
+[21:34.760 --> 21:39.760]  Thanks for reminding us of the art in the Arctic.
+[21:47.760 --> 21:52.760]  I'm going to show them up here.
+[21:52.760 --> 21:54.760]  Good.
+[21:56.760 --> 21:58.760]  If I get that to work.
+[21:58.760 --> 21:59.760]  Okay.
+[21:59.760 --> 22:00.760]  Yeah.
+[22:00.760 --> 22:04.760]  So I'm going to just follow on Nick's really nice presentation on average, giving you the
+[22:04.760 --> 22:05.760]  background of the instrument itself.
+[22:05.760 --> 22:09.760]  And I'm going to talk about the retrieval science that we were funded to do.
+[22:09.760 --> 22:15.760]  My team at Goddard with Steve Platnick, some aerosol team for Rob Levy and Christina
+[22:15.760 --> 22:18.760]  Shoe, and then a bunch of others.
+[22:18.760 --> 22:22.760]  Colton also for those who were in the field would know him very well.
+[22:22.760 --> 22:26.760]  But we were funded to do cloud and aerosol retrievals and then derive radiation products
+[22:26.760 --> 22:30.760]  using the Averus instruments.
+[22:30.760 --> 22:37.760]  The objectives for our project was to enable a high spatial resolution studies of clouds,
+[22:37.760 --> 22:42.760]  aerosols, and radiation using Averus and assess retrievals that we would get from the
+[22:42.760 --> 22:47.760]  Averus instrument on the airborne to the Corsair resolution satellite retrievals that
+[22:47.760 --> 22:49.760]  we'd normally work with in our group.
+[22:49.760 --> 22:53.760]  We're responsible for the MODIS and VIRS cloud products from NASA.
+[22:53.760 --> 22:59.760]  And so really tying in the in situ observations to the airborne or sensing to the satellite
+[22:59.760 --> 23:03.760]  and trying to understand questions of scale.
+[23:03.760 --> 23:08.760]  And then to also, because Averus is such a capable instrument in the shortwave, you know,
+[23:08.760 --> 23:10.760]  the spectral capabilities are pretty incredible.
+[23:10.760 --> 23:14.760]  We're looking to use it to improve Arctic imager algorithms as well.
+[23:14.760 --> 23:19.760]  And so the deliverables, quote unquote, that we were funded to provide are, you know,
+[23:19.760 --> 23:25.760]  cloud products for Averus, so cloud mask, cloud top properties, optical and micro physical
+[23:25.760 --> 23:27.760]  properties.
+[23:27.760 --> 23:31.760]  We were also funded to aerosol retrievals, although as I'll talk in a few slides,
+[23:31.760 --> 23:36.760]  that's not quite as realistic in the Arctic for a number of reasons.
+[23:36.760 --> 23:40.760]  And then computer radiation products where we take the retrievals, run them through broadband
+[23:40.760 --> 23:44.760]  or radio transfer to get to and surface radiation.
+[23:44.760 --> 23:49.760]  And then we can use that as a way to do closure studies with the retrievals themselves.
+[23:49.760 --> 23:56.760]  So just to step through what we're doing now with what each of these little mini products do.
+[23:56.760 --> 24:02.760]  So for the cloud property retrievals, we're really looking at cloud masking and cloud top
+[24:02.760 --> 24:03.760]  and cloud obstacles.
+[24:03.760 --> 24:08.760]  So the masking, if you're familiar with our MODIS instruments, for instance, we use just
+[24:08.760 --> 24:12.760]  several spectral channels and infrared to do various spectral tests.
+[24:12.760 --> 24:14.760]  Averus has a lot more spectral information.
+[24:14.760 --> 24:17.760]  So we're really trying to leverage a lot of different channels and channels that we don't
+[24:17.760 --> 24:20.760]  have in space to do cloud detection.
+[24:20.760 --> 24:27.760]  So by the way, this is a spectrum from Averus from one of our flights in the 30th of May.
+[24:27.760 --> 24:31.760]  And you can see there's clouds on the right, sea ice in the middle.
+[24:31.760 --> 24:36.760]  And then I have the spectra from those two scenes plotted here in the bottom right.
+[24:36.760 --> 24:39.760]  So the cloudy is the blue, the clear is the red.
+[24:39.760 --> 24:44.760]  And one interesting thing to point out is the clouds actually darken the surface in the visible in your IR.
+[24:44.760 --> 24:48.760]  So that's something that is a cloud detection you have to try to figure out.
+[24:48.760 --> 24:51.760]  And you have to use some of the short infrared channels on the right.
+[24:51.760 --> 24:52.760]  And so that's what we're doing.
+[24:52.760 --> 24:56.760]  Colt will have a really nice talk tomorrow on this.
+[24:56.760 --> 24:59.760]  Some of the work that he's doing on the cloud mask and cloud detection.
+[24:59.760 --> 25:02.760]  So this is just to show you where some of the spectral channels are using for that.
+[25:02.760 --> 25:08.760]  Cloudtop properties, we have to leverage absorbing channels, water vapor and oxygen A-band.
+[25:08.760 --> 25:14.760]  So you can see these kind of dips in the spectra where the absorption attenuates the reflectance.
+[25:14.760 --> 25:18.760]  You can use in-band and out-of-band ratios to do retrievals of cloud tops.
+[25:18.760 --> 25:20.760]  So we're working on that.
+[25:20.760 --> 25:22.760]  And then obstacle properties.
+[25:22.760 --> 25:25.760]  Optical thickness, effective radius follows the standard bi-spectral technique.
+[25:25.760 --> 25:27.760]  You're familiar with our satellite products.
+[25:27.760 --> 25:32.760]  So Vizni or IR are non-absorbing and a short infrared absorbing channel at the same time.
+[25:32.760 --> 25:36.760]  So just to show you some real quick early results from ARC6.
+[25:36.760 --> 25:38.760]  This is all from the spring campaign.
+[25:38.760 --> 25:43.760]  This is an example of the cloud mask, several of the tests that we're using.
+[25:43.760 --> 25:44.760]  We run it through a suite.
+[25:44.760 --> 25:49.760]  Right now we're running it through just a kind of a decision tree suite of spectral tests.
+[25:49.760 --> 25:56.760]  We do some open water tests, some high cloud tests, and then some NDSI tests.
+[25:56.760 --> 26:02.760]  And then we get to this final cloud mask results, which we've, through visual inspection,
+[26:02.760 --> 26:04.760]  it actually works really, really well.
+[26:04.760 --> 26:09.760]  We were a little worried going in that we didn't have infrared channels for this campaign,
+[26:09.760 --> 26:14.760]  which give a lot of information for clouds over ice, but we found some ways to work around it.
+[26:14.760 --> 26:19.760]  On the right, I'm showing some retrievals I actually ran in the field in the spring.
+[26:19.760 --> 26:26.760]  So these are really, really preliminary, but it just shows the kind of products we're going to provide to the archive.
+[26:26.760 --> 26:30.760]  Cloud optimal thickness, effective radius for multiple different channels.
+[26:30.760 --> 26:37.760]  I don't have it on here, but cloud top as well and things like that, phase, ice versus liquid clouds.
+[26:37.760 --> 26:45.760]  For the aerosol products, difficult region to do aerosol retrievals from imagery.
+[26:45.760 --> 26:49.760]  We do have two teams that were funded to work with us from the MODIS VIRS here at Niagara.
+[26:49.760 --> 26:51.760]  Those are the Dark Target and Deep Blue.
+[26:51.760 --> 26:58.760]  They've both ported their algorithms to AVERAZ and G, but we don't have a lot of cases to work with because they need dark surfaces.
+[26:58.760 --> 27:01.760]  Dark Target in particular likes the ocean.
+[27:01.760 --> 27:13.760]  So, you know, the domain that we are operating with really limits their work, but the earth care underflight is of high interest to them where we got that aerosol plume coming off the coast.
+[27:13.760 --> 27:16.760]  And then they also are looking for input just from the aerosol working group.
+[27:16.760 --> 27:23.760]  I know those two teams are actually involved in that working group, but just identifying additional cases where their algorithms might work.
+[27:23.760 --> 27:30.760]  But this is a Deep Blue example, not from ARC6, but from the shift campaign for some of their algorithm engineering work.
+[27:30.760 --> 27:33.760]  But you can just see the Deep Blue implemented the algorithm.
+[27:33.760 --> 27:40.760]  It's plotted over so there are their VIRS retrievals just to show the power of actually doing aerosol retrievals at high resolution.
+[27:40.760 --> 27:44.760]  You can really resolve features that you can from space.
+[27:44.760 --> 27:51.760]  So the radiation products, this is something that we are starting to implement in our MODIS and VIRS satellite retrievals.
+[27:51.760 --> 27:53.760]  But we're porting it to the airborne.
+[27:53.760 --> 27:55.760]  So the approach is really simple.
+[27:55.760 --> 28:00.760]  We're taking the retrievals that come out of our cloud products, throwing them through broadband radiator transfer.
+[28:00.760 --> 28:03.760]  We've integrated this RRTMG code within the retrievals itself.
+[28:03.760 --> 28:05.760]  So it runs in line.
+[28:05.760 --> 28:14.760]  And then we get, and we bring in some other ancillary data, but we get surface and top of that is for your shortwave and longwave fluxes in the broadband.
+[28:14.760 --> 28:18.760]  These are some results I'm showing, not from ARC6, but from PACEPACs.
+[28:18.760 --> 28:25.760]  So the campaign that kept me from coming out, the second camp deployment for ARC6, but this is from our Picard Imager.
+[28:25.760 --> 28:29.760]  On the right, it just shows cloud retrievals, optical things, effective radius, water path.
+[28:29.760 --> 28:32.760]  But you see our TOA shortwave flux on the right.
+[28:32.760 --> 28:33.760]  Looks very realistic.
+[28:33.760 --> 28:36.760]  We haven't had it running for Picard and PACEPACs.
+[28:36.760 --> 28:39.760]  We haven't run in ARC6 yet for Averis, but we will.
+[28:39.760 --> 28:42.760]  That'll be included in the cloud product files.
+[28:42.760 --> 28:48.760]  Some of the work, we're working with the Averis or the ARC6 team on a number of enabling activities on this.
+[28:48.760 --> 28:58.760]  So Vikas on his surface albedo and spectral surface albedo characterization from the campaign to help us with the underlying surface conditions.
+[28:58.760 --> 29:08.760]  And then Colton did a lot of evaluation work against Ceres and BSR satellite born, but he's also looking to do this for the airborne.
+[29:08.760 --> 29:10.760]  And this is my last slide.
+[29:11.760 --> 29:14.760]  Just a product update, just to show you where we are.
+[29:14.760 --> 29:16.760]  We haven't delivered anything yet.
+[29:16.760 --> 29:19.760]  We're not finished, but Colton's cloud mask is nearly complete.
+[29:19.760 --> 29:25.760]  We'll have a standalone data product that we expect to deliver to the archive soon.
+[29:25.760 --> 29:30.760]  Soon might have a large error bar on that, but we'll try to get it in as fast as we can.
+[29:30.760 --> 29:34.760]  They don't include a binary cloud mask along with results from the individual test,
+[29:34.760 --> 29:40.760]  but we'll also have some of these spectral tests are actually useful for identifying clear sky, open water and sea ice leads.
+[29:40.760 --> 29:44.760]  So we'll provide information on how you use our tests to do that.
+[29:44.760 --> 29:47.760]  Then we'll get into the thermodynamic phase and all these four.
+[29:47.760 --> 29:55.760]  There's underlying classifications that need to be done before we get into the actual retrievals themselves.
+[29:55.760 --> 30:03.760]  They'll be coming at some point as soon as we get through that the optical properties will be pretty quick once we get the classification done.
+[30:03.760 --> 30:08.760]  But we should be able to run it soon.
+[30:08.760 --> 30:18.760]  That's it. I know I'm writing or actually I'm over eight minutes.
+[30:18.760 --> 30:22.760]  Any questions for Kerry?
+[30:22.760 --> 30:25.760]  Or still for Avers? Because the two talks go together.
+[30:25.760 --> 30:33.760]  And Jin, you can already get ready. We're switching to active again.
+[30:33.760 --> 30:39.760]  Hey, Kerry, you're going to look at the 1880 absorbing band as well as 1378.
+[30:39.760 --> 30:42.760]  I know 1880 has got a lot more ice absorption.
+[30:42.760 --> 30:45.760]  So the underlying surface is less problem.
+[30:45.760 --> 30:50.760]  Yes, and the 940 as well.
+[30:50.760 --> 30:53.760]  Kerry, should we wait for Colton's talk tomorrow?
+[30:53.760 --> 31:00.760]  But have you done the cloud mask algorithm comparison to any of the active halo data?
+[31:00.760 --> 31:03.760]  Yeah, you should wait for Colton's talk because he's got some slides on that.
+[31:03.760 --> 31:09.760]  I'd love to steal his thunder, but I'll let him.
+[31:09.760 --> 31:24.760]  Thank you.
+[31:24.760 --> 31:26.760]  Okay, thank you.
+[31:26.760 --> 31:29.760]  So I will try to run as fast as possible.
+[31:29.760 --> 31:32.760]  He's enjoying Earth 4 with a particular.
+[31:32.760 --> 31:34.760]  So she talked about it.
+[31:34.760 --> 31:36.760]  Here we are pointing upward.
+[31:36.760 --> 31:39.760]  So this is a two-lighter pointing downward.
+[31:39.760 --> 31:42.760]  So now I have a lot of slides.
+[31:42.760 --> 31:45.760]  Try to run through as fast as possible, right?
+[31:45.760 --> 31:49.760]  So the Mali is one instrument, so working way, way.
+[31:49.760 --> 31:52.760]  So for whole fair campaign, we're missing one flight.
+[31:52.760 --> 31:56.760]  If you're looking for data, so that's due to the power issue.
+[31:56.760 --> 32:03.760]  And we have a lot of high resolution data, mostly what equally has 0.6 meter.
+[32:03.760 --> 32:07.760]  But horizontally, we have all different sample.
+[32:07.760 --> 32:09.760]  You see there was data.
+[32:09.760 --> 32:12.760]  So this one when we fly way, way low.
+[32:12.760 --> 32:18.760]  So that light assistant couldn't work and we tried to run Mali at 50 hertz,
+[32:18.760 --> 32:25.760]  give you very, very fine eyes and water just below the aircraft.
+[32:26.760 --> 32:28.760]  For data processing, we use this one.
+[32:28.760 --> 32:31.760]  We have to enroll in three major things.
+[32:31.760 --> 32:36.760]  So I want to briefly keep you in mind one big thing is that overlapping,
+[32:36.760 --> 32:42.760]  because now a lot of this kind of data doing R6 is way, way close to the aircraft, right?
+[32:42.760 --> 32:44.760]  So eventually, if you're not a lighter guy,
+[32:44.760 --> 32:47.760]  is that we have laser beam, we have field wheel.
+[32:47.760 --> 32:52.760]  So we have in this part of here, we're not fully getting into the beam.
+[32:52.760 --> 32:58.760]  So when you take a channel to ratio for most of Raman light, it is.
+[32:58.760 --> 33:00.760]  So you have this kind of shape there.
+[33:00.760 --> 33:06.760]  So this slow change is either to handle this part is where we're difficult
+[33:06.760 --> 33:09.760]  and we're sensitive to a lot of things during the flight.
+[33:09.760 --> 33:13.760]  So keep that in mind in using data.
+[33:13.760 --> 33:15.760]  Another thing is dealing with averaging.
+[33:15.760 --> 33:21.760]  So Raman light, we use water wave of Raman, which is the wave wave weak, right?
+[33:21.760 --> 33:23.760]  And on the other hand, we have clouds.
+[33:23.760 --> 33:25.760]  So try to balance this too.
+[33:25.760 --> 33:29.760]  We decide, okay, let's just as clouds as a priority.
+[33:29.760 --> 33:34.760]  So like you're showing out here, this to show you a lot of scan ratio.
+[33:34.760 --> 33:36.760]  This is where we're flying in the near cloud base.
+[33:36.760 --> 33:38.760]  So this is the clouds here.
+[33:38.760 --> 33:40.760]  This is falling below.
+[33:40.760 --> 33:42.760]  So this is deprotolation.
+[33:42.760 --> 33:47.760]  So try to allow us to resolve this kind of fine structure of clouds.
+[33:47.760 --> 33:50.760]  Then you're leading this kind of low noise of water vapor, right?
+[33:50.760 --> 33:56.760]  So now you can do is that just averaging them to get a good signal to noise ratio.
+[33:56.760 --> 34:07.760]  So I also implement processing is that to preserve high different resolution in time for clouds below 500 or above 100.
+[34:07.760 --> 34:10.760]  So calibration is another challenging thing.
+[34:10.760 --> 34:15.760]  So now I spend most time working water vapor temperature.
+[34:15.760 --> 34:18.760]  So that's where we use the instill data.
+[34:18.760 --> 34:24.760]  So to highlight how good this remote sensing can compare with instill can be.
+[34:24.760 --> 34:27.760]  So you'll hear this one here, narrow band here.
+[34:27.760 --> 34:29.760]  This is the flight level data.
+[34:29.760 --> 34:32.760]  So below here is Mali, right?
+[34:32.760 --> 34:33.760]  Water vapor.
+[34:33.760 --> 34:34.760]  So this is temperature.
+[34:34.760 --> 34:39.760]  So you can look in this kind of vertical coherent structure, right?
+[34:39.760 --> 34:42.760]  And that's just this is in watching layer here.
+[34:42.760 --> 34:46.760]  So there's a lot of structure can be resolved from this one.
+[34:46.760 --> 34:50.760]  For lighter scan ratio, we try to find a clear sky.
+[34:50.760 --> 34:55.760]  At deprotization ratio, we have to balance different targets.
+[34:55.760 --> 34:58.760]  So there's a lot of detail how to get into it.
+[34:58.760 --> 35:06.760]  But one thing is that as Sebastian advertises, right, we get a special water vapor temperature.
+[35:06.760 --> 35:08.760]  So how good that would be, right?
+[35:08.760 --> 35:13.760]  Unfortunately, doing access, we don't have co-located drop sound and Mali measurements.
+[35:13.760 --> 35:19.760]  So this is from same year from NSF CESA campaign.
+[35:19.760 --> 35:25.760]  So you see this is waterway temperature in watching our clouds here.
+[35:25.760 --> 35:26.760]  So this is vertical.
+[35:26.760 --> 35:29.760]  You see in the clouds, this is drop sound, right?
+[35:29.760 --> 35:35.760]  So within here, you're barely separating drop sound and the Mali measurements, right?
+[35:35.760 --> 35:39.760]  So for low water vapor temperature measurements, water vapor is so noise.
+[35:39.760 --> 35:42.760]  So typically within one kilometer, you're doing good.
+[35:42.760 --> 35:44.760]  Beyond that, one bigger noise.
+[35:44.760 --> 35:53.760]  So in the CESA data, in the Arctic CESA data, we only output water vapor for within one and 0.5 kilometer.
+[35:53.760 --> 35:55.760]  So this is a typical flight.
+[35:55.760 --> 35:59.760]  So this whole flight is from we provide water vapor mixing ratio.
+[35:59.760 --> 36:07.760]  So this is aerosol clouds based on lighter ratio, which is the total scattering to molecular scattering, right?
+[36:07.760 --> 36:09.760]  So this is deposition ratio.
+[36:09.760 --> 36:10.760]  This is temperature.
+[36:10.760 --> 36:16.760]  So for this case, you see we can pick this case to show you a lot of this aerosol structure here.
+[36:16.760 --> 36:18.760]  You may wonder why we're deeper into here.
+[36:18.760 --> 36:21.760]  You see this is dense aerosol layer.
+[36:21.760 --> 36:28.760]  So one thing during the flight is that I have to real time to see whether we're near the cloud layer,
+[36:28.760 --> 36:33.760]  if we're with aerosol layer, if we're with the aerosol layer talking with the flight scientists,
+[36:33.760 --> 36:35.760]  whether they want to go down.
+[36:35.760 --> 36:36.760]  So this is the case.
+[36:36.760 --> 36:42.760]  Actually, we fly down sample this aerosol layer and the aerosol display that we go up.
+[36:42.760 --> 36:46.760]  So with this kind of multiple measurements, right?
+[36:46.760 --> 36:50.760]  So one big thing here, you see this is the clouds, right?
+[36:50.760 --> 36:56.760]  So this is deposition ratio indicating the liquid dominated at top, right?
+[36:56.760 --> 37:02.760]  So the most important thing for money can also offer this temperature inversion, right?
+[37:02.760 --> 37:06.760]  Allow you to understand why clouds transition this way.
+[37:06.760 --> 37:12.760]  So, and actually is that it's environment condition at Arctic.
+[37:12.760 --> 37:14.760]  It is quite complicated.
+[37:14.760 --> 37:19.760]  If you look in your eyes, there's a lot of this air mass mixing in the region here.
+[37:19.760 --> 37:21.760]  So this is laid down.
+[37:21.760 --> 37:27.760]  So when air gets a lot warmer here, this is one wide region is beyond 10 degrees, right?
+[37:27.760 --> 37:32.760]  But you still have this in watching the surface because the near surface surface is zero, right?
+[37:32.760 --> 37:35.760]  But this is two clouds ranging forming in the region.
+[37:35.760 --> 37:42.760]  So this is where was this kind of multi measurements can help us put a picture together.
+[37:42.760 --> 37:45.760]  So this is another illustration.
+[37:45.760 --> 37:50.760]  See what kind of clouds information we can provide in this is about clouds.
+[37:50.760 --> 37:56.760]  So you can see even in this kind of stable environment, right?
+[37:56.760 --> 37:58.760]  There's a lot of structure going on.
+[37:58.760 --> 38:02.760]  So that's just highlighted this boundary dynamics is important, right?
+[38:02.760 --> 38:09.760]  So for this temperature looking barely near zero degree, but there's a lot of ice in terms of ice generation.
+[38:09.760 --> 38:14.760]  So we have a lot of flight plan allow us looking a lot of this kind of generation.
+[38:14.760 --> 38:16.760]  Synergy was instilled remote sensor, right?
+[38:16.760 --> 38:18.760]  So this is near the base flight.
+[38:18.760 --> 38:21.760]  So this is you can see lateral ratio difference.
+[38:21.760 --> 38:24.760]  The cloud base has a larger variation indicated water vapor changing.
+[38:24.760 --> 38:27.760]  Then you can see this kind of the falling ice.
+[38:27.760 --> 38:32.760]  So there's a lot of fine structure there.
+[38:32.760 --> 38:38.760]  So there are few known issues, but I don't want to go to want to say, but one thing I highlighted here is that.
+[38:38.760 --> 38:43.760]  So the Arctic is kind of the interesting challenging environment as we realize.
+[38:43.760 --> 38:46.760]  Once is that sea ice open water, right?
+[38:46.760 --> 38:53.760]  So that says a huge abode, especially now that can taking light out detected out of the bond.
+[38:53.760 --> 38:55.760]  So that's the one thing I shouldn't hear.
+[38:55.760 --> 38:58.760]  You can see this is sea ice.
+[38:58.760 --> 39:00.760]  This is open water.
+[39:00.760 --> 39:04.760]  But the water was just so noisy, then you suddenly become so good, right?
+[39:04.760 --> 39:09.760]  So this is actually case we have the blowing snow.
+[39:09.760 --> 39:10.760]  This is blowing snow.
+[39:10.760 --> 39:15.760]  And also when open water, we have sea spray aerosol generating.
+[39:15.760 --> 39:18.760]  This is the first flight, but you see temperature here.
+[39:18.760 --> 39:19.760]  So some are true.
+[39:19.760 --> 39:23.760]  Some just due to the artifacts causes the problem from LiDAR.
+[39:23.760 --> 39:25.760]  Then we have other case.
+[39:25.760 --> 39:27.760]  We say, okay, this is true.
+[39:27.760 --> 39:37.760]  Now when you go from ice to water, so the background signal put the PMT out of the linear engine.
+[39:37.760 --> 39:40.760]  So that's kind of thing we will continue working on.
+[39:40.760 --> 39:45.760]  Another LiDAR is called the Doppler LiDAR, Airborne Doppler LiDAR.
+[39:45.760 --> 39:49.760]  So this is the first deployment of multi-beam.
+[39:49.760 --> 39:54.760]  So you can expect where I was just struggling to get in shape.
+[39:54.760 --> 39:56.760]  But I want to highlight for you a thing, right?
+[39:56.760 --> 39:59.760]  So this is normal.
+[39:59.760 --> 40:01.760]  Data looks like it, right?
+[40:02.760 --> 40:07.760]  In the flight which often looks like a way you can see bigger particles, right?
+[40:07.760 --> 40:09.760]  In the Arctic, we don't have a lot of big particles.
+[40:09.760 --> 40:12.760]  This LiDAR working at 1.5 micrometer.
+[40:12.760 --> 40:15.760]  So you can see this is what data is limited, right?
+[40:15.760 --> 40:17.760]  However, we do have some data.
+[40:17.760 --> 40:19.760]  So this is another one.
+[40:19.760 --> 40:25.760]  I'll show you in the instrumenting issue because the PCA fly too fast out of the detection range.
+[40:25.760 --> 40:29.760]  But when they are working way nice, this is power.
+[40:29.760 --> 40:30.760]  This is Doppler velocity.
+[40:30.760 --> 40:36.760]  But when we have clouds there, so we get way, way good data from four beams.
+[40:36.760 --> 40:38.760]  So this is clouds.
+[40:38.760 --> 40:40.760]  Now this is even saturated.
+[40:40.760 --> 40:42.760]  We try to pick up a signal.
+[40:42.760 --> 40:44.760]  Then you see the aerosol above.
+[40:44.760 --> 40:48.760]  So there's a lot of things we still can't have from this data
+[40:48.760 --> 40:55.760]  and just need to figure out how to get them pointing correctly and then send it.
+[40:55.760 --> 40:59.760]  So this is one thing with this LiDAR can do.
+[40:59.760 --> 41:02.760]  Multi-layer cloud structure, as you can see.
+[41:02.760 --> 41:10.760]  Now with this two synergy, I want to show two images to highlight this kind of the ADR and the Mali measurements.
+[41:10.760 --> 41:16.760]  So because there are different wavelengths, even for aerosols, they have a lot of synergy.
+[41:16.760 --> 41:21.760]  So for process study, one thing we look at is the aerosol generation.
+[41:21.760 --> 41:25.760]  So this is Mali to show you this kind of six-pray aerosol production.
+[41:25.760 --> 41:29.760]  So this is one case during the landing highway case.
+[41:29.760 --> 41:31.760]  So piece of it being calling back.
+[41:31.760 --> 41:34.760]  But you see there's a house ground wing near the base.
+[41:34.760 --> 41:35.760]  It is.
+[41:35.760 --> 41:42.760]  So that kind of case, when they have enough aerosol, we are captured by this two system.
+[41:42.760 --> 41:44.760]  So this is my to-do list.
+[41:44.760 --> 41:48.760]  So I'm looking forward to working with you to use the data.
+[41:48.760 --> 41:55.760]  At the same time, we are actively pursuing cloud and boundary layer study in my group.
+[41:55.760 --> 41:58.760]  Okay, thank you.
+[42:02.760 --> 42:07.760]  Virginia, questions for him?
+[42:07.760 --> 42:14.760]  All right, then the next one is Brian Carons, who is online.
+[42:14.760 --> 42:20.760]  So let's switch over.
+[42:20.760 --> 42:26.760]  Brian, do you want to ask to advance the slides or do you want to share it from your end?
+[42:26.760 --> 42:29.760]  I'll just have you advance if that's okay, then.
+[42:29.760 --> 42:33.760]  That's fine.
+[42:33.760 --> 42:38.760]  Good to go.
+[42:38.760 --> 42:39.760]  Okay.
+[42:39.760 --> 42:40.760]  Good to go, Brian.
+[42:40.760 --> 42:43.760]  I keep forgetting.
+[42:43.760 --> 42:50.760]  Yeah, so all the radiance, the level one being level one C and the cloud data are in the archive.
+[42:50.760 --> 42:55.760]  Quick looks are usually available locally on our website.
+[42:55.760 --> 43:04.760]  That website will be going down at the end of the day today because we're moving all our servers to Goddard Space Flight Center.
+[43:04.760 --> 43:08.760]  Next slide, please, Dan.
+[43:08.760 --> 43:13.760]  Okay, so since this is a data workshop, I'm going to describe the data.
+[43:13.760 --> 43:17.760]  The RSP is a scanner, rotates continuously.
+[43:17.760 --> 43:24.760]  So any given scan consists of views of lots of different scenes, both in front of and behind the plane.
+[43:24.760 --> 43:32.760]  As the plane flies over a given point, it will be viewed from multiple angles as shown in the cute little cartoon below.
+[43:32.760 --> 43:37.760]  And those multiple views are the same scene and what is contained in the level one C files.
+[43:37.760 --> 43:49.760]  So the radiance and linear polarization measurements are made over an angular range of plus minus 55 degrees from media and there are 152 viewing angles at every point eight degrees.
+[43:49.760 --> 43:56.760]  The spectral range is from 410 to 2260 in nine spectral bands.
+[43:56.760 --> 44:01.760]  Next one, Dan.
+[44:01.760 --> 44:10.760]  So because the P3 operates at all sorts of various altitudes and speeds, which is very different from a lot of other campaigns we've been on.
+[44:10.760 --> 44:15.760]  I thought it was worth noting a few things about the data.
+[44:15.760 --> 44:19.760]  The instantaneous field of view of the RSP is 14 milliradians.
+[44:19.760 --> 44:32.760]  So the pixel size varies between 80 meters at typical high altitudes of 5.6 kilometers and down to 1.4 meters at 100 meters during the minimum altitude legs.
+[44:32.760 --> 44:37.760]  The time the scanner takes to complete a scan is 0.8409 seconds.
+[44:37.760 --> 44:48.760]  And so the ratio of aircraft velocity to distance from the target should ideally be 17 milliradians per second or less for colocation to work perfectly.
+[44:48.760 --> 44:58.760]  So that the plane has effectively advanced one media view during the time that the scanner took to rotate.
+[44:58.760 --> 45:02.760]  So that's true for ER2, UC12 and satellites also.
+[45:02.760 --> 45:07.760]  They're all around 11 milliradians, between 11 and 16 milliradians per second.
+[45:07.760 --> 45:09.760]  But not so much for the P3.
+[45:09.760 --> 45:17.760]  It's pretty fast and pretty low, which means that it's generally about 30 milliradians per second.
+[45:17.760 --> 45:27.760]  And that means that with drag smear on the scanner, successive RSP native pixels just touch either each other rather than overlapping as would be preferred.
+[45:27.760 --> 45:33.760]  And then for the low altitude data, it may well be preferable for people to use the level 1B radiance data.
+[45:33.760 --> 45:46.760]  We do try to collocate the level 1C data, but that collocation process is really designed on the idea that you are actually seeing the same point from multiple views.
+[45:46.760 --> 45:50.760]  And when you have the very low altitude data, that's not really happening.
+[45:50.760 --> 45:57.760]  So because, for example, 125 meters a second, the P3 advances 100 meters between RSP scans.
+[45:57.760 --> 46:01.760]  So the forward viewing angles from one scan cover 100 meter strip.
+[46:01.760 --> 46:05.760]  It's also observed by the backward viewing angles of the following scan.
+[46:05.760 --> 46:12.760]  And you really only get three views that look at the exact same point on the ground.
+[46:12.760 --> 46:19.760]  So aggregating data using avarice or other approaches is probably going to be the way ahead.
+[46:19.760 --> 46:28.760]  And we do keep the lat long of every view of every view in both the level 1B and level 1C data.
+[46:28.760 --> 46:36.760]  So you do know exactly where at the ground the different view angles were observing.
+[46:36.760 --> 46:44.760]  OK, next one then.
+[46:44.760 --> 46:49.760]  Yeah, OK, so this is just showing a quick look what the quick looks look like.
+[46:49.760 --> 46:55.760]  This is often helpful if you just want to check, but we'll get a sanity check on what the data is going to look like.
+[46:55.760 --> 47:00.760]  This is showing some cloud data. There's a nice cloud bow in the second strip image.
+[47:00.760 --> 47:08.760]  And then we also include the attitude of the plane, which is helpful when you're trying to do BRDF aggregations.
+[47:08.760 --> 47:12.760]  Next one then.
+[47:12.760 --> 47:21.760]  OK, so cloud data, we use the cloud bow to get chocolate size distribution retrievals.
+[47:21.760 --> 47:23.760]  So we do two different types of retrieval.
+[47:23.760 --> 47:28.760]  We do a parametric one where we get an effective radius and an effective variance.
+[47:28.760 --> 47:35.760]  And that one we don't need as wide an angular range as the retrieval of the complete size distribution.
+[47:35.760 --> 47:50.760]  So if we have the parametric retrievals, that does not mean that we'll necessarily have a rainbow Fourier transform size distribution because that needs a slightly wider scattering angle range.
+[47:50.760 --> 47:56.760]  We also have bands similar to the ones that Kerry's group uses for VS and bonus.
+[47:56.760 --> 48:01.760]  We have a 1.59 and a 2.26 micron bands.
+[48:01.760 --> 48:07.760]  And we use those for bispectral retrieval similar to what Kerry's was describing.
+[48:07.760 --> 48:19.760]  And then there's an optical depth from the 865 nanometer band, which right now that has not been adjusted to compensate for underlying sea ice.
+[48:19.760 --> 48:28.760]  So the optical depths that are currently in the archive are going to be revised once we come up with a better way of dealing with sea ice.
+[48:28.760 --> 48:35.760]  So we validated this size distributions and they're good to about half a micron variance.
+[48:35.760 --> 48:40.760]  It's about 0.02.
+[48:40.760 --> 48:50.760]  And also, you know, if you're thinking about sample volumes, this is very, very different from an instant to measurement of size.
+[48:50.760 --> 48:58.760]  We're seeing about 300,000 square cubic meters in any given.
+[48:58.760 --> 49:02.760]  Colocated scene of the member looking at the cloud.
+[49:02.760 --> 49:06.760]  Next one down.
+[49:06.760 --> 49:15.760]  And then we also do a water rate vapor retrieval, which is used to correct for water vapor in the shortwave infrared bands.
+[49:15.760 --> 49:30.760]  And we also use this to try and work on how you could improve on satellite retrievals of water vapor from these kind of 940 nanometer type bands.
+[49:30.760 --> 49:33.760]  Next one then.
+[49:33.760 --> 49:41.760]  And then this is just a sample from a quick look of the cloud data.
+[49:41.760 --> 49:51.760]  The quick looks have plots of effective radius, effective variance, optical depth, water vapor, cloud top height and also the drop that size distribution retrievals.
+[49:51.760 --> 49:54.760]  Next one.
+[49:54.760 --> 50:00.760]  And then Sebastian asked me to comment on the aerosol retrieval.
+[50:00.760 --> 50:15.760]  So, as Kerry was saying, the Arctic, especially before the sea ice melts is very, very challenging when you're looking at intensity measurements because the surface is very bright and also quite variable.
+[50:15.760 --> 50:28.760]  So what we've done historically over land, particularly places like cities like over Mexico City is do a retrieval where all we use is the polarized reflectance.
+[50:28.760 --> 50:39.760]  And the reason for this is that the polarized reflectance, particularly in frozen environments is generated by front facet reflection.
+[50:39.760 --> 50:43.760]  And that means that it has quite weak spectral variability.
+[50:43.760 --> 50:57.760]  And we can therefore use the longest wavelength 2260 nanometer band as a proxy for the surface reflectance without even having to do come up with a model for the surface reflectance.
+[50:57.760 --> 51:16.760]  So this is just showing some examples from heterogeneous pixels where we couldn't aggregate to get a perfect view of a single surface type and just showing that using the 2260 nanometers as a proxy for the surface works really effectively and gives very good agreement with aeronet.
+[51:17.760 --> 51:19.760]  So that's what I'm working on.
+[51:19.760 --> 51:30.760]  I think Snorri was going to do a lightning talk discussing what he's working on in terms of improving snow and sea ice BRDF kernels.
+[51:30.760 --> 51:43.760]  The reason for going there first is you really need that before you can start adding in the intensity to a multi-angle intensity and polarization aerosol retrieval.
+[51:43.760 --> 51:46.760]  Next slide.
+[51:46.760 --> 51:59.760]  Okay, so I'll not talk through this. This is just so that people who want to use the day to have a summary of any issues that we have regarding what you should use, when, where, and why.
+[51:59.760 --> 52:03.760]  So if there's anybody's got questions, I'd be happy to answer them.
+[52:03.760 --> 52:11.760]  Oh, and Matteo is going to give a lightning talk on a new cloud mask that that he's developed.
+[52:11.760 --> 52:13.760]  I think it's more than a cloud mask as well.
+[52:13.760 --> 52:24.760]  It's a surface type classifying scheme.
+[52:24.760 --> 52:35.760]  Thank you, Brian. And good luck with the instrument. Are there questions for Brian right at the moment?
+[52:35.760 --> 52:43.760]  Okay, then thank you again. And Glenn is up next. So from the morning session.
+[52:43.760 --> 52:46.760]  And thanks for making it here, Glenn.
+[52:46.760 --> 52:53.760]  He was stuck in Dallas or something.
+[52:54.760 --> 53:22.760]  Thank you.
+[53:22.760 --> 53:28.760]  All right. Thanks. Thanks for being flexible.
+[53:28.760 --> 53:33.760]  So I'm going to go back to the Institute measurements for a bit.
+[53:33.760 --> 53:39.760]  This is a group measured water vapor and trace gases on the P3.
+[53:39.760 --> 53:44.760]  Myself, Josh DeGangy, Young and Joy, Mary Aron, Dave Egberg all contributed.
+[53:44.760 --> 53:49.760]  I'll go over a summary of what we measured, how we measured it.
+[53:49.760 --> 53:56.760]  Some of the issues with some of the data and the status of the data and what we're planning to do in the future.
+[53:56.760 --> 54:01.760]  So the things we measured, we measured water vapor with two separate instruments.
+[54:01.760 --> 54:10.760]  Our standard diode laser hygrometer and a modified for a newer version of it, which we call the short path version,
+[54:10.760 --> 54:13.760]  measured with both of those.
+[54:13.760 --> 54:20.760]  As of now, we have data in the archive for the standard DLH and I'm still working on processing the short path.
+[54:20.760 --> 54:22.760]  It's a little bit trickier.
+[54:22.760 --> 54:29.760]  And those are our homemade instruments, the commercial instruments that we flew for a PCARO,
+[54:29.760 --> 54:34.760]  a cavity ring down spectrometer, which measured carbon monoxide, carbon dioxide and methane.
+[54:34.760 --> 54:45.760]  And a 2BTEC ozone monitor, measured with ozone and the data parameters are all shown here.
+[54:45.760 --> 54:50.760]  We have R0 data in the archive for everything except for the short path, the OH.
+[54:50.760 --> 54:54.760]  So just a review of the diode laser hygrometer.
+[54:54.760 --> 54:57.760]  We online aren't seeing slides?
+[54:57.760 --> 55:00.760]  Not seeing.
+[55:00.760 --> 55:03.760]  All right.
+[55:03.760 --> 55:07.760]  Uh oh, now we're not seeing them either.
+[55:07.760 --> 55:10.760]  So...
+[55:10.760 --> 55:13.760]  Close this one.
+[55:13.760 --> 55:15.760]  This one?
+[55:15.760 --> 55:19.760]  This one.
+[55:19.760 --> 55:25.760]  Over there?
+[55:25.760 --> 55:27.760]  Okay.
+[55:27.760 --> 55:32.760]  So DLH measures water vapor using a near infrared absorption.
+[55:32.760 --> 55:35.760]  We send a laser beam out from the...
+[55:35.760 --> 55:45.760]  the port on the P3, bounce the light off a retroreflector on the tail and collect the light that comes back.
+[55:45.760 --> 55:47.760]  We measure the absorption.
+[55:47.760 --> 55:53.760]  We have three different absorption lines so we can measure over the entire dynamic range of water in the atmosphere.
+[55:53.760 --> 55:56.760]  We convert that absorption signal to water vapor mixing ratio.
+[55:56.760 --> 55:58.760]  The instruments very fast.
+[55:58.760 --> 56:04.760]  We collect natively at 100 hertz and process it down to 20 hertz and 1 hertz.
+[56:04.760 --> 56:09.760]  There are some issues with that method and especially in the conditions we flew during ARC6.
+[56:09.760 --> 56:17.760]  We flew this other instrument that we call the short path DLH, which as the name implies is a DLH with a shorter path.
+[56:17.760 --> 56:26.760]  We have these two fins on the exterior of the aircraft and we send the light instead of a long path out to a retroreflector.
+[56:26.760 --> 56:29.760]  We put the retroreflector on another fin and bounce the light back.
+[56:29.760 --> 56:39.760]  So it's quite short but it helps us in situations where one, with a lot of droplets, dense liquid clouds,
+[56:39.760 --> 56:43.760]  we get back scatter on the standard DLH which shortens the path.
+[56:43.760 --> 56:50.760]  Not all of the light makes it all the way to the tail and back and then we don't know exactly what the path is so that measurement is indeterminate.
+[56:50.760 --> 56:53.760]  With this instrument we don't have that problem.
+[56:53.760 --> 56:58.760]  A bigger problem during ARC6 was that we often flew in icing conditions.
+[56:58.760 --> 57:05.760]  We got a coating of ice on the retroreflector on the tail and then we didn't get any light back so we couldn't make a measurement at all.
+[57:05.760 --> 57:17.760]  This instrument alleviates both of those problems and it has all the other advantages of DLH very fast and good precision and accuracy.
+[57:17.760 --> 57:22.760]  The disadvantages with the short path, it can't cover the entire dynamic range that's in the atmosphere.
+[57:22.760 --> 57:26.760]  So the combination of the two instruments kind of gives us the best of both worlds.
+[57:26.760 --> 57:35.760]  Here's some data from the flight of June 3rd showing just the standard DLH data in red with the aircraft altitude in black.
+[57:35.760 --> 57:42.760]  You see the gaps in the data, those occurred when we flew into icing conditions and lost the signal from the tail.
+[57:42.760 --> 57:50.760]  Even though we would come back out of those conditions, it would take quite a while for sometimes for the ice to sublimate off the tail
+[57:50.760 --> 57:53.760]  before we got enough signal back to start making a measurement again.
+[57:53.760 --> 58:03.760]  So we add back the data from the short path. You can see we don't have any gaps in the data and there's mostly really good overlap.
+[58:03.760 --> 58:10.760]  They're measuring the same thing using the same technique. There's a little bit of data processing differences that I'm still resolving,
+[58:10.760 --> 58:16.760]  but for the most part the measurements agree to a few percent.
+[58:16.760 --> 58:22.760]  One other thing you could note is that in some cases, particularly around here,
+[58:22.760 --> 58:27.760]  the precision of the short path, even though it's a shorter path, is better than the long path.
+[58:27.760 --> 58:34.760]  And that's because for the short path we're using the strongest absorption line that we have, whereas for the long path that would saturate.
+[58:34.760 --> 58:41.760]  And so we actually get lower absorption on the long path than we do on the short path, so the short path is providing better precision.
+[58:41.760 --> 58:52.760]  When I combine all the data into a single data set, I'll be using whichever is the better precision measurement for each second of data.
+[58:52.760 --> 59:04.760]  The other instruments we flew were the Picaro, which I mentioned again, CO2 methane and the ozone, and those are both commercial instruments that we've flown many times before,
+[59:04.760 --> 59:22.760]  including most recently on the P3 during Camp X. We flew essentially the same setup with the same inlets and plumbing, although we were in different location on the aircraft.
+[59:22.760 --> 59:30.760]  So Picaro we calibrate using WMO traceable standards during flight, single point calibrations periodically,
+[59:30.760 --> 59:39.760]  and then weekly full three point calibrations to make sure that the instrument didn't have any significant changes over time, which it did not.
+[59:39.760 --> 59:48.760]  So we're pretty happy with the calibrations. We just got the cylinders back from Miller recently after a final post mission calibration.
+[59:48.760 --> 59:53.760]  So we'll be applying the data to an updated release, but the changes are very small.
+[59:53.760 --> 01:00:01.760]  The 2B we calibrated in the lab prior to the campaign and following it, and we zero periodically during flight.
+[01:00:01.760 --> 01:00:11.760]  So with the tracer data, one of the things we want to do is try to understand air mass origins using different correlations between the different things that we measure,
+[01:00:11.760 --> 01:00:23.760]  as well as things that other people measure. These plots here are from other campaigns just illustrating how we can do some typing of air mass depending on those relationships.
+[01:00:23.760 --> 01:00:36.760]  We're working on doing that now for the ARC6 data, and we all hope to put out an air mass type flag similar to what Josh Daganji put out for the Camp X.
+[01:00:36.760 --> 01:00:47.760]  One other thing that we noticed that was somewhat more subtle during ARC6 is because a lot of the concentrations, especially in the spring, didn't vary much with CO2.
+[01:00:47.760 --> 01:01:00.760]  We're often not very variable. Sometimes when we get down close to the surface, we see really small variations that correlate with other things like CO2 correlating with temperature near the surface,
+[01:01:00.760 --> 01:01:12.760]  indicating that we're seeing a source or a sink in the sea ice or the ocean surface. So we're going to be looking more closely at that. That's something we haven't done in the past with these data.
+[01:01:12.760 --> 01:01:24.760]  And yeah, I'm going to look out for data in the archive in that regard to the air mass flag and other analysis products, and that's it.
+[01:01:30.760 --> 01:01:34.760]  Thank you, Glenn. Are there questions?
+[01:01:34.760 --> 01:01:40.760]  A quick question for you.
+[01:01:40.760 --> 01:01:55.760]  This is out of curiosity. Have you seen some of the most extreme numbers you've ever seen on this campaign? It just seems like Ozone is, to me, they seem...
+[01:01:55.760 --> 01:02:05.760]  We saw low Ozone that we've seen at other times in the Arctic. During ARCcast, we saw similar low Ozone values.
+[01:02:05.760 --> 01:02:16.760]  Going down to essentially zero at the surface, I don't know how unusual it is because we don't sample it very often. We have seen it when we've been there, but not all the time.
+[01:02:16.760 --> 01:02:34.760]  And we don't understand, I think, exactly what causes it to go all the way to zero, sometimes very low, 10 ppb or less. But when it goes to zero, that's not so common, but it's common enough that we've seen it before.
+[01:02:34.760 --> 01:02:39.760]  All right. Thank you. I'll ask mine later in the aerosol breakout.
+[01:02:39.760 --> 01:02:53.760]  Next talk is by Ken.
+[01:02:53.760 --> 01:03:08.760]  You hear me, right? Yeah. Okay. Hi, my name is Ken. I'm a PhD student at CU Boulder working with Sebastian. I'm part of the SSFR team and during the ARC6 we operated four systems that are shown here.
+[01:03:08.760 --> 01:03:17.760]  And I'd like to give you a very brief update, high-level overview of these instruments today.
+[01:03:17.760 --> 01:03:27.760]  Our baseline instrument was SSFR or Solar Spectral Flux Radiometer. It was measuring both the upwelling and downwelling components of the total irradiance,
+[01:03:27.760 --> 01:03:32.760]  by saying that it's the hemispherically integrated quantity.
+[01:03:32.760 --> 01:03:47.760]  They span a spectral range, both visible and shortwave infrared, and the second instrument here is the HSR, which is hyperstructural spectral radiometer, which also during the mission we called it SPNS.
+[01:03:47.760 --> 01:03:51.760]  So they are the same instrument here.
+[01:03:51.760 --> 01:03:57.760]  And this instrument is capable of measuring both the diffuse and total components of the fluxes.
+[01:03:57.760 --> 01:04:12.760]  The other two systems were measuring radiance with this third one was the downward-looking old-sky camera spanning the 140 degrees field of view, so that's 70 degrees off the meteor.
+[01:04:12.760 --> 01:04:16.760]  And it has three channels, blue, green, and red.
+[01:04:16.760 --> 01:04:26.760]  And finally, the SSFR, which is the radiance equivalent of SSFR spanning also the visible and shortwave infrared channels.
+[01:04:26.760 --> 01:04:30.760]  So now I'd like to dive a little deeper into these systems.
+[01:04:30.760 --> 01:04:38.760]  The first one, again, is the SSFR, which measured the spectral radiance, upwelling and downwelling.
+[01:04:38.760 --> 01:04:41.760]  And you can see one time snapshot.
+[01:04:41.760 --> 01:04:45.760]  You can obtain such a nice spectrum of both fluxes.
+[01:04:45.760 --> 01:04:55.760]  And by dividing the upwelling by downwelling, you can automatically get the biohemispherical albedo spectral.
+[01:04:55.760 --> 01:05:06.760]  This plot shows some of the spectral biohemispherical albedo from the R-axis campaign that Horn produced for the low-level segments of the clear skyflights.
+[01:05:06.760 --> 01:05:16.760]  With blue line denoting those albedo from the spring campaigns and the red ones are for the summer, and you can clearly see these values are declining.
+[01:05:16.760 --> 01:05:20.760]  I think Sebastian showed this earlier as well.
+[01:05:20.760 --> 01:05:32.760]  And so this is one of the examples of using this SSFR data, and now the data has been archived under the idea of R-axis-SSFR, and now all the data is up there.
+[01:05:32.760 --> 01:05:43.760]  And second instrument I'm showing here on your right is the SSFR, again, and it's capable of getting diffuse and total radiance, so you can back out the direct component as well.
+[01:05:43.760 --> 01:05:52.760]  And one of the good examples to show this data is this diffuse-to-total ratio that I'm showing here.
+[01:05:52.760 --> 01:06:03.760]  This is one square spiral down from May 31st flight, where as the altitude dropped, this ratio increased.
+[01:06:03.760 --> 01:06:09.760]  So this ratio basically represents how much scattered radiation there is with respect to the total radiation.
+[01:06:09.760 --> 01:06:16.760]  That basically tells you how much scattering has happened for the solar radiation before it reached the instrument.
+[01:06:16.760 --> 01:06:25.760]  So this is a clear signal of radius scattering as the path length increased for the low altitude.
+[01:06:25.760 --> 01:06:33.760]  And I think this was one of the pristine air date, but if you had aerosol, you would see different signature here.
+[01:06:33.760 --> 01:06:37.760]  So you can back out those information from this data.
+[01:06:37.760 --> 01:06:45.760]  And now all the data is archived under the ID R-6-HSR1.
+[01:06:45.760 --> 01:06:57.760]  So now the third instrument is the downward-looking wild-field-view camera, which is radiometricly calibrated, so you can derive the multispectral radiance for each pixel.
+[01:06:57.760 --> 01:07:00.760]  And that's a blue-green-red channel as well.
+[01:07:00.760 --> 01:07:09.760]  And one thing to note in this data is that for the spring campaign, there was a small mistake in a setting that was never noticed until the beginning of the summer campaign.
+[01:07:09.760 --> 01:07:14.760]  So for the spring campaign, only the green channel is basically usable.
+[01:07:14.760 --> 01:07:20.760]  But that said, I'm really excited about this data because it provides the wide-field view.
+[01:07:20.760 --> 01:07:27.760]  And it is also geometrically calibrated, so you can basically assign the viewing angles to each pixel.
+[01:07:27.760 --> 01:07:34.760]  So you can derive a polar plot like this on your left, which is a radiance by viewing angles.
+[01:07:34.760 --> 01:07:41.760]  And as we also use the lat-long and altitude of this aircraft, you can project this imagery onto the surface.
+[01:07:41.760 --> 01:07:46.760]  And that's actually what is going to be archived in the Langley archive very soon.
+[01:07:46.760 --> 01:07:50.760]  I expect it to be done in the next week or so.
+[01:07:50.760 --> 01:07:53.760]  I'm just doing some final fix on the data size.
+[01:07:53.760 --> 01:07:57.760]  And it will have the data ID of R-6 imagery in a year.
+[01:07:57.760 --> 01:08:00.760]  So I'm trying to be mindful of time.
+[01:08:00.760 --> 01:08:04.760]  But so the final instrument here is the SSRR.
+[01:08:04.760 --> 01:08:06.760]  And as you can see, there's not much information here.
+[01:08:06.760 --> 01:08:09.760]  That's because other calibrations not be completely being done.
+[01:08:09.760 --> 01:08:14.760]  We now have set up a high timeline for the next month or so for it to be done.
+[01:08:14.760 --> 01:08:19.760]  So I expect the data to be available relatively soon.
+[01:08:19.760 --> 01:08:29.760]  And so using these data from these instruments, we are able to derive a variety of atmospheric quantities and address science questions.
+[01:08:29.760 --> 01:08:32.760]  And this is not just an example and not an exclusive list.
+[01:08:32.760 --> 01:08:38.760]  But I just wanted to mention that these topics can be pursued in conjunction with other instruments from R-6 as well,
+[01:08:38.760 --> 01:08:40.760]  and as well as satellite products.
+[01:08:40.760 --> 01:08:45.760]  And we were hoping to communicate with you further about the collaboration about these.
+[01:08:45.760 --> 01:08:51.760]  And what just needs to mention that we've started working on some of these questions.
+[01:08:51.760 --> 01:08:57.760]  And tomorrow, Vikas will talk about the CS surface albedo work that he has been starting.
+[01:08:57.760 --> 01:09:02.760]  And also, I believe Sebastian Becker and Honsheng will talk about the shortwave cloud,
+[01:09:02.760 --> 01:09:06.760]  radio data effects, and possibly longwave as well.
+[01:09:06.760 --> 01:09:10.760]  So please look forward to that.
+[01:09:10.760 --> 01:09:14.760]  And finally, I think I need to skip this part to be mindful of time.
+[01:09:14.760 --> 01:09:19.760]  But I would like to end with listing some of the resources that our group provide.
+[01:09:19.760 --> 01:09:26.760]  One thing is the, I think we've talked about this before as well, but the flight video that our group member Hong produced,
+[01:09:26.760 --> 01:09:32.760]  it provides a great quick look view of our SSR data, as well as data from other teams.
+[01:09:32.760 --> 01:09:37.760]  So huge thanks to, I think, its MetNav and Marley data.
+[01:09:37.760 --> 01:09:40.760]  It has a satellite imagery integrated into it.
+[01:09:40.760 --> 01:09:46.760]  So we can roughly see where you're flying and what kind of clouds or aerosol layers you're flying over.
+[01:09:46.760 --> 01:09:52.760]  And finally, our group has been developing this radio transfer and satellite data processing tool called ERT,
+[01:09:52.760 --> 01:09:59.760]  with which you can basically connect between the radiometric quantities that our instruments provide.
+[01:09:59.760 --> 01:10:06.760]  And for example, one example that we're seeing below here is the automated 1D and 3D radio transfer simulation.
+[01:10:06.760 --> 01:10:13.760]  Basically, you can ingest the satellite derived cloud properties and basically get the fluxes or radiance,
+[01:10:13.760 --> 01:10:16.760]  and you can compare directly with what was measured.
+[01:10:16.760 --> 01:10:19.760]  So this is a great tool to use.
+[01:10:19.760 --> 01:10:23.760]  So that's all I have for now, and I'm happy to take questions.
+[01:10:28.760 --> 01:10:31.760]  Thank you, Ken. Other questions?
+[01:10:34.760 --> 01:10:36.760]  Yeah, thanks for the talk.
+[01:10:36.760 --> 01:10:40.760]  I'm just wondering about the Albedo spectra you showed on one of your slides.
+[01:10:40.760 --> 01:10:44.760]  I think, yeah, exactly.
+[01:10:44.760 --> 01:10:50.760]  So I guess you masked out all the water vapor absorption bands here, right?
+[01:10:50.760 --> 01:10:56.760]  Shortwave infrared makes sense to me, but why do you mask out all the bands in the near infrared?
+[01:10:56.760 --> 01:11:02.760]  Because usually you should have enough photons coming through that you can actually plot them here as well.
+[01:11:02.760 --> 01:11:07.760]  Or is there still too much noise, or what's the reason for it?
+[01:11:09.760 --> 01:11:14.760]  Yeah, it's still work to be done, and I believe, yeah, we haven't basically touched the wavelengths.
+[01:11:14.760 --> 01:11:15.760]  I think that's the short answer.
+[01:11:15.760 --> 01:11:17.760]  All right, thank you.
+[01:11:20.760 --> 01:11:22.760]  Other questions?
+[01:11:23.760 --> 01:11:27.760]  All right, then the next talk is now by the longwave equivalent.
+[01:11:27.760 --> 01:11:31.760]  So this is Anthony or Erica.
+[01:11:33.760 --> 01:11:34.760]  Yeah, I'm on.
+[01:11:34.760 --> 01:11:36.760]  Great, yeah, thanks.
+[01:11:36.760 --> 01:11:39.760]  Well, we're going to make you visible, even though you're not.
+[01:11:39.760 --> 01:11:41.760]  You're terrestrial, so.
+[01:11:54.760 --> 01:11:56.760]  That joke.
+[01:11:57.760 --> 01:12:01.760]  Anthony, are you going to share your screen or do you want me to pull up your slides?
+[01:12:01.760 --> 01:12:03.760]  You can.
+[01:12:21.760 --> 01:12:22.760]  Alrighty.
+[01:12:22.760 --> 01:12:25.760]  Well, good afternoon, which I could have been there.
+[01:12:26.760 --> 01:12:34.760]  Today, I just want to give a brief update of the status of the data from the BBR measurements on the NASA P3.
+[01:12:34.760 --> 01:12:39.760]  And this is work between myself and Erica Dolanar, who's at NRL.
+[01:12:40.760 --> 01:12:41.760]  Next slide.
+[01:12:44.760 --> 01:12:51.760]  So just to remind everyone of the instruments we're talking about, we flew a suite of radiometers on the P3.
+[01:12:51.760 --> 01:12:58.760]  We had solar and infrared broadband radiometers looking up and down on the aircraft.
+[01:12:58.760 --> 01:13:02.760]  We also had an SPN-1 on top of the aircraft.
+[01:13:02.760 --> 01:13:08.760]  This is a broadband version of the instrument that was just talked about.
+[01:13:08.760 --> 01:13:11.760]  This gives us a total and diffuse solar irradiance.
+[01:13:11.760 --> 01:13:19.760]  And then we had an uplooking KT-19 for giving sky and cloud-based temperatures.
+[01:13:20.760 --> 01:13:21.760]  Next slide.
+[01:13:23.760 --> 01:13:29.760]  So the current status of the data is the post-mission calibrations have been completed.
+[01:13:29.760 --> 01:13:33.760]  And those agreed pretty closely with the pre-mission calibrations.
+[01:13:33.760 --> 01:13:37.760]  So the instruments did not change throughout the mission.
+[01:13:37.760 --> 01:13:45.760]  Currently, the R0 data from all the flights in both phases have been submitted to the NASA Langley archive.
+[01:13:45.760 --> 01:13:49.760]  And this data is in the ICART format. It's every one hertz.
+[01:13:49.760 --> 01:13:54.760]  And what's in there is the down and upwelling solar and infrared irradiances,
+[01:13:54.760 --> 01:14:00.760]  the total and diffuse solar irradiance from downwelling measured by the SPN-1,
+[01:14:00.760 --> 01:14:05.760]  and then the sky temperature from the uplooking KT-19.
+[01:14:05.760 --> 01:14:13.760]  So the R0 data has the pre- and post-mission calibrations applied and has been Q-seed.
+[01:14:14.760 --> 01:14:17.760]  Unfortunately, for the phase one part of the mission,
+[01:14:17.760 --> 01:14:21.760]  we had a lot of issues with our uplooking solar radiometer,
+[01:14:21.760 --> 01:14:24.760]  which gives the downwelling solar irradiance.
+[01:14:25.760 --> 01:14:30.760]  It turns out there was a bad cable connection that we weren't able to...
+[01:14:30.760 --> 01:14:35.760]  We troubleshooted it a lot during the first phase, but weren't able to get it working,
+[01:14:35.760 --> 01:14:40.760]  except for one flight on June 11th. We do have it working.
+[01:14:40.760 --> 01:14:48.760]  Luckily, we do have a backup. The SPN-1 gives an estimate of the downwelling solar irradiance,
+[01:14:48.760 --> 01:14:55.760]  but there does need to be some work done to make sure the absolute values of that from that instrument are accurate.
+[01:14:57.760 --> 01:15:02.760]  For phase one, the downlooking solar radiometer, that is the upwelling solar irradiance.
+[01:15:02.760 --> 01:15:07.760]  That was good for all flights, except on the 10th and the 13th of June.
+[01:15:08.760 --> 01:15:16.760]  I believe the core cable connection for the Xenia threw off those values as well for those two flights.
+[01:15:16.760 --> 01:15:22.760]  But for phase one, the IR and the KT-19 measurements look fine for all the flights.
+[01:15:22.760 --> 01:15:27.760]  Then in between phase one and phase two, Eric and I fixed the problem,
+[01:15:27.760 --> 01:15:32.760]  and for phase two, all the measurements look good for that part of the mission.
+[01:15:33.760 --> 01:15:37.760]  What still needs to be done to the data is...
+[01:15:37.760 --> 01:15:43.760]  I have to apply a correction to the upward-facing solar radiometer data
+[01:15:43.760 --> 01:15:48.760]  for the attitude of the aircraft to correct for its movements on that data.
+[01:15:48.760 --> 01:15:50.760]  Next slide.
+[01:15:52.760 --> 01:16:00.760]  This is just an example of some work that Erica and her co-worker, Taylor McCone, did.
+[01:16:00.760 --> 01:16:08.760]  They basically compared the BDIR measurements with the FU-LIAO-GU RTM calculations.
+[01:16:08.760 --> 01:16:12.760]  This is for the flight on July 30th.
+[01:16:12.760 --> 01:16:17.760]  Then the left there, it shows in the red, is the portion of the flight that they looked at.
+[01:16:17.760 --> 01:16:23.760]  This was a square spiral descent in clear skies.
+[01:16:23.760 --> 01:16:29.760]  On the right, you show the pitch and roll angle of the aircraft as a function of altitude.
+[01:16:29.760 --> 01:16:35.760]  They looked at the data where the portions of that square spiral,
+[01:16:35.760 --> 01:16:40.760]  where the aircraft was essentially a flight level.
+[01:16:40.760 --> 01:16:44.760]  On the left then is the downwelling and upwelling irradiance.
+[01:16:44.760 --> 01:16:50.760]  The dots are the measurements and the solid lines are the calculations.
+[01:16:50.760 --> 01:16:57.760]  The bluish are the downwelling and the brownish are the upwelling IR.
+[01:16:57.760 --> 01:17:07.760]  You can see here that there's fairly good agreement between the measurements themselves and the RTM calculations.
+[01:17:07.760 --> 01:17:12.760]  They'll be looking into this more for other descents.
+[01:17:12.760 --> 01:17:14.760]  Next slide.
+[01:17:15.760 --> 01:17:18.760]  I'll just switch gears a little bit.
+[01:17:18.760 --> 01:17:29.760]  Sebastian mentioned that there are people doing comparisons between the BDIR measurements and the KT-19 measurements on the P3
+[01:17:29.760 --> 01:17:33.760]  and also the KT-15 measurements on the G3.
+[01:17:33.760 --> 01:17:40.760]  I just want to be sure that everyone's aware that the differences between these instruments and what they're measuring.
+[01:17:40.760 --> 01:17:47.760]  First of all, the BDIR is a broadband instrument, so it's from 4.2 to 45 microns.
+[01:17:47.760 --> 01:17:53.760]  While the KT-19s measure in the narrow band, 9.6 to 11.5.
+[01:17:53.760 --> 01:18:02.760]  The other differences, the BDIRs are hemispheric, meaning they basically see the whole sky above them, the whole hemisphere,
+[01:18:02.760 --> 01:18:08.760]  while the KT-19s have a narrow field of view of about two degrees only.
+[01:18:08.760 --> 01:18:21.760]  You could have situations where the KT-19 looking up would see clear sky while there are clouds all around and the BDIR would see that whole sky.
+[01:18:21.760 --> 01:18:28.760]  They measure different things. The BDIR measures irradiance and the KT-19s measure temperature.
+[01:18:28.760 --> 01:18:36.760]  You can also set the range of temperatures that the KT-19s can measure.
+[01:18:36.760 --> 01:18:44.760]  For ARC-6, the up-looking one, our instrument measured from about minus 100 to 50 C.
+[01:18:44.760 --> 01:18:50.760]  I believe the Wallops one that was looking down was set to 50 to 200 C.
+[01:18:50.760 --> 01:18:52.760]  I'm not positive about that.
+[01:18:52.760 --> 01:18:58.760]  I'm not exactly sure of the one on the G3. I believe it was looking down.
+[01:18:58.760 --> 01:19:02.760]  But anyway, I'm not sure what temperature range that was set to.
+[01:19:02.760 --> 01:19:08.760]  Anyway, this is just to make sure people are aware that there are differences when you're doing comparisons.
+[01:19:08.760 --> 01:19:11.760]  Next slide.
+[01:19:11.760 --> 01:19:20.760]  I also looked just quickly at comparisons between the up-looking BDIR measurements and the up-looking KT-19 on the P3.
+[01:19:20.760 --> 01:19:27.760]  This is for a flight on the June 6 flight, just showing two different segments.
+[01:19:27.760 --> 01:19:34.760]  On the left, you can see that the measurements of the BDIR and KT-19 are correlated.
+[01:19:34.760 --> 01:19:43.760]  Probably this location passing under some sort of a cloud where the KT-19 would measure a warmer temperature
+[01:19:43.760 --> 01:19:51.760]  because it's seeing lower in the atmosphere, and the BDIR would measure a higher irradiance.
+[01:19:51.760 --> 01:19:53.760]  You see they're correlated.
+[01:19:53.760 --> 01:20:02.760]  On the right is just another portion of the flight, much more variable, perhaps passing under some variable clouds.
+[01:20:02.760 --> 01:20:05.760]  You can see that the measurements are correlated.
+[01:20:05.760 --> 01:20:12.760]  I haven't done a rigorous comparison between the two, but from what I've seen looking through the data, they do correlate.
+[01:20:12.760 --> 01:20:16.760]  Which is what you would expect to some extent.
+[01:20:16.760 --> 01:20:18.760]  Next slide.
+[01:20:18.760 --> 01:20:29.760]  So now I'm going to tag team and actually hand it over to Amin, who's going to talk about the KT-15 on the G3.
+[01:20:29.760 --> 01:20:31.760]  Hey, thank you.
+[01:20:31.760 --> 01:20:39.760]  So Sebastian asked if we could give a little update on the KT-15, which is essentially just a smaller version of the KT-19.
+[01:20:39.760 --> 01:20:46.760]  So thanks to Taylor Schingler and John Barrick, we were able to fly the KT-15 on the G3, kind of as a piggyback.
+[01:20:46.760 --> 01:20:54.760]  It was flown on AJQ, and it wasn't part of our funded project, but it was a good opportunity to take it out into the Arctic.
+[01:20:54.760 --> 01:20:58.760]  So we haven't had a, wasn't really part of our funded project.
+[01:20:58.760 --> 01:21:08.760]  We haven't had a lot of time to dedicate to it with all the other ARC-6 projects, but we did start looking at the accuracy of the measurements
+[01:21:08.760 --> 01:21:11.760]  while we were in the field. This was from the first deployment.
+[01:21:11.760 --> 01:21:16.760]  Just looking at cloud top temperatures from the drops-ons.
+[01:21:16.760 --> 01:21:20.760]  And to first order, again, this was from one of the science team meetings in the field.
+[01:21:20.760 --> 01:21:28.760]  It looked reasonable. We believe we have a little bit of a moisture leak going into the housing, which would give us an altitude,
+[01:21:28.760 --> 01:21:33.760]  or yeah, from an aircraft altitude dependent bias, because we think we're getting a little bit of frost in the housing.
+[01:21:33.760 --> 01:21:38.760]  But we've packaged all the data up, and Sebastian is graciously having his students look through it,
+[01:21:38.760 --> 01:21:45.760]  so we're keen to try and get a calibration against the sands and the other KT and radiometers,
+[01:21:45.760 --> 01:21:50.760]  and hopefully have this data available as soon as we can.
+[01:21:50.760 --> 01:21:58.760]  I think that's it.
+[01:21:58.760 --> 01:22:09.760]  You both, questions for Anthony or Amin? Thank you very much for doing that on top of everything else.
+[01:22:09.760 --> 01:22:15.760]  I had, well, no, we can do this later. We should start catching up with time.
+[01:22:15.760 --> 01:22:20.760]  So, Amin, you're up next anyway.
+[01:22:20.760 --> 01:22:27.760]  Okay, so my name's Amin Ariram at NASA Langley, and I'm here representing a black screen.
+[01:22:27.760 --> 01:22:33.760]  The Halo LiDAR team, acknowledging the subset of the team that went out,
+[01:22:33.760 --> 01:22:38.760]  Ewan and Brian, as well as a small subset of the HSR Altile team at Langley.
+[01:22:38.760 --> 01:22:42.760]  In particular, thanking Ewan for multitasking out in the field.
+[01:22:42.760 --> 01:22:46.760]  He was commanding the flight scientists from the back of the off-center on Arc-61
+[01:22:46.760 --> 01:22:51.760]  and commanding the pilots from the back of the plane on Arc-62.
+[01:22:51.760 --> 01:22:58.760]  And Brian helping manage the drop sands on Arc-62 while he was dealing with TAMS.
+[01:22:58.760 --> 01:23:08.760]  So Halo is a multifunction instrument that supports the range of science-focused areas within Earth Science Division at NASA.
+[01:23:08.760 --> 01:23:13.760]  For Arc-6, we flew a water vapor and aerosol cloud configuration,
+[01:23:13.760 --> 01:23:19.760]  predominantly looking at profiles of water vapor, aerosol, cloud properties.
+[01:23:19.760 --> 01:23:25.760]  And we were on the Gulfstream 3 with the Averus NG instrument.
+[01:23:25.760 --> 01:23:27.760]  We were on the aft port. They were on the front port.
+[01:23:27.760 --> 01:23:31.760]  This is a picture of the instrument head with Brian manning the rack.
+[01:23:31.760 --> 01:23:36.760]  And one of the more important aspects of the instrument is the real-time reporting capability,
+[01:23:36.760 --> 01:23:40.760]  giving kind of a real-time awareness of where aerosol and cloud layers were
+[01:23:40.760 --> 01:23:45.760]  so we get an idea where to put the aircraft, the P3 for in-situ sampling.
+[01:23:45.760 --> 01:23:50.760]  So we employ two simultaneous measurement techniques to get at the water vapor and aerosols.
+[01:23:50.760 --> 01:23:53.760]  The first is called dial differential absorption lidar.
+[01:23:53.760 --> 01:23:58.760]  We interrogate a water vapor complex, absorption complex in the near infrared
+[01:23:58.760 --> 01:24:04.760]  that gives us sensitivity from the stratosphere down to the marine boundary layer,
+[01:24:04.760 --> 01:24:09.760]  and we look at the attenuation of the signal as it propagates down near the surface,
+[01:24:09.760 --> 01:24:13.760]  and we take ratios of those signals to give us three or four water vapor profiles
+[01:24:13.760 --> 01:24:18.760]  throughout the troposphere, and we stitch those together to give us one contiguous measurement.
+[01:24:18.760 --> 01:24:23.760]  For the aerosol and cloud measurements, we employ the high-spectral resolution lidar technique,
+[01:24:23.760 --> 01:24:30.760]  which employs an iodine spectral filter, which separates the mescattering from the total scattering,
+[01:24:31.760 --> 01:24:34.760]  the molecular scattering from the total scattering,
+[01:24:34.760 --> 01:24:41.760]  and this allows us to independently get at the aerosol backscatter and extinction without external calibration,
+[01:24:41.760 --> 01:24:46.760]  and this is important to get at direct aerosol backscatter instead of attenuated backscatter,
+[01:24:46.760 --> 01:24:49.760]  both for aerosols and clouds.
+[01:24:49.760 --> 01:24:57.760]  This is a run-down of, well, a high-level run-down of the products that you can find in the archive.
+[01:24:57.760 --> 01:25:03.760]  We provide aerosol backscatter at two wavelengths, 532 and 1064 aerosol extinction,
+[01:25:03.760 --> 01:25:08.760]  looking at a derivative of the molecular channel at 532 nanometers,
+[01:25:08.760 --> 01:25:12.760]  depolarization at both wavelengths, and then aerosol optical thickness at 532.
+[01:25:12.760 --> 01:25:17.760]  Using those measurements, we give a qualitative aerosol typing measurement,
+[01:25:17.760 --> 01:25:25.760]  and that kind of comprises the 15-meter, what we call the lower-resolution aerosol products, aerosol and cloud products.
+[01:25:25.760 --> 01:25:28.760]  We also have cloud products that UN's been spearheading.
+[01:25:28.760 --> 01:25:34.760]  Much higher spatial resolution, 1.25-meter vertical, those are the cloud-top extinction profiles,
+[01:25:34.760 --> 01:25:42.760]  as well as cloud phase masks and integrated products that I'll get into in subsequent slides.
+[01:25:42.760 --> 01:25:44.760]  UN, I'm not sure how much surface winds we had.
+[01:25:44.760 --> 01:25:50.760]  We didn't have a lot of open water, but they're in the files if we did get over open water.
+[01:25:50.760 --> 01:25:55.760]  Lastly, we have more of the atmospheric state, so the specific humidity,
+[01:25:55.760 --> 01:26:00.760]  the integrated product of the total precipitable water from the aircraft to the surface,
+[01:26:00.760 --> 01:26:07.760]  and then the derived relative humidity, which we use reanalysis temperature to get at the humidity over water and ice.
+[01:26:07.760 --> 01:26:16.760]  We have a poster looking at the accuracy or the skill of the reanalysis products to get at temperature within the Arctic domain.
+[01:26:16.760 --> 01:26:19.760]  I highlighted the red, the mixing layer heights.
+[01:26:19.760 --> 01:26:22.760]  We didn't report that for Arc6 predominantly because there wasn't a mixing layer.
+[01:26:22.760 --> 01:26:25.760]  We don't have a lot of surface fluxes to give us a mixing layer,
+[01:26:25.760 --> 01:26:29.760]  so we figured it was just less ambiguous to not archive that.
+[01:26:29.760 --> 01:26:31.760]  I screwed up Michael.
+[01:26:31.760 --> 01:26:34.760]  I put the at-large site up as well.
+[01:26:34.760 --> 01:26:35.760]  This is where the data are.
+[01:26:35.760 --> 01:26:39.760]  Don't reference this if you publish a paper, but we have two files up there,
+[01:26:39.760 --> 01:26:44.760]  one for the aerosol cloud and water vapor at the 15 meter resolution,
+[01:26:44.760 --> 01:26:50.760]  and then the higher resolution cloud and surface products by UN.
+[01:26:50.760 --> 01:26:55.760]  We archive our data in the HCE5 format for both products.
+[01:26:55.760 --> 01:27:02.760]  There's two files per flight for the HSRL and aerosol cloud products.
+[01:27:02.760 --> 01:27:08.760]  We have quick-look images for all the products that are in the file.
+[01:27:08.760 --> 01:27:10.760]  The structure is pretty straightforward.
+[01:27:10.760 --> 01:27:12.760]  I didn't expand these because they take up the whole page,
+[01:27:12.760 --> 01:27:14.760]  but we have the data products, data uncertainty,
+[01:27:14.760 --> 01:27:21.760]  so we have tractable uncertainty that described the random error for these products,
+[01:27:21.760 --> 01:27:26.760]  predominantly the aerosol and the specific humidity of water vapor products.
+[01:27:26.760 --> 01:27:27.760]  The nav data is pretty straightforward.
+[01:27:27.760 --> 01:27:31.760]  We bring in all the aircraft nav data to give situational awareness of where the aircraft is
+[01:27:31.760 --> 01:27:34.760]  and where the surface, the dem heights are.
+[01:27:34.760 --> 01:27:39.760]  Atmospheric state are the reanalysis products we use to create the density and pressure
+[01:27:39.760 --> 01:27:41.760]  and temperature profiles that go into the retrieval,
+[01:27:41.760 --> 01:27:46.760]  and then user inputs are things that we think are useful for the community to know
+[01:27:46.760 --> 01:27:48.760]  in terms of what went into the products.
+[01:27:48.760 --> 01:27:52.760]  Some examples of the products that are in the files.
+[01:27:52.760 --> 01:27:56.760]  We have the attenuated backscatter at 532 and 1064,
+[01:27:56.760 --> 01:28:00.760]  the direct measure of the 532 and 1064 backscatter,
+[01:28:00.760 --> 01:28:02.760]  and then the extinction from those two wavelengths.
+[01:28:02.760 --> 01:28:06.760]  You can see the extinctions are quite low for the RX-6 mission.
+[01:28:06.760 --> 01:28:07.760]  There just wasn't a lot of aerosol loading.
+[01:28:07.760 --> 01:28:11.760]  This was actually one of the higher aerosol loading days of the mission,
+[01:28:11.760 --> 01:28:13.760]  which had a lot of aerosol transport.
+[01:28:13.760 --> 01:28:16.760]  We also have the aerosol optical thickness,
+[01:28:16.760 --> 01:28:21.760]  both from the aircraft to the surface, but also to cloud top.
+[01:28:21.760 --> 01:28:23.760]  We have the aerosol intensives,
+[01:28:23.760 --> 01:28:25.760]  which kind of give us an idea of the type of aerosols.
+[01:28:25.760 --> 01:28:27.760]  We have the aerosol depolarization,
+[01:28:27.760 --> 01:28:32.760]  which gives us information on the spherosity of the particles.
+[01:28:32.760 --> 01:28:34.760]  We also measure it at 1064.
+[01:28:34.760 --> 01:28:42.760]  The spectral depolarization ratio is often used to help derive the aerosol types.
+[01:28:42.760 --> 01:28:45.760]  It's a good indicator of the different types of aerosols.
+[01:28:45.760 --> 01:28:48.760]  The extinction to backscatter ratio gives us an indication
+[01:28:48.760 --> 01:28:51.760]  of the microphysical properties of the aerosol.
+[01:28:51.760 --> 01:28:55.760]  We often look at absorptive properties from that component.
+[01:28:55.760 --> 01:28:58.760]  Then we have the backscatter angstrom exponents.
+[01:28:58.760 --> 01:29:03.760]  These are essentially the color ratios from the two wavelengths of 532 and 764
+[01:29:03.760 --> 01:29:07.760]  and give us insight of what the relative size of the scatterers are.
+[01:29:07.760 --> 01:29:11.760]  From these intensives, we can get the qualitative aerosol type.
+[01:29:11.760 --> 01:29:15.760]  On the water vapor side, we directly measure the specific humidity
+[01:29:15.760 --> 01:29:19.760]  using the temperature profiles to get the atmospheric density.
+[01:29:19.760 --> 01:29:24.760]  From that, we derive the relative humidity over water and ice.
+[01:29:24.760 --> 01:29:29.760]  Brian has done a great job of doing the validation against the drop sands.
+[01:29:29.760 --> 01:29:37.760]  Our mean average error is within what we set our thresholds for the uncertainties
+[01:29:37.760 --> 01:29:41.760]  for our product, which is what we were shooting for about 10%.
+[01:29:41.760 --> 01:29:46.760]  You do see this deviation from the drop sands in the upper atmosphere,
+[01:29:46.760 --> 01:29:49.760]  the UTLS, and this is something Lee's going to talk about.
+[01:29:49.760 --> 01:29:53.760]  This is a lag effect in the drop sands that we're able to help identify.
+[01:29:53.760 --> 01:29:57.760]  In addition to these profile measurements, we have the integrated products,
+[01:29:57.760 --> 01:30:02.760]  the water vapor to the top, cloud top, as well as the water vapor to the surface.
+[01:30:02.760 --> 01:30:07.760]  The second file employs the high resolution products.
+[01:30:07.760 --> 01:30:13.760]  We have the integrated attenuated backscatter depolarization, cloud top heights,
+[01:30:13.760 --> 01:30:15.760]  as well as the ladder ratios.
+[01:30:15.760 --> 01:30:18.760]  There's another folder that has the actual extinction profiles.
+[01:30:18.760 --> 01:30:22.760]  Here, UN's gone through and done some validation with the in situ measurements
+[01:30:22.760 --> 01:30:24.760]  of extinction from the aircraft.
+[01:30:24.760 --> 01:30:27.760]  Then on the other side, bringing in the cloud phase mask,
+[01:30:27.760 --> 01:30:32.760]  this is what Carrie and Nicholas were talking about in terms of bringing in the average,
+[01:30:32.760 --> 01:30:37.760]  the passive side, to bring in the vertical component of that cloud phase mask
+[01:30:37.760 --> 01:30:40.760]  to the context of the swath of the passive imagers.
+[01:30:40.760 --> 01:30:47.760]  This was a big effort specifically for ArcSix to bring this new cloud phase mask.
+[01:30:48.760 --> 01:30:52.760]  What's next? We've noticed that we have negative extinction.
+[01:30:52.760 --> 01:30:56.760]  We haven't won the Nobel Prize because that means we're generating light in the atmosphere.
+[01:30:56.760 --> 01:31:00.760]  This is something that the group's been looking at more recently.
+[01:31:00.760 --> 01:31:03.760]  We think it has something to do with turbulence over the mountain regimes
+[01:31:03.760 --> 01:31:06.760]  and where we have shear, and so we're plotting this on a scale,
+[01:31:06.760 --> 01:31:09.760]  essentially extinction from zero to a negative scale,
+[01:31:09.760 --> 01:31:11.760]  and you can see these darker areas.
+[01:31:11.760 --> 01:31:13.760]  There is a way to get around this.
+[01:31:13.760 --> 01:31:16.760]  You can use the median LiDAR ratio and use the backscatter,
+[01:31:16.760 --> 01:31:20.760]  so we'll be archiving a backscatter from Extinction,
+[01:31:20.760 --> 01:31:22.760]  or Extinction from Backscatter product,
+[01:31:22.760 --> 01:31:24.760]  and this is pretty turnkey.
+[01:31:24.760 --> 01:31:27.760]  The team's been doing this for the previous AJAQ and CAMPEX missions.
+[01:31:29.760 --> 01:31:31.760]  I appreciate the opportunity to give this talk,
+[01:31:31.760 --> 01:31:33.760]  because as I was going through the files,
+[01:31:33.760 --> 01:31:35.760]  I noticed that on some of the files,
+[01:31:35.760 --> 01:31:38.760]  I have not provided the uncertainties for the water vapor.
+[01:31:38.760 --> 01:31:40.760]  They're turnkey, they're in our files, but they're not in the archive file,
+[01:31:40.760 --> 01:31:43.760]  so that's coming up next.
+[01:31:43.760 --> 01:31:47.760]  We're also hopefully going to be able to get the very minor offsets
+[01:31:47.760 --> 01:31:51.760]  in the grids for the clouds and the high-resolution clouds
+[01:31:51.760 --> 01:31:54.760]  and the water vapor and aerosols on the same grid.
+[01:31:54.760 --> 01:31:57.760]  Lastly, we have a data description document
+[01:31:57.760 --> 01:32:00.760]  that hopefully should be up soon that goes through
+[01:32:00.760 --> 01:32:04.760]  a lot of the details of how the measurements are derived
+[01:32:04.760 --> 01:32:07.760]  and the array sizes and how to utilize the data.
+[01:32:07.760 --> 01:32:10.760]  Please reach out to the team with any questions.
+[01:32:10.760 --> 01:32:12.760]  That's it.
+[01:32:16.760 --> 01:32:19.760]  Anybody who has questions right now?
+[01:32:21.760 --> 01:32:23.760]  Yeah, thanks for that presentation.
+[01:32:23.760 --> 01:32:27.760]  You showed a slide with the mixed HOI on it,
+[01:32:27.760 --> 01:32:30.760]  and it confused me a little bit.
+[01:32:30.760 --> 01:32:34.760]  I wondered if you could bring it up again if there's time.
+[01:32:35.760 --> 01:32:38.760]  It'd be like slide 10 or 11.
+[01:32:38.760 --> 01:32:41.760]  I'm going to defer this one to you.
+[01:32:41.760 --> 01:32:44.760]  Yeah, I don't see how...
+[01:32:44.760 --> 01:32:51.760]  How are you getting the mixed HOI layer in there from...
+[01:32:53.760 --> 01:32:55.760]  Or can you say more to it?
+[01:33:00.760 --> 01:33:03.760]  Yeah, I can try and answer this.
+[01:33:04.760 --> 01:33:07.760]  So the challenge with the mixed category
+[01:33:07.760 --> 01:33:11.760]  is it's still ambiguous
+[01:33:11.760 --> 01:33:14.760]  whether it's an ice and water mix
+[01:33:14.760 --> 01:33:19.760]  or a mixture of randomly oriented
+[01:33:19.760 --> 01:33:21.760]  and horizontally oriented ice.
+[01:33:21.760 --> 01:33:25.760]  You don't have a way of teasing those two apart yet.
+[01:33:26.760 --> 01:33:29.760]  So it's in there as mixed,
+[01:33:29.760 --> 01:33:32.760]  but the caveat is it may not be a mix of water and ice.
+[01:33:32.760 --> 01:33:36.760]  It may be a mix of ice of different orientations.
+[01:33:43.760 --> 01:33:48.760]  Yeah, we use the depot to discriminate ice
+[01:33:48.760 --> 01:33:53.760]  from depot that's generated from water multiple scattering.
+[01:33:53.760 --> 01:33:58.760]  And so the two variables that we're using
+[01:33:58.760 --> 01:34:02.760]  are essentially the LiDAR ratio
+[01:34:02.760 --> 01:34:06.760]  or a variant of the LiDAR ratio and the depot through the profile.
+[01:34:06.760 --> 01:34:09.760]  And if you have a mixture of orientations,
+[01:34:09.760 --> 01:34:12.760]  the signature looks the same just using those two things.
+[01:34:12.760 --> 01:34:16.760]  So we need to find something else to basically separate those out.
+[01:34:19.760 --> 01:34:21.760]  So before...
+[01:34:21.760 --> 01:34:23.760]  Okay, go for it.
+[01:34:23.760 --> 01:34:25.760]  No, actually it follows on that question very well.
+[01:34:25.760 --> 01:34:29.760]  It was on HOI also.
+[01:34:29.760 --> 01:34:31.760]  Yeah, I don't know how...
+[01:34:31.760 --> 01:34:33.760]  Are you guys pointed directly, Nate,
+[01:34:33.760 --> 01:34:37.760]  or are you off a bit to avoid horizontal orientations?
+[01:34:37.760 --> 01:34:39.760]  Yeah, so we're at three degrees.
+[01:34:39.760 --> 01:34:41.760]  Three degrees, okay.
+[01:34:41.760 --> 01:34:44.760]  The issue that we found is that actually dendrites
+[01:34:44.760 --> 01:34:47.760]  seem to have low depolarization even at three degrees.
+[01:34:47.760 --> 01:34:49.760]  Okay, so...
+[01:34:51.760 --> 01:34:53.760]  Okay.
+[01:34:55.760 --> 01:34:59.760]  All right, we're staying on the G3 and then afterwards,
+[01:34:59.760 --> 01:35:02.760]  I would say we should go to the coffee break
+[01:35:02.760 --> 01:35:06.760]  before then going to the ground-based sites, okay?
+[01:35:06.760 --> 01:35:08.760]  All right, go for it, Lee.
+[01:35:08.760 --> 01:35:10.760]  All right, hi again, it's been a while.
+[01:35:10.760 --> 01:35:14.760]  So I also did drop sounds on the G3.
+[01:35:14.760 --> 01:35:17.760]  I wanted to thank Irvay, Maurice, who's not here,
+[01:35:17.760 --> 01:35:20.760]  Amin, Brian, and even for dropping sounds for me
+[01:35:20.760 --> 01:35:24.760]  while I was on the ground, Don Tams, and AVAP stuff.
+[01:35:24.760 --> 01:35:26.760]  So a quick overview.
+[01:35:26.760 --> 01:35:28.760]  AVAP stands for atmospheric vertical,
+[01:35:28.760 --> 01:35:31.760]  airborne vertical atmospheric profiling system.
+[01:35:31.760 --> 01:35:33.760]  AVAP drops on sounds much better.
+[01:35:33.760 --> 01:35:35.760]  They actually were designed and built,
+[01:35:35.760 --> 01:35:38.760]  designed here locally by NCAR.
+[01:35:38.760 --> 01:35:42.760]  The sands themselves are manufactured now by Visula.
+[01:35:42.760 --> 01:35:47.760]  And they do multi-hertz measurements of wind speed,
+[01:35:47.760 --> 01:35:50.760]  temperature, relative humidity, pressure,
+[01:35:50.760 --> 01:35:54.760]  position as the sun drops from the aircraft to the surface.
+[01:35:54.760 --> 01:35:57.760]  It takes about 15 minutes to get to the ground
+[01:35:57.760 --> 01:35:59.760]  from the G3 altitudes.
+[01:35:59.760 --> 01:36:02.760]  And we used the NRD-41 sands.
+[01:36:02.760 --> 01:36:04.760]  The mini-sands are the new current standards,
+[01:36:04.760 --> 01:36:07.760]  and they were great for us.
+[01:36:07.760 --> 01:36:11.760]  Then the data is then processed in Aspen in real time
+[01:36:11.760 --> 01:36:13.760]  as soon as the sun has dropped.
+[01:36:13.760 --> 01:36:14.760]  I mean, it's finished processing,
+[01:36:14.760 --> 01:36:17.760]  and then the data is available.
+[01:36:18.760 --> 01:36:21.760]  Just real quick, on ARC-6, we, like I said,
+[01:36:21.760 --> 01:36:23.760]  we used the NRD-41 sands.
+[01:36:23.760 --> 01:36:26.760]  We only had one really bad son for the entire mission.
+[01:36:26.760 --> 01:36:28.760]  So we dropped about 170 sands,
+[01:36:28.760 --> 01:36:30.760]  and then you see where they're scattered
+[01:36:30.760 --> 01:36:33.760]  across the Arctic up there, all over the place.
+[01:36:33.760 --> 01:36:37.760]  We dropped average altitude from about 12 kilometers.
+[01:36:37.760 --> 01:36:40.760]  When the sands came down, once they were completed,
+[01:36:40.760 --> 01:36:42.760]  I processed them there in the hangar,
+[01:36:42.760 --> 01:36:44.760]  and all the ones that had a complete profile
+[01:36:44.760 --> 01:36:46.760]  were uploaded to GTS thanks to Amy
+[01:36:46.760 --> 01:36:50.760]  for ingestion in real-time forecasting models.
+[01:36:54.760 --> 01:36:55.760]  Here's just an example,
+[01:36:55.760 --> 01:36:57.760]  so this is from one of the talks, I think,
+[01:36:57.760 --> 01:36:59.760]  during the deployment.
+[01:36:59.760 --> 01:37:02.760]  The real thing here is on the bottom right.
+[01:37:02.760 --> 01:37:06.760]  This shows where some of the sands were ingested on June 5th
+[01:37:06.760 --> 01:37:10.760]  and ingested into some of the models there,
+[01:37:10.760 --> 01:37:12.760]  and just to show that they were getting actually used
+[01:37:12.760 --> 01:37:15.760]  in real-time during our mission.
+[01:37:15.760 --> 01:37:19.760]  The rest of the stuff will show up in multiple places here again.
+[01:37:19.760 --> 01:37:22.760]  So current status, the final data is in the archive
+[01:37:22.760 --> 01:37:26.760]  under the normal archive positions on locations.
+[01:37:26.760 --> 01:37:28.760]  The current version right now is R0.
+[01:37:28.760 --> 01:37:31.760]  That was the one that we were submitted for the final archive.
+[01:37:31.760 --> 01:37:34.760]  There's an R1 that needs to come out soon.
+[01:37:34.760 --> 01:37:38.760]  I was at the ABAPS data workshop about a month ago here,
+[01:37:38.760 --> 01:37:39.760]  right down the street,
+[01:37:39.760 --> 01:37:44.760]  and realized that the vertical winds had a little bug in it,
+[01:37:44.760 --> 01:37:47.760]  so we processed that and corrected that.
+[01:37:47.760 --> 01:37:49.760]  Amin mentioned the drive-by,
+[01:37:49.760 --> 01:37:50.760]  so I'll get into that in a second.
+[01:37:50.760 --> 01:37:52.760]  I haven't re-uploaded the new version,
+[01:37:52.760 --> 01:37:55.760]  kind of waiting to see what's going to become of that.
+[01:37:55.760 --> 01:37:57.760]  We've also, there's a lot more files now for itself,
+[01:37:57.760 --> 01:37:59.760]  for each sonde,
+[01:37:59.760 --> 01:38:02.760]  and sometimes we did up to like 16 to 20 sands per flight.
+[01:38:02.760 --> 01:38:04.760]  There's the iCard file,
+[01:38:04.760 --> 01:38:08.760]  which is the text equivalent of the NetCDF file.
+[01:38:08.760 --> 01:38:10.760]  We also produced QTs,
+[01:38:10.760 --> 01:38:13.760]  which were like the ones that everybody saw during flight
+[01:38:13.760 --> 01:38:14.760]  in real time.
+[01:38:14.760 --> 01:38:16.760]  And then I also did a quick look file
+[01:38:16.760 --> 01:38:19.760]  that has a profile plot of each of the parameters
+[01:38:19.760 --> 01:38:22.760]  that were in the NetCDF file.
+[01:38:22.760 --> 01:38:25.760]  For some reason, the code that we are using
+[01:38:25.760 --> 01:38:28.760]  to produce the iCard files in the field
+[01:38:28.760 --> 01:38:30.760]  didn't have four variables,
+[01:38:30.760 --> 01:38:32.760]  Theta, Theta B,
+[01:38:32.760 --> 01:38:34.760]  water vaping, mixing ratio and such,
+[01:38:34.760 --> 01:38:37.760]  and so I re-wrote the software to include that in there now,
+[01:38:37.760 --> 01:38:39.760]  so there's all those parameters are there.
+[01:38:39.760 --> 01:38:42.760]  And so just to hear some examples of QTs
+[01:38:42.760 --> 01:38:44.760]  that we've seen in flight.
+[01:38:44.760 --> 01:38:46.760]  This is what the quick look files look like.
+[01:38:46.760 --> 01:38:49.760]  So it shows you all the parameters and everything's there,
+[01:38:49.760 --> 01:38:53.760]  and it shows you, you know, we have complete profiles.
+[01:38:53.760 --> 01:38:55.760]  This is, I found this one interesting.
+[01:38:55.760 --> 01:38:59.760]  This is just, you average all the sands from the spring campaign
+[01:38:59.760 --> 01:39:01.760]  and then compare them to the summer.
+[01:39:01.760 --> 01:39:04.760]  You can kind of see how the atmosphere evolved
+[01:39:04.760 --> 01:39:07.760]  as we went on through the campaign.
+[01:39:07.760 --> 01:39:09.760]  The green lines there, if you can see it,
+[01:39:09.760 --> 01:39:11.760]  they're very thin, I know, for the vertical winds.
+[01:39:11.760 --> 01:39:14.760]  The vertical winds, if you're using this for vertical winds,
+[01:39:14.760 --> 01:39:17.760]  it's accuracy is about plus or minus than you were second.
+[01:39:17.760 --> 01:39:20.760]  It's really good for knowing if it was in a big updraft
+[01:39:20.760 --> 01:39:22.760]  or a downdraft.
+[01:39:22.760 --> 01:39:25.760]  I wouldn't use a first just small scale low vertical winds.
+[01:39:25.760 --> 01:39:29.760]  That's why the green lines are there.
+[01:39:29.760 --> 01:39:32.760]  And then just if you're interested, this is all the,
+[01:39:32.760 --> 01:39:35.760]  all the spring drop sands all combined on plots
+[01:39:35.760 --> 01:39:38.760]  and see how much variability there was,
+[01:39:38.760 --> 01:39:42.760]  especially in the winds, likewise for summer.
+[01:39:42.760 --> 01:39:45.760]  And then some of the more important stuff here.
+[01:39:45.760 --> 01:39:47.760]  Amin mentioned the dry vice.
+[01:39:47.760 --> 01:39:50.760]  So when we were in the field, we noticed that when the plane left,
+[01:39:50.760 --> 01:39:52.760]  we got, when the sun left the plane,
+[01:39:52.760 --> 01:39:54.760]  we noticed some wonky things.
+[01:39:54.760 --> 01:39:57.760]  So actually for the GTS real time uploads,
+[01:39:57.760 --> 01:39:59.760]  I cut most of that out,
+[01:39:59.760 --> 01:40:01.760]  even though Holger told me a couple of weeks ago
+[01:40:01.760 --> 01:40:02.760]  that wouldn't have mattered.
+[01:40:02.760 --> 01:40:04.760]  They don't use that high up anyway.
+[01:40:04.760 --> 01:40:06.760]  So what we were trying to figure out what was going on,
+[01:40:06.760 --> 01:40:08.760]  what was going on with the GTS plots,
+[01:40:08.760 --> 01:40:11.760]  and show that the AVAPS has a dry bias
+[01:40:11.760 --> 01:40:14.760]  that's only really seen in the Arctic.
+[01:40:14.760 --> 01:40:17.760]  In Brian's poster and the means, I imagine as well,
+[01:40:17.760 --> 01:40:20.760]  they'll show plots for the mid latitudes and the tropics.
+[01:40:20.760 --> 01:40:22.760]  And this really isn't there.
+[01:40:22.760 --> 01:40:25.760]  And so we provided all this data to Holger.
+[01:40:25.760 --> 01:40:29.760]  This is some of the first real dense data
+[01:40:29.760 --> 01:40:32.760]  that they've had for the high Arctic.
+[01:40:32.760 --> 01:40:33.760]  So they're looking through it.
+[01:40:33.760 --> 01:40:35.760]  And when they come up with their correction algorithm,
+[01:40:35.760 --> 01:40:38.760]  I'll correct all the data and reprocess it.
+[01:40:38.760 --> 01:40:40.760]  Mac, if you know Mac from NCAR here,
+[01:40:40.760 --> 01:40:42.760]  he has a routine that will do it.
+[01:40:42.760 --> 01:40:44.760]  But they're looking at it just to make sure
+[01:40:44.760 --> 01:40:47.760]  that that's the way to go before we introduce
+[01:40:47.760 --> 01:40:51.760]  possibly more issues with a different correction.
+[01:40:51.760 --> 01:40:54.760]  So next steps, wait for that and then reprocess.
+[01:40:54.760 --> 01:40:57.760]  I've started, if I had initially signed up for a science talk
+[01:40:57.760 --> 01:41:00.760]  to compare dropsons and winds,
+[01:41:00.760 --> 01:41:03.760]  which evolved into near straight vertical winds,
+[01:41:03.760 --> 01:41:06.760]  which is for the science talk on Wednesday.
+[01:41:06.760 --> 01:41:08.760]  But I've just started looking at some of this
+[01:41:08.760 --> 01:41:11.760]  and this is just some preliminary analysis of looking
+[01:41:11.760 --> 01:41:15.760]  when the dropsons are co-located with the wind data,
+[01:41:15.760 --> 01:41:16.760]  with the P3.
+[01:41:16.760 --> 01:41:18.760]  How does it match up well?
+[01:41:18.760 --> 01:41:20.760]  And I'm still playing around with how to do that.
+[01:41:20.760 --> 01:41:23.760]  But that was like when the first shot's out
+[01:41:23.760 --> 01:41:27.760]  before I had to turn this presentation in.
+[01:41:27.760 --> 01:41:28.760]  And that's all I have.
+[01:41:34.760 --> 01:41:36.760]  Thank you. Questions?
+[01:41:40.760 --> 01:41:42.760]  Sorry for dominating.
+[01:41:42.760 --> 01:41:46.760]  The question came up at the Denver meeting last week
+[01:41:46.760 --> 01:41:49.760]  whether these sands were getting assimilated
+[01:41:49.760 --> 01:41:52.760]  into the reanalysis into,
+[01:41:52.760 --> 01:41:54.760]  I guess that was error five,
+[01:41:54.760 --> 01:41:57.760]  but it would also apply to NSIP.
+[01:41:57.760 --> 01:42:00.760]  So this is maybe more for Amy.
+[01:42:03.760 --> 01:42:05.760]  I don't know. That's a great question.
+[01:42:05.760 --> 01:42:08.760]  I can see if I can find out, but I have no idea.
+[01:42:11.760 --> 01:42:14.760]  We should head into the coffee break,
+[01:42:14.760 --> 01:42:16.760]  but hold on.
+[01:42:16.760 --> 01:42:19.760]  Do you still want to say something, Lee?
+[01:42:19.760 --> 01:42:22.760]  No, I've said it up twice today.
+[01:42:22.760 --> 01:42:24.760]  Okay, so here's the plan.
+[01:42:24.760 --> 01:42:27.760]  So we will get back in here by 3.30,
+[01:42:27.760 --> 01:42:30.760]  but there's work to do.
+[01:42:30.760 --> 01:42:34.760]  That is, is it raining?
+[01:42:34.760 --> 01:42:38.760]  We're going to take a picture now, no matter what.
+[01:42:38.760 --> 01:42:41.760]  And then we're going to have coffee,
+[01:42:41.760 --> 01:42:45.760]  and we take the coffee to the poster area,
+[01:42:45.760 --> 01:42:48.760]  and you're all going to look at the poster,
+[01:42:48.760 --> 01:42:50.760]  and then we're going to play a game.
+[01:42:50.760 --> 01:42:54.760]  So come back, actually come back at 3.25 in here.
+[01:42:55.760 --> 01:42:59.760]  Any poster for Jens,
+[01:42:59.760 --> 01:43:02.760]  it has to be a chemistry poster.
+[01:43:02.760 --> 01:43:06.760]  All right, so let's head out here for,
+[01:43:06.760 --> 01:43:08.760]  sorry, we're being recorded.
+[01:43:08.760 --> 01:43:09.760]  That's not good.
+[01:43:09.760 --> 01:43:12.760]  Okay, let's head out here for pictures.
+[01:43:24.760 --> 01:43:26.760]  Thank you.

@@ -1,0 +1,707 @@
+[00:00.000 --> 00:09.840]  So I'll try to get us back on time, although I can't completely get us back on time.
+[00:09.840 --> 00:14.000]  But I do want to point out that, you know, so we have the ArcSix Bell Buoy Array that
+[00:14.000 --> 00:15.840]  you guys have heard about a few times.
+[00:15.840 --> 00:19.020]  But I think it's important to point out that the way this got funded, because it wasn't
+[00:19.020 --> 00:23.500]  really part of the initial proposal, is that it had a lot of conversations in the beginning
+[00:23.500 --> 00:27.220]  of this project with ICET2 folks, including Nathan Kurtz.
+[00:27.220 --> 00:29.680]  And there was going to be money, and there wasn't going to be money, and then there was,
+[00:29.680 --> 00:30.680]  and we got it funded.
+[00:30.680 --> 00:33.860]  So the Buoy Array was really funded by ICET2.
+[00:33.860 --> 00:39.300]  And then those were, the funding went to Chris Poloshensky, who's at the Cold Regions Research
+[00:39.300 --> 00:42.300]  Engineering Laboratory at Dartmouth, University of Dartmouth.
+[00:42.300 --> 00:45.620]  And they're the ones that flew the Twin Otter out there, laid it on the sea ice, and gave
+[00:45.620 --> 00:49.980]  us these nine sea ice mass balance buoys.
+[00:49.980 --> 00:53.400]  And so we started with nine, they were deployed at Lincoln Sea.
+[00:53.400 --> 00:58.700]  Buoy M died almost instantly, just a few days or a week afterwards.
+[00:58.720 --> 01:03.520]  And then we have about, you know, we had nine, and then I think Kay ended up, Kay's not on
+[01:03.520 --> 01:05.900]  here, also died pretty quickly.
+[01:05.900 --> 01:12.120]  But what these buoys were giving us is kind of this perspective of arc six on the sea ice.
+[01:12.120 --> 01:17.680]  Give us a place to go and revisit, because part of the objectives was to measure what
+[01:17.680 --> 01:22.940]  the factors are that is influencing the sea ice evolution and the sea ice thickness evolution.
+[01:22.940 --> 01:26.400]  So the measurements that are on here, we have temperature from two meters through the ice,
+[01:26.400 --> 01:29.700]  the whole way to the bottom of the ocean, not the bottom of the ocean, bottom of the
+[01:29.700 --> 01:36.300]  ice to the ocean, at about 0.02, no, yeah, yeah, 0.02 meter resolution, two centimeter
+[01:36.300 --> 01:41.820]  resolution down through, gives us ice surface and bottom position, the shortwave up and
+[01:41.820 --> 01:45.940]  down radiation that's on there, surface pressure and snow depth.
+[01:45.940 --> 01:51.780]  Snow depth is at four of the buoys, which I don't think I have the mark on here, but.
+[01:51.780 --> 01:57.040]  So here's just an example of the A plot from Chris Poloshanski showing some of the buoy
+[01:57.040 --> 01:58.040]  data.
+[01:58.040 --> 02:01.600]  This is the temperature profile down to where, you know, it starts to get constant.
+[02:01.600 --> 02:03.200]  And here's just a time series.
+[02:03.200 --> 02:09.280]  This is who we are for air temperature, pressure and surface distance.
+[02:09.280 --> 02:13.360]  All of the day, I'll show the link here at the end of where this is.
+[02:13.360 --> 02:18.280]  Here's another, just a summary of what kind of we saw in the buoys.
+[02:18.280 --> 02:19.760]  This is just the thickness.
+[02:19.760 --> 02:25.100]  So there are four buoys that kind of made it to the end of the campaign, August 16th
+[02:25.100 --> 02:26.100]  or so.
+[02:26.100 --> 02:27.100]  And those are the ones in green.
+[02:27.100 --> 02:31.620]  And that's where I was kind of summarized what the data shows here in terms of initial
+[02:31.620 --> 02:32.620]  snow depth.
+[02:32.620 --> 02:33.620]  Then we lost all the snow depth.
+[02:33.620 --> 02:38.460]  So there's no final snow depth here, but the initial thickness, the date that the buoys
+[02:38.460 --> 02:42.820]  kind of lost, there's no snow which varied across the buoys, which is interesting.
+[02:42.820 --> 02:44.340]  And then the thickness loss.
+[02:44.340 --> 02:48.420]  And so you see there's about, what is that, about a, you know, a range of 66 centimeters
+[02:48.420 --> 02:53.720]  of thickness loss to 78 centimeters at the buoy that had the most loss.
+[02:53.720 --> 02:57.120]  We'll see as we go forward in some of the discussions that there's actually this very
+[02:57.120 --> 03:02.800]  interesting spatial gradient in sea ice thickness that I said too saw.
+[03:02.800 --> 03:06.200]  And you know, one of the things that we want to focus on going forward is how we can use
+[03:06.200 --> 03:10.000]  the buoys and the aircraft data to understand this spatial gradient.
+[03:10.000 --> 03:13.560]  I think I'll talk about it in an hour or Lynette will talk about it in about an hour
+[03:13.560 --> 03:14.560]  now.
+[03:14.580 --> 03:20.340]  At the place you find the data, they are all archived at the Arctic data center.
+[03:20.340 --> 03:26.620]  The buoys themselves are at a different spot and have a different DOI than the snow depth
+[03:26.620 --> 03:27.620]  measurements.
+[03:27.620 --> 03:32.460]  So the snow Tato's is what the Chris refers to as the snow depth measurements there.
+[03:32.460 --> 03:36.220]  Those are again at four buoys and those are at the bottom citation and the buoys are at
+[03:36.220 --> 03:37.220]  the top.
+[03:37.220 --> 03:41.780]  One thing I guess to note is that the buoy, there are more than just the arc six buoys
+[03:41.800 --> 03:48.400]  that are at this, but these are the clean quality controlled data from the buoys.
+[03:48.400 --> 03:50.520]  So with that, I'll take any questions.
+[04:00.520 --> 04:05.720]  I was going to ask about the quality controlled data versus what you could get on the real
+[04:05.720 --> 04:06.720]  time website.
+[04:06.720 --> 04:07.720]  Yeah.
+[04:07.740 --> 04:12.980]  I downloaded the data from there.
+[04:12.980 --> 04:18.380]  The temperature data, some of the buoys more so than others, but some of the buoys have
+[04:18.380 --> 04:21.300]  a very strong direct cycle.
+[04:21.300 --> 04:22.300]  Yeah.
+[04:22.300 --> 04:24.620]  Is that correctable or not?
+[04:24.620 --> 04:26.340]  I believe Chris looked at that.
+[04:26.340 --> 04:32.900]  So that's something that he noticed that that's a problem and I think he was able to see
+[04:32.900 --> 04:33.900]  that.
+[04:33.900 --> 04:34.900]  I mean, it was like five, six degrees.
+[04:34.900 --> 04:35.900]  Yeah.
+[04:35.900 --> 04:36.900]  Right.
+[04:37.080 --> 04:43.000]  So that is going to be in this data set that's fixed.
+[04:43.000 --> 04:50.720]  I haven't looked at it, but I think so.
+[04:50.720 --> 04:57.000]  If there are no more questions, then we'll go to Filippo.
+[04:57.000 --> 04:58.000]  Thank you, Patrick.
+[04:58.000 --> 04:59.000]  Yeah.
+[05:06.900 --> 05:25.300]  Okay.
+[05:25.300 --> 05:28.060]  So good afternoon.
+[05:28.060 --> 05:33.960]  I will try to summarize the ongoing activities that took place and are still taking place
+[05:33.960 --> 05:37.020]  at the Thulei Arctic Atmospheric Observatory.
+[05:37.020 --> 05:41.020]  I will talk on behalf of the several scientists or researchers that have been working here
+[05:41.020 --> 05:45.900]  for very many years before me, obviously.
+[05:45.900 --> 05:52.620]  For those that do not know, the Thulei Arctic Atmospheric Observatory is located in Pidufik
+[05:52.620 --> 06:01.940]  on the northwestern coast of Greenland and it is hosted within the US Pidufik space.
+[06:01.940 --> 06:08.800]  So the Italian activities in this location started here in the 1990s.
+[06:08.800 --> 06:14.760]  The main scientific focus was the stratosphere, its composition and its evolution.
+[06:14.760 --> 06:23.000]  You see here a paper from JGR 1998 about the first measurements taken with the LiDAR system
+[06:23.000 --> 06:30.520]  installed by Professor Fiocco at that time and that is the plume of our solar emitted
+[06:30.520 --> 06:35.740]  by the 1991 volcanic eruption of Mount Pinatubo.
+[06:35.740 --> 06:44.060]  So while we have continued to monitor our stratosphere with the atmospheric LiDAR and
+[06:44.060 --> 06:52.180]  also with other instruments such as the in-house built microelectron spectrometer for water,
+[06:52.180 --> 06:56.900]  middle atmosphere, water vapor measurements, in the recent years many other instruments
+[06:56.900 --> 07:03.120]  have been added to the site and this is just a quick overview of the instruments that are
+[07:03.120 --> 07:06.000]  carrying measurements today.
+[07:06.000 --> 07:13.000]  So this plot in this plot is summarized the evolution of the data availability over the
+[07:13.000 --> 07:18.000]  time from 2016 to 2024.
+[07:18.000 --> 07:25.120]  More details are available for me or from the poster that is hanging in the lobby.
+[07:25.120 --> 07:30.340]  There are a few highlights that are probably of interest to the community.
+[07:30.340 --> 07:39.820]  So the observatory has hosted NASA Aeronautic Sun Photometer since 2007.
+[07:39.820 --> 07:44.580]  We have installed in 2023 a bunch of instruments dedicated to precipitation measurements, so
+[07:44.580 --> 07:51.060]  this thermometer, blue thermometer, blue thermometer and radar for precipitation measurements.
+[07:51.060 --> 08:01.880]  An FTIR from NCAR has been measuring trace gases since 1991, making an available pretty
+[08:01.880 --> 08:07.600]  long time series of trace gases and also we have, thanks to the University of Florence,
+[08:07.600 --> 08:15.440]  installed the PM-TEM error sampler that has been measuring continuously since 2010.
+[08:15.440 --> 08:23.060]  This long effort has been done with relative fluxes measurements that have been conducted
+[08:23.060 --> 08:30.940]  since 2016, both upward and downward, long-wave and short-wave, and these measurements, despite
+[08:30.940 --> 08:39.340]  not being part of the BSRN network, are carried out in accordance and complying with the calibration
+[08:39.340 --> 08:43.260]  and the quality assurance of the network.
+[08:43.260 --> 08:54.800]  So let's get to the point of the meeting, so 2024 as broad axis at the NPTUFIC, so these
+[08:54.800 --> 09:03.080]  excellent opportunities gave us the opportunity to also enlarge the number of measurements
+[09:03.080 --> 09:09.480]  hosted at the observatory, so thanks to the University of Valencia during the both axis
+[09:09.480 --> 09:18.100]  campaign, a radiometrically calibrated camera has also been installed on the roof of the
+[09:18.100 --> 09:25.060]  observatory as well as a zenith-looking spectrometer for cloud optical thickness measurements.
+[09:25.060 --> 09:32.960]  So another interesting feature that we have been requiring dedicated overpasses acquisition
+[09:32.960 --> 09:39.340]  to the Italian and German space agency of the hyperspectral satellites and MAP and Prisma,
+[09:39.840 --> 09:46.640]  therefore, around 20 overpasses over the period of the campaigns that have been collected
+[09:46.640 --> 09:50.040]  and are available online.
+[09:50.040 --> 09:57.120]  I also must say that thanks to ARC6 support, daily radio sound has been launched throughout
+[09:57.120 --> 10:06.520]  the campaign, sometimes even more than daily, and lastly, during that period, the Western
+[10:06.900 --> 10:13.180]  University, Alia Khan has installed a single particle suit photometer at the observatory,
+[10:13.180 --> 10:18.700]  which has been measuring and obviously you can get more information from her.
+[10:18.700 --> 10:24.940]  So during the ARC6 campaign of particular interest have been the overpasses that aircraft
+[10:24.940 --> 10:32.620]  have conducted above the observatory, this table summarizes the dates and the platform
+[10:32.640 --> 10:40.640]  that has been overpassing above the observatory and this will be really interesting for us
+[10:40.640 --> 10:45.840]  because they allow us to have the collocated, especially and temporally collocated measurements
+[10:45.840 --> 10:51.520]  with the set of ground measurements we have.
+[10:51.520 --> 11:01.800]  So another interesting feature we have developed for the ARC6 is a dedicated page on our website
+[11:01.860 --> 11:07.300]  that has been collected, all the quick looks that have been produced in more or less near
+[11:07.300 --> 11:12.300]  real time during the campaign between spring and summer.
+[11:12.300 --> 11:20.620]  You can still find them there, just browse to the ARC6 data page and then after selecting
+[11:20.620 --> 11:25.420]  the date of interest, you can scroll down and see all the quick looks that are available.
+[11:25.420 --> 11:34.520]  Now after the campaign, most of the data have also been calibrated and processed, so some
+[11:34.520 --> 11:39.360]  of them are available to our website, some of them are available upon request to the
+[11:39.360 --> 11:42.140]  PI of each instrument.
+[11:42.140 --> 11:50.640]  So looking ahead, a few words about the ongoing activities that are aimed at getting out of
+[11:50.640 --> 11:55.140]  most of this collaboration.
+[11:55.140 --> 12:02.320]  So assuming that routine operations are in place, which is not always guaranteed, we
+[12:02.320 --> 12:09.600]  are currently focusing on the surface relative budget analysis, mainly looking at the days
+[12:09.600 --> 12:15.520]  where we have overpasses of the aircraft, which is really, as I said, is really of interest
+[12:15.520 --> 12:25.680]  to us, then detailed precipitation also are being analyzed in order to understand what
+[12:25.680 --> 12:30.660]  is their role in changing and modifying the surface albedo.
+[12:30.660 --> 12:37.120]  Another topic that we are currently working on is the assessment of the reliability of
+[12:37.120 --> 12:42.960]  different reanalysis, such as CARA and AR5 for example.
+[12:42.960 --> 12:49.800]  You find a plot of some comparison, some preliminary comparison for albedo, integrated
+[12:49.800 --> 12:56.400]  water vapor and upward shorter irradiance, and this comparison will hopefully allow us
+[12:56.400 --> 13:08.000]  to extend the availability of data also to the exploitation of previous and past data
+[13:08.000 --> 13:10.680]  sets collected at the observatory.
+[13:10.680 --> 13:18.440]  So and lastly, not lastly, but almost doing this last March campaign, we have acquired
+[13:18.440 --> 13:24.160]  a snow spectral reflectivity measurements and snow samples for chemical analysis.
+[13:24.160 --> 13:30.000]  This is also something that we will be working on in the near future.
+[13:30.000 --> 13:38.120]  And finally, we are continuing to develop a shortwave infrared spectrometer and also
+[13:38.120 --> 13:45.640]  calibration for our spectrometers, which has been used for cloud optical thickness,
+[13:45.640 --> 13:51.000]  cloud micro-physical characteristics and quality effects.
+[13:51.000 --> 13:56.480]  So there are plenty of opportunities to collaborate or share data, so please feel free to reach
+[13:56.480 --> 13:58.560]  out if you are interested.
+[13:58.560 --> 14:05.800]  And so finally, I just wanted to acknowledge the support of the many institutions, research
+[14:05.800 --> 14:12.760]  teams and the founding agency that have made the observation possible at the observatory.
+[14:12.760 --> 14:18.960]  We sincerely hope that they will continue to support research in this place over the
+[14:18.960 --> 14:19.960]  years.
+[14:19.960 --> 14:28.080]  And also, I want to thank AXIC project and AXIC team members for giving us this great
+[14:28.080 --> 14:31.000]  opportunity for us.
+[14:31.000 --> 14:33.200]  Thank you.
+[14:33.200 --> 14:36.800]  Wonderful.
+[14:36.800 --> 14:38.040]  Thank you, Filippo.
+[14:38.040 --> 14:40.240]  Questions for him?
+[14:40.240 --> 14:42.760]  All right.
+[14:42.760 --> 14:43.760]  Thank you then.
+[14:43.760 --> 14:48.640]  Let's move on to Lauren and Ralph.
+[14:48.640 --> 14:53.280]  I also wanted to say that in case you found the poster break too short, of course, the
+[14:53.280 --> 14:56.360]  posters will continue to be here.
+[14:56.360 --> 14:58.400]  So let's keep doing this.
+[14:58.400 --> 15:02.760]  Sorry for cutting you all short.
+[15:02.760 --> 15:07.800]  All right.
+[15:07.800 --> 15:13.040]  So Lauren and I are going to share this presentation.
+[15:13.040 --> 15:15.880]  Well, I have a different one that comes later.
+[15:15.880 --> 15:16.880]  That's the volcano one.
+[15:16.880 --> 15:18.880]  But this should be the surface.
+[15:18.880 --> 15:19.880]  Down.
+[15:19.880 --> 15:20.880]  There it is.
+[15:20.880 --> 15:21.880]  Right there.
+[15:21.880 --> 15:22.880]  Yeah.
+[15:22.880 --> 15:23.880]  Okay.
+[15:23.880 --> 15:24.880]  So, okay.
+[15:24.880 --> 15:25.880]  There we go.
+[15:25.880 --> 15:26.880]  Slides are up.
+[15:26.880 --> 15:37.960]  So, yeah, the most important thing I have to say here is that first bullet up there,
+[15:37.960 --> 15:44.640]  which is the context for these surface observations from ships and from ground stations, which
+[15:44.640 --> 15:52.080]  is that from the perspective of arxics, they provide, you know, upwind and downwind constraints.
+[15:52.080 --> 15:56.520]  They provide an anchor that can be used for a range of studies.
+[15:56.520 --> 16:03.160]  And also, some of them have long-term observations to provide context for seasonal variation
+[16:03.160 --> 16:05.460]  into annual variation.
+[16:05.460 --> 16:08.320]  So we'll talk a little bit about the aeronet sites.
+[16:08.320 --> 16:14.240]  There were three of them that were generally active during the period of time that we made
+[16:14.240 --> 16:17.040]  observations in the field.
+[16:17.040 --> 16:22.720]  Aerosol optical depth at different wavelengths is the primary product.
+[16:22.720 --> 16:26.800]  And then in addition, there's some retrievals of particle properties.
+[16:26.800 --> 16:28.320]  There were some ships of opportunity.
+[16:28.320 --> 16:29.480]  There were four of them.
+[16:29.480 --> 16:32.840]  We'll say a little bit about that.
+[16:32.840 --> 16:38.080]  The Svalbard Research Stations are mentioned here primarily because they have such a tremendous
+[16:38.080 --> 16:43.060]  array of instruments that have been measuring for a long period of time.
+[16:43.060 --> 16:47.220]  In many cases, they would represent a downwind constraint on observations that we would have
+[16:47.220 --> 16:48.740]  made in the field.
+[16:48.740 --> 16:54.420]  And then the Villum Research Station, which you heard about earlier today from Hunrick.
+[16:54.420 --> 17:03.380]  So there's this page that you can reach, which has a collection of data.
+[17:03.380 --> 17:08.100]  And I think Lauren's been putting some effort into getting that data collected and shown
+[17:08.100 --> 17:09.100]  there.
+[17:09.660 --> 17:15.220]  A lot of people are involved in collecting the data and providing the data that's shown
+[17:15.220 --> 17:16.220]  here.
+[17:16.220 --> 17:19.740]  And these slides, which we're not going to go through in detail, but just go quickly
+[17:19.740 --> 17:26.380]  through, will hopefully also be posted on that link.
+[17:26.380 --> 17:30.740]  So here's the geographical context.
+[17:30.740 --> 17:34.380]  You heard about the Petufic Station in the previous talk.
+[17:34.660 --> 17:39.340]  Filippo gave a much more detailed description than we'll do here.
+[17:39.340 --> 17:47.500]  The aeronet stations that were active during our period were at Petufic, at Eureka, or
+[17:47.500 --> 17:49.340]  Opel, and at Alert.
+[17:49.340 --> 17:52.140]  I want to say a few things about each of those.
+[17:52.140 --> 17:57.220]  The Resolute Base Station was not operating at the time, and you can see the locations
+[17:57.220 --> 18:04.860]  of Villum and the stations out in Svalbard way to the east.
+[18:04.860 --> 18:07.860]  Okay, so I'm not going to dwell on this slide.
+[18:07.860 --> 18:11.060]  The previous talk covered it in much more detail.
+[18:11.060 --> 18:16.140]  One of the things we have in most of these slides in the upper right is the primary contact
+[18:16.140 --> 18:17.660]  that we have.
+[18:17.660 --> 18:23.700]  And in the lower left, Lauren's actually put together as best we could.
+[18:23.700 --> 18:29.380]  The times when our aircraft overflew these sites, so that wouldn't necessarily be the
+[18:29.380 --> 18:34.020]  only times they'd be of interest, again, upwind and downwind of things we're observing would
+[18:34.020 --> 18:35.020]  be also useful.
+[18:35.020 --> 18:40.980]  Now, Alert was a very special station because it didn't exist before Arxix, and this was
+[18:40.980 --> 18:44.500]  work that Hal put a lot of effort into this.
+[18:44.500 --> 18:51.180]  I put some effort into this, and the aeronet group put in a considerable effort in order
+[18:51.180 --> 18:54.300]  to get this sun photometer at Alert.
+[18:54.300 --> 18:58.380]  They were making other measurements there, the Canadian group.
+[18:58.380 --> 19:04.340]  We flew over Alert an enormous number of times, as you can see in the lower left on the slide.
+[19:04.340 --> 19:11.220]  Not much more to say about that, except it provides the standard aeronet products available
+[19:11.220 --> 19:18.380]  on the website, as well as a whole lot of other measurements they make in situ.
+[19:18.380 --> 19:24.700]  At Eureka, there's also an aeronet site, but in addition, they have a LiDAR, part of
+[19:24.700 --> 19:30.780]  the MPL net, and so that data was available, too.
+[19:30.780 --> 19:35.260]  I have to say about the aeronet sites, one of the things, if you're looking at aeronet
+[19:35.260 --> 19:40.020]  data, you'll discover that there are a lot of gaps, especially in the Arctic, and that's
+[19:40.020 --> 19:42.700]  because of clouds.
+[19:42.700 --> 19:46.820]  They can't take data when it's cloudy.
+[19:47.020 --> 19:51.300]  We did get some good data, and we'll show that, I think, a number of us will be showing
+[19:51.300 --> 19:54.020]  that in subsequent talks.
+[19:54.020 --> 19:57.220]  Then the ships of Opportunity, there were four of them.
+[19:57.220 --> 20:02.700]  I guess the color scale doesn't show up very much, but basically, this was courtesy of
+[20:02.700 --> 20:06.100]  Sasha Smirnov at Goddard.
+[20:06.100 --> 20:13.860]  He provided the microtops, handheld sun photometers, and these colored boxes in each of the ship
+[20:13.860 --> 20:17.460]  plots there show where measurements were made.
+[20:17.460 --> 20:22.620]  To make these measurements, somebody on the ship has to take the assignment of holding
+[20:22.620 --> 20:28.620]  the sun photometer at various times of the day, pointing it in the right direction, and
+[20:28.620 --> 20:30.420]  collecting the data.
+[20:30.420 --> 20:32.380]  This was done in these four cases.
+[20:32.380 --> 20:37.140]  I think it's Laurence's turn to continue with the slides after here.
+[20:37.140 --> 20:38.140]  Here you go.
+[20:39.060 --> 20:41.060]  Thank you.
+[20:42.860 --> 20:49.700]  In addition to that, we had colleagues who took observations on the ships that had other
+[20:49.700 --> 20:51.380]  information as well.
+[20:51.380 --> 20:56.140]  The slide is from our colleague John Prithrich on the Oden, which is the ship we overflew
+[20:56.140 --> 21:00.100]  the most, or the only ship we overflew.
+[21:00.100 --> 21:01.980]  We flew over them three times.
+[21:01.980 --> 21:04.020]  They have various data sets.
+[21:04.020 --> 21:06.780]  Some of them are listed here, or they're all listed here.
+[21:06.780 --> 21:11.700]  They're not quite ready to share yet, but they're going to have them ready.
+[21:11.700 --> 21:15.380]  Some of it's complete and the rest of it's in process.
+[21:15.380 --> 21:19.540]  This should be able to be accessed in the collaborators' data tab, or you can go to this website that
+[21:19.540 --> 21:20.540]  they have here.
+[21:20.540 --> 21:27.580]  They have radiosun, cilometer, radiometer, meteorology, radiative fluxes, turbulent fluxes
+[21:27.580 --> 21:28.580]  right at the surface.
+[21:28.580 --> 21:35.700]  A lot of measurements of interest in addition to the aeronet data, or the man data.
+[21:35.700 --> 21:40.540]  As I mentioned, we flew over them three times, twice in the Nair Strait, once up in the Lincoln
+[21:40.540 --> 21:41.540]  Sea.
+[21:41.540 --> 21:46.500]  For that one, the Lear actually overflew close to it, and there was a three-plane cloud wall
+[21:46.500 --> 21:49.020]  just a bit north of it as well.
+[21:49.020 --> 21:50.020]  There was an addition.
+[21:50.020 --> 21:52.140]  There was a whole bunch of cryospheric data that might be of interest.
+[21:52.140 --> 21:56.700]  There was ice radar imagery of the glacier front, underwater temperature buoys, underwater
+[21:56.700 --> 22:01.580]  vehicles with sonar, underwater uncrewed surface vehicles to map the cemetery in icebergs,
+[22:01.580 --> 22:05.660]  a lot of biological and oceanographic data as well.
+[22:05.660 --> 22:07.300]  That's available too.
+[22:07.300 --> 22:13.660]  Then we also had a collaboration with the Polar 5 aircraft, and Jack Landy, and also
+[22:13.660 --> 22:17.980]  with the Kronprins-Hakon, which is an Norwegian vessel.
+[22:17.980 --> 22:22.860]  One of the days that we flew over Ville, and we went up north, and the Polar 5 overflew
+[22:22.860 --> 22:28.500]  that same track for part of it, and then they diverged from us and went over the Kronprins-Hakon,
+[22:28.500 --> 22:29.500]  which we didn't.
+[22:29.500 --> 22:31.380]  We were a little bit further south.
+[22:31.380 --> 22:38.700]  The Polar 5 had ice thickness, pre-war ice roughness, high-res camera for visible near-infrared
+[22:38.700 --> 22:39.700]  and thermal.
+[22:39.700 --> 22:46.700]  Kronprins-Hakon had radio stations, sun photometer, CTD profiles, a lot of current information,
+[22:46.700 --> 22:50.940]  which they were interested in because it was like with this melting event and a bunch of
+[22:50.940 --> 22:52.540]  other sea ice information.
+[22:52.540 --> 22:56.540]  I won't mention, I just want to say we overflew Ville a couple of times, Henrik got into that,
+[22:56.540 --> 22:57.540]  and then here's Svalbard.
+[22:57.540 --> 23:01.300]  I know we're short on time, so I just want to mention Svalbard, as Roth said, had a
+[23:01.300 --> 23:04.420]  whole bunch of other information as well.
+[23:04.420 --> 23:07.220]  And then lastly, I guess Sam's going to talk about satellite underpasses.
+[23:07.220 --> 23:09.500]  We weren't really sure, so we just listed some of them here.
+[23:09.500 --> 23:14.540]  I guess Sam will get into it more, but we underflew Prefire, we underflew ISAT-2, Earthcare,
+[23:14.540 --> 23:26.180]  MODIS-AQUA, PACE, and so this will be available as well, thanks.
+[23:26.180 --> 23:28.740]  That was a lot of information.
+[23:28.740 --> 23:29.740]  Questions?
+[23:29.740 --> 23:35.300]  We'll get to overpasses later on one of the other days.
+[23:35.300 --> 23:41.100]  Okay, no questions at the moment.
+[23:41.100 --> 23:49.060]  So what we're going to do now, thank you again, Lauren and Ralph, we're going to take a two
+[23:49.060 --> 23:55.060]  minute break or so, just you can stay in your seats, but you can check your emails and text
+[23:55.060 --> 24:04.900]  messages, and then we're going to get into the two bigger slots about emerging science.
+[24:04.900 --> 24:12.580]  So this is going to be the aerosol cloud group, and then we're going to have the cryo and
+[24:12.580 --> 24:14.500]  the radiation groups.
+[24:14.500 --> 24:19.580]  And then after that, because we used a little bit longer for questions, et cetera, there's
+[24:19.580 --> 24:26.220]  not going to be much time left for breakout discussion, so we're not going to go into
+[24:26.220 --> 24:30.620]  breakouts, but we're going to do a little bit of plenary discussion following those
+[24:30.620 --> 24:37.940]  emerging science presentations, and then we'll decide what to do tomorrow.
+[24:37.940 --> 24:42.700]  But more importantly, I will give you instructions for the social event tonight.
+[24:42.700 --> 24:43.700]  Makes sense?
+[24:43.700 --> 24:44.700]  Question, Lauren?
+[24:44.700 --> 24:47.420]  Sorry, I just want to say I forgot a slide.
+[24:47.420 --> 24:52.380]  We also flew over the Sigma B radiation site, and so if you go on our slides, you can see
+[24:52.380 --> 24:54.380]  that too.
+[24:54.380 --> 24:55.860]  Sorry.
+[24:55.860 --> 24:58.420]  Is that the Japanese site?
+[24:58.420 --> 24:59.420]  Yes.
+[24:59.420 --> 25:00.420]  Right.
+[25:00.420 --> 25:03.420]  There was also an Austrian site at some point.
+[25:03.420 --> 25:07.620]  We haven't even made contact with them yet.
+[25:07.620 --> 25:09.260]  That's a good reminder.
+[25:09.260 --> 25:12.340]  Anyway, so thank you.
+[25:12.340 --> 25:14.060]  That was great work putting that together.
+[25:14.060 --> 25:20.260]  So take two minutes for chatting, et cetera, and then we'll get into this.
+[25:45.060 --> 25:46.060]  Oh, great.
+[25:46.060 --> 25:48.060]  You don't have any animations, right?
+[25:48.060 --> 25:49.060]  No, no, no, no.
+[25:49.060 --> 25:50.060]  Oh, yeah.
+[25:50.060 --> 25:53.060]  That's the real deal.
+[25:53.060 --> 25:55.060]  Oh, my gosh.
+[25:55.060 --> 25:56.060]  Oh.
+[25:56.060 --> 25:59.060]  Is that a good question?
+[25:59.060 --> 26:00.060]  Yeah.
+[26:00.060 --> 26:01.060]  Yeah, good.
+[26:01.060 --> 26:03.060]  We'll start tomorrow with that.
+[26:03.060 --> 26:07.060]  And let me remind Ralph.
+[26:07.060 --> 26:12.060]  Yeah, I think Ralph is going to, he's going to speak first.
+[26:13.060 --> 26:15.060]  I know that we're late over time.
+[26:15.060 --> 26:17.060]  So it's okay though.
+[26:17.060 --> 26:22.060]  We can stick with the same schedule if you've had 25 minutes each.
+[26:22.060 --> 26:26.060]  We can still stick with something and we'll have 15 minutes left over.
+[26:26.060 --> 26:36.060]  We just have to be done, let's say, until five or the two things, which is going to be easy.
+[26:36.060 --> 26:39.060]  No, it's not that easy.
+[26:39.060 --> 26:41.060]  No, actually we're going to make it.
+[26:42.060 --> 26:45.060]  We're going to eat up the discussion time.
+[26:45.060 --> 26:49.060]  The discussion will just be 20 minutes.
+[26:49.060 --> 26:51.060]  Yeah, just in plan.
+[26:51.060 --> 26:52.060]  Yeah, just in plan.
+[26:52.060 --> 26:53.060]  I mean, it doesn't make sense.
+[26:53.060 --> 26:54.060]  Yeah, yeah, yeah.
+[26:54.060 --> 26:58.060]  So we actually, this was based on Amy and Vakita and I met.
+[26:58.060 --> 27:02.060]  And we came up with this.
+[27:02.060 --> 27:04.060]  This was our question.
+[27:04.060 --> 27:07.060]  Because we're doing cloud in there.
+[27:07.060 --> 27:10.060]  Let's actually say like, what if there's no influence?
+[27:10.060 --> 27:12.060]  What if there's no influence?
+[27:12.060 --> 27:14.060]  Prove to me that there is some.
+[27:14.060 --> 27:20.060]  Like, how can we use these kinds of challenging questions?
+[27:20.060 --> 27:24.060]  Yeah, that's nice.
+[27:24.060 --> 27:27.060]  That's like to Ken, but maybe I should talk to you.
+[27:27.060 --> 27:30.060]  So the SPSS.
+[27:30.060 --> 27:32.060]  Yeah, that's HSR.
+[27:32.060 --> 27:34.060]  That's now HSR.
+[27:34.060 --> 27:36.060]  So I should take down that.
+[27:36.060 --> 27:40.060]  Yeah, we're, I think we're fine with that at this point,
+[27:40.060 --> 27:41.060]  but I can check again.
+[27:41.060 --> 27:42.060]  Yeah.
+[27:42.060 --> 27:47.060]  So if it says HSR somewhere and you have all of the flights on file.
+[27:47.060 --> 27:48.060]  I know.
+[27:48.060 --> 27:50.060]  I know we have the HSR ones.
+[27:50.060 --> 27:54.060]  I don't know if it's on the point with the SPSS.
+[27:54.060 --> 27:55.060]  Yeah.
+[27:55.060 --> 27:57.060]  Yeah, let me go through as well.
+[27:57.060 --> 28:00.060]  I'm just going to check.
+[28:00.060 --> 28:03.060]  Thanks for asking.
+[28:03.060 --> 28:08.060]  Okay.
+[28:08.060 --> 28:14.060]  So Dan just told me that the group picture is now on our Google Drive.
+[28:14.060 --> 28:23.060]  Just one picture is in the where you upload the presentation and the rest are in the
+[28:23.060 --> 28:29.060]  share Google photo drive drive album.
+[28:29.060 --> 28:36.060]  And maybe we can put it on the ESPO meeting website as well for people.
+[28:36.060 --> 28:40.060]  Yes, I'm going to have to.
+[28:40.060 --> 28:41.060]  Sounds good.
+[28:41.060 --> 28:48.060]  All right, let's reconvene.
+[28:48.060 --> 28:56.060]  We're going to get volcano activity now.
+[28:56.060 --> 28:58.060]  Gensis exploding.
+[28:58.060 --> 29:04.060]  So are we ready slide wise?
+[29:04.060 --> 29:07.060]  Yeah.
+[29:07.060 --> 29:11.060]  We have a volcano here.
+[29:11.060 --> 29:12.060]  All right.
+[29:12.060 --> 29:13.060]  Good.
+[29:13.060 --> 29:15.060]  All right.
+[29:15.060 --> 29:19.060]  So I guess I'd lead off on this section here on the aerosols.
+[29:19.060 --> 29:25.060]  So this was a true target of opportunity.
+[29:25.060 --> 29:30.060]  I'll tell the story, but I'm going to begin with the facts as we have them now.
+[29:30.060 --> 29:36.060]  And these days, you know, setting up the facts and the true facts as opposed to the alternative
+[29:36.060 --> 29:38.060]  or false facts.
+[29:38.060 --> 29:45.060]  So therefore, one of them is that there was an eruption of a volcano in Iceland on the
+[29:45.060 --> 29:47.060]  29th of May.
+[29:47.060 --> 29:50.060]  It was a modest eruption.
+[29:50.060 --> 29:58.060]  Ground observations identified both self and ash in the observation in the atmosphere.
+[29:58.060 --> 30:06.060]  And there are indications and I'll show those that the plume traveled to the arctic study
+[30:06.060 --> 30:08.060]  area.
+[30:08.060 --> 30:16.060]  And the last point, which I think is really important here is that aged volcanic
+[30:16.060 --> 30:23.060]  aerosol has extremely rarely been observed in the kind of detail that we were able to
+[30:23.060 --> 30:27.060]  observe with the arctic instruments.
+[30:27.060 --> 30:37.060]  In fact, I only know of one study and this was an eruption also from Iceland in 2007.
+[30:37.060 --> 30:43.060]  And that plume traveled to Macehead on the west coast of Ireland.
+[30:44.060 --> 30:46.060]  And there's a paper on that.
+[30:46.060 --> 30:49.060]  But otherwise, I don't know of any other situation.
+[30:49.060 --> 30:53.060]  Now, certainly volcanic plumes, you can monitor them from satellites and so on.
+[30:53.060 --> 30:58.060]  But the kind of detailed information about the particle properties, I don't know of any other
+[30:58.060 --> 31:00.060]  situation where we have that kind of detail.
+[31:00.060 --> 31:07.060]  So the science questions is the first one is how likely is it that we actually saw the volcanic
+[31:07.060 --> 31:08.060]  plume?
+[31:08.060 --> 31:12.060]  And that's a question we're still looking into.
+[31:12.060 --> 31:19.060]  A number of teams have participated in trying to make that assessment.
+[31:19.060 --> 31:21.060]  And I'll show those in the subsequent slides.
+[31:21.060 --> 31:28.060]  If so, then did the plume contain sulfate particles or volcanic ash or both?
+[31:28.060 --> 31:34.060]  If there's volcanic ash in there, then that's a result that's worth publishing right on its own.
+[31:34.060 --> 31:38.060]  Further, what can we say about the particle micro physical properties?
+[31:38.060 --> 31:44.060]  And then finally, if we can say something that far down the list, can we talk about the aging
+[31:44.060 --> 31:48.060]  processes or time scales for the aging of the volcanic plumes?
+[31:48.060 --> 31:53.060]  So the first indication we had of this was from the Geos model.
+[31:53.060 --> 31:57.060]  Now, this is an early version that will be later versions of this data.
+[31:57.060 --> 31:58.060]  Pete has agreed.
+[31:58.060 --> 32:01.060]  So yes, also in the lower right of every one of these slides are the sources.
+[32:01.060 --> 32:04.060]  So Pete provided this data for us.
+[32:04.060 --> 32:14.060]  And so these are a series of days showing the plume in principle transporting to our study area.
+[32:14.060 --> 32:22.060]  Now, the way in which Geos initializes a plume here is in this case, it found the thermal
+[32:22.060 --> 32:27.060]  anomaly associated with the lava flow, not the plume, not a plume.
+[32:27.060 --> 32:30.060]  And so we didn't actually know a plume had existed at that point.
+[32:30.060 --> 32:36.060]  And it modeled it as interpreted as a wildfire smoke plume.
+[32:36.060 --> 32:41.060]  So in the model at this point, it was described as a smoke plume that would have traveled up.
+[32:41.060 --> 32:48.060]  However, I tapped a couple of my friends who make UV measurements at SO2.
+[32:48.060 --> 32:57.060]  And so we have here a collection from three different instruments of the SO2 plume from
+[32:57.060 --> 33:00.060]  that volcano that you can see in three of them.
+[33:00.060 --> 33:01.060]  It's near the source.
+[33:01.060 --> 33:10.060]  And then the fourth one, the NOAA-20, came in a day later and shows it transporting in
+[33:10.060 --> 33:15.060]  the relative direction that the models had suggested.
+[33:15.060 --> 33:21.060]  And then also pulling up the MODIS optical depth data, again, we see a plume.
+[33:21.060 --> 33:26.060]  So actually it did something happen, and there were aerosols in the atmosphere that were
+[33:26.060 --> 33:30.060]  transported essentially along the path.
+[33:30.060 --> 33:38.060]  The observations didn't get all the way to our study area, but they did go along for
+[33:38.060 --> 33:44.060]  the first few days showing the plume transporting.
+[33:44.060 --> 33:52.060]  Then our colleagues from the Flexpart model, they have been modeling also.
+[33:52.060 --> 34:01.060]  And in this case, I'm showing from Nikos and Christine their model of ash over the series
+[34:01.060 --> 34:03.060]  of days.
+[34:03.060 --> 34:11.060]  And I should emphasize that ash was in fact observed from the surface by the local volcano
+[34:11.060 --> 34:15.060]  observatory folks to at least one and a half kilometers above the surface.
+[34:15.060 --> 34:19.060]  So they actually have those observations, and they reported them.
+[34:19.060 --> 34:25.060]  And so there's real ash, and so there's a model that shows where it might have gone.
+[34:25.060 --> 34:32.060]  And then that alert station, which we talked about in the previous talk, was very fortuitous
+[34:32.060 --> 34:35.060]  to have that station there.
+[34:35.060 --> 34:44.060]  And on three days, June 1st, June 4th, and June 6th, there was a relative spike in the
+[34:44.060 --> 34:51.060]  optical depth, and at the same time a very low value for the angstrom exponent.
+[34:51.060 --> 34:56.060]  So these are bigger particles that were observed on those three days.
+[34:56.060 --> 35:00.060]  So I'm going quickly here.
+[35:00.060 --> 35:06.060]  The arrows got a little messed up in translation here, but the Halo team, and they're all mentioned
+[35:06.060 --> 35:12.060]  at the bottom there, have done a really nice job pulling together their observations.
+[35:12.060 --> 35:18.060]  Our hope was that this would allow us to target observations from the P3.
+[35:18.060 --> 35:25.060]  So three days, the third, the fifth, and the sixth, those were all days on which we had
+[35:25.060 --> 35:32.060]  both aircraft flying in a coordinated fashion.
+[35:32.060 --> 35:38.060]  And the characterization of aerosols from Halo are described on the right there.
+[35:38.060 --> 35:44.060]  On the third and the sixth of June, very low depolarization and a high LiDAR ratio,
+[35:44.060 --> 35:49.060]  which implied that combination, implied that spherical or very small particles,
+[35:49.060 --> 35:51.060]  and possibly light absorbing.
+[35:51.060 --> 35:56.060]  Both on the intervening day, the observations seemed to be higher depolarization,
+[35:56.060 --> 36:05.060]  and possible pollution or smoke was the aerosol typing done automatically.
+[36:05.060 --> 36:11.060]  Of course, they didn't necessarily have volcanic particles as part of that.
+[36:11.060 --> 36:17.060]  And then Ewan pointed out this tenuous layer at about four kilometers above other things.
+[36:17.060 --> 36:22.060]  And so one of the possibilities could be that this was volcanic ash
+[36:22.060 --> 36:26.060]  that might have nucleated cirrus at a higher elevation.
+[36:26.060 --> 36:30.060]  These are all hypotheses. None of this is proven.
+[36:30.060 --> 36:35.060]  These are the other two days. The arrows, and again, these slides are available,
+[36:35.060 --> 36:43.060]  are the places where it appears as though there might be volcanic particles yet to be confirmed.
+[36:43.060 --> 36:47.060]  Now, my final slide here is the possible next steps.
+[36:47.060 --> 36:53.060]  And the first question is, when and where are there relevant P3 in situ data?
+[36:53.060 --> 36:57.060]  This is really important because without the in situ data,
+[36:57.060 --> 37:03.060]  we won't be able to go beyond those initial questions to have some answers, whatever they might be.
+[37:03.060 --> 37:10.060]  And so I started to try and do this, but it turns out that although the P3 and the G3 were coordinated,
+[37:10.060 --> 37:15.060]  trying to get exact coordination, exact sampling was essentially impossible.
+[37:15.060 --> 37:22.060]  So it makes much more sense to have the P3 instrument teams look at their data,
+[37:22.060 --> 37:29.060]  see where they see things that might be interesting or suspicious, and then compare the two.
+[37:29.060 --> 37:33.060]  And I'll say one other thing about that being a data producer myself.
+[37:33.060 --> 37:39.060]  I vastly prefer to rely on the instrument teams interpreting their data.
+[37:39.060 --> 37:42.060]  Than me trying to interpret it.
+[37:42.060 --> 37:47.060]  The number of people who have tried to interpret the miser aerosol data,
+[37:47.060 --> 37:52.060]  and I get the paper and it's just missing fundamental points.
+[37:52.060 --> 37:54.060]  I'd rather not do that.
+[37:54.060 --> 37:59.060]  The instrument teams, you guys are experts in your area, and this is a little subtle,
+[37:59.060 --> 38:04.060]  so I'd be grateful to have you look at this and participate.
+[38:05.060 --> 38:08.060]  Sulfate ash or both in the P3 data.
+[38:08.060 --> 38:12.060]  Any relevant large particle data that might be useful.
+[38:12.060 --> 38:22.060]  Indication of ice covered ash that June the third case would be of great interest.
+[38:22.060 --> 38:28.060]  And then if we have that kind of information, then the question of the evolution of the plume,
+[38:28.060 --> 38:32.060]  which is a big prize as well.
+[38:32.060 --> 38:41.060]  I mentioned there's a sort of side topic that they came up having to do with blowing snow as a possible source of dust in the early spring.
+[38:41.060 --> 38:43.060]  That's kind of a side issue.
+[38:43.060 --> 38:55.060]  We were going to have this talk before the coffee break and I had reserved a room across the hall here for an interest meeting on this if people wanted to talk about about the data.
+[38:55.060 --> 39:01.060]  The combination of the G3 and the P3 data for this event for the volcano event.
+[39:01.060 --> 39:03.060]  I will only be here today.
+[39:03.060 --> 39:08.060]  My daughter graduates from college on Wednesday and I'm flying to Maryland to be there.
+[39:08.060 --> 39:13.060]  But I'll be available today and I'm of course available in general.
+[39:13.060 --> 39:19.060]  So that's my talk.
+[39:19.060 --> 39:21.060]  Please participate.
+[39:21.060 --> 39:36.060]  So I think what we can do is so we'll have the other talks now, but we can have some discussion either at the social event or briefly after the meeting itself as well.
+[39:36.060 --> 39:37.060]  Who's next.
+[39:37.060 --> 39:53.060]  So Armin and then you and
+[39:53.060 --> 39:55.060]  Okay.
+[39:55.060 --> 40:12.060]  So the spirit of what we're going to do right now for the next 10 15 minutes is to in light of this being an open data workshop to show for a particular case flight how the data sets can come together to paint a beautiful picture.
+[40:12.060 --> 40:23.060]  I wouldn't say for the aerosol and cloud working groups were at the point we really want to be to paint the whole 360 view of how the aerosols and clouds were mingling perfectly on this day.
+[40:23.060 --> 40:32.060]  We're not quite there yet maybe in a year from now we will be but this is to just start a discussion that can spill over into a breakout tomorrow morning maybe.
+[40:32.060 --> 40:41.060]  And it's just a good exercise to show people how all the data sets you heard about today can be shown for one flight to try to find some similarities.
+[40:41.060 --> 40:48.060]  I want to acknowledge the working group leads aerosol side we have Matt Brown Lawrence Amora cloud side you and we'll be talking.
+[40:48.060 --> 40:51.060]  He's joined by Paquita and Amy.
+[40:51.060 --> 40:57.060]  So the case flight that we chose is one that we looked at in our working group meetings.
+[40:57.060 --> 41:02.060]  This was a very popular one research flight seven on June 7th.
+[41:02.060 --> 41:07.060]  You can see the flight track of the P three and the area of interest is in the red circle.
+[41:07.060 --> 41:09.060]  We did a cloud wall.
+[41:09.060 --> 41:16.060]  And if you're new to that terminology a cloud wall is when the aircraft does a bunch of stacked legs going from below to into above the cloud.
+[41:16.060 --> 41:22.060]  Because you have to do each of those legs to understand how the aerosol cloud system is working.
+[41:22.060 --> 41:30.060]  So this was day three of a three day quasi Lagrangian mission tracking the same sort of air mass moving across northern Greenland.
+[41:30.060 --> 41:38.060]  So it was an excellent case that our period of interest you can see in the time trace on the bottom right.
+[41:38.060 --> 41:45.060]  So the aircraft took off when a pie transit it out did a box spiral down we did what's called a minimum altitude leg.
+[41:45.060 --> 41:48.060]  That's kind of our below cloud base leg.
+[41:48.060 --> 41:58.060]  Then we did the above cloud top leg some porpoising with the CVI time and then in line purpose back to the Southwest on the transit back.
+[41:58.060 --> 42:02.060]  If you don't remember what a CVI is it's important for this case flight.
+[42:02.060 --> 42:14.060]  It's a special inlet that when you fly in a cloud it rejects interstitial aerosol preferentially only samples the droplets big enough to make it in those droplets are dried leaving just the residual particles.
+[42:14.060 --> 42:19.060]  And then we can study those particle properties for composition and size.
+[42:19.060 --> 42:26.060]  There's some caveats with the CVI like there's a heated counterflow so some of the semi volatiles can burn off.
+[42:26.060 --> 42:35.060]  And with the CVI those droplet residuals are not just the pure CCN that made the drops but it could be also gases that partitioned into the drops.
+[42:35.060 --> 42:41.060]  This is the G three flight track again they coordinated with the P three.
+[42:41.060 --> 42:46.060]  So that's that there's a total of 16 songs dropped.
+[42:46.060 --> 42:54.060]  It's very impressive so it's a fantastic data set for this little cloud wall beginning with the halo instrument.
+[42:54.060 --> 43:00.060]  I'm not going to spend too much time here so we got the aerosol backscatter on the top left a classic curtain time series.
+[43:00.060 --> 43:07.060]  Some other parameters on the right but the cloud wall you can see marked in blue sort of in the top.
+[43:07.060 --> 43:12.060]  So you can see there's a little bit of aerosol hanging out above cloud top.
+[43:12.060 --> 43:15.060]  There's some other features that are labeled.
+[43:15.060 --> 43:21.060]  So that's an example of how the LiDAR curtain can make its way and see these nice case studies.
+[43:21.060 --> 43:28.060]  This is again thanks to Lauren for plotting the flex part model output from Nikos and Christine.
+[43:28.060 --> 43:34.060]  We're showing black carbon from different sources and dust along the tight race of the P three.
+[43:34.060 --> 43:41.060]  So we have these kinds of products going to the trace gases from Glenn's group.
+[43:41.060 --> 43:44.060]  We have a little bit of structure.
+[43:44.060 --> 43:51.060]  You can see how humidity really drops off above cloud top so that that's a nice sanity check.
+[43:51.060 --> 43:57.060]  I guess methane and CO seem to be lower above cloud and ozone really jumps up above cloud top.
+[43:57.060 --> 44:02.060]  So that's kind of a little bit of context from the trace gas side of things.
+[44:02.060 --> 44:08.060]  Back to the large the puddles and the FIMS instruments.
+[44:08.060 --> 44:16.060]  You can see that above cloud is kind of an interesting thing going on when we're going from the northwest to the southeast of that cloud wall.
+[44:16.060 --> 44:21.060]  Aerosol scattering seems to be increasing towards the southeast side.
+[44:21.060 --> 44:26.060]  Looks like we're tickling kind of a little bit of an aerosol layer that's kind of enriched with aerosol.
+[44:26.060 --> 44:30.060]  And most of the scattering comes from the sub micron aerosol.
+[44:30.060 --> 44:39.060]  You can see the FIMS time series of size distribution and some of the puddles concentrations for accumulation mode and course mode.
+[44:39.060 --> 44:45.060]  So an absorption is basically negligible from what I well it's very low here.
+[44:45.060 --> 44:58.060]  Going to the AMS composition again just focusing on that above cloud leg which is pretty interesting going to the southeast side of the leg where we had higher scattering you see an enhancements and sulfate.
+[44:58.060 --> 45:03.060]  And then in the bottom left you can kind of see kind of the relative amounts of these species.
+[45:03.060 --> 45:09.060]  Sulfate and organics are dominating the aerosol during this cloud wall.
+[45:09.060 --> 45:13.060]  That organic to sulfate ratio tells you a lot about hygroscopicity.
+[45:13.060 --> 45:20.060]  So if the organics are higher relative to sulfate FFRH that hygroscopicity parameter really drops.
+[45:20.060 --> 45:30.060]  We see that happening here with FFRH close to 1.1 for most of that above for the cloud wall.
+[45:30.060 --> 45:36.060]  And we have some representative time series from the FIMS in the bottom middle in different parts of this cloud wall.
+[45:36.060 --> 45:44.060]  Something really interesting from the CVI and the AMS in the bottom is that as the aircraft was kind of coming down.
+[45:44.060 --> 45:47.060]  You can see this on the bottom left of that time series.
+[45:47.060 --> 45:53.060]  Seems to be some enhanced organics in green followed by some enhanced sulfates in red.
+[45:53.060 --> 45:58.060]  Then as the plane came up you see kind of a mirror image of that sulfates go up and then organics above that.
+[45:58.060 --> 46:02.060]  And you kind of see this continuing throughout this time series.
+[46:02.060 --> 46:10.060]  So that kind of points to some interesting layering of these sulfate versus organic rich droplet residual layers.
+[46:10.060 --> 46:13.060]  It's pretty interesting stuff.
+[46:13.060 --> 46:20.060]  Black carbon from the SP2 you can see it in the purple on the top so you can kind of see its structure.
+[46:20.060 --> 46:27.060]  And the very bottom we have CCN concentration tracking the nonvolatile particle concentrations really well.
+[46:27.060 --> 46:31.060]  So there's a question of if this is sulfuric acid driven.
+[46:31.060 --> 46:39.060]  This is from the dash SP again size results hygroscopic growth factors at 85% in the real part of refractive index.
+[46:39.060 --> 46:45.060]  At the bottom we're sort of showing in knock spot plots how the different values vary for below cloud above cloud CVI.
+[46:45.060 --> 46:51.060]  There's not too much change according to the dash SP along that Northwest to Southeast transect.
+[46:51.060 --> 46:58.060]  ATOP MS shows mostly sulfuric acid rich particles below and above cloud and during some of the porpoising.
+[46:58.060 --> 47:03.060]  They have a lot more data that they're processing with their machine learning techniques.
+[47:03.060 --> 47:07.060]  They're going to try to extract more from the CVI portions of the flight.
+[47:07.060 --> 47:12.060]  So there's a lot of stuff here with the ATOP MS group really exciting stuff.
+[47:12.060 --> 47:25.060]  And from the CSU team the interesting feature of this flight is that we seem to think in cloud there's some INP depletion that's very low values in the cloud.
+[47:25.060 --> 47:30.060]  So I think that's kind of the striking feature from this whole slide.
+[47:30.060 --> 47:43.060]  Yeah. Okay. So let's just keep going. I'll pass this one off to you and you got that.
+[47:43.060 --> 47:49.060]  Okay, so this is something that we've been working on for each of the cloud walls.
+[48:00.060 --> 48:09.060]  All right. Much better.
+[48:09.060 --> 48:17.060]  You can see the P3's track overlaid on the halo depiction of where the cloud was.
+[48:17.060 --> 48:25.060]  And so during the time that the P3 was doing this wall, the G3 actually had three separate passes over the same line.
+[48:25.060 --> 48:35.060]  And the orange part of the P3's track is where the P3 was during the time that the G3 was flying over the wall.
+[48:35.060 --> 48:42.060]  And this is from Alexei. Basically the same idea as what Armin showed with the aerosol data time series.
+[48:42.060 --> 48:47.060]  This is the same from the perspective of the cloud micro physical measurements here.
+[48:47.060 --> 49:01.060]  So we've got droplet and ice number concentration, the size of the particles, and then the, yeah, the maximum ice size at the bottom there.
+[49:01.060 --> 49:05.060]  Okay. So that was the summary of one wall.
+[49:05.060 --> 49:11.060]  This was these last three slides were meant to be a segue into our focus discussion.
+[49:11.060 --> 49:30.060]  So this is taking a kind of step back and going to the other end of the spectrum and looking from, you know, very 30,000 foot view of the project when saying, okay, we got all this data across all these cloud walls where we had aerosol data and in situ cloud micro physical data, also remote sensing data.
+[49:30.060 --> 49:35.060]  What did we actually capture? What was the dynamic range of the conditions that we saw across RX6?
+[49:35.060 --> 49:48.060]  So on the top plot there is for each flight and where we had the P3 and then also the layer for the second half here, which is the second campaign, we also had the layer.
+[49:48.060 --> 49:58.060]  So for each date, you can see the histogram of all the drop number concentration measurements over sea ice below three kilometers.
+[49:58.060 --> 50:04.060]  This gives you an idea of the kind of ranges of drop number concentration that we saw.
+[50:04.060 --> 50:17.060]  In the pink flights are places where the P3 and the layer were flying in coordination elsewhere. So for example, on July 29th, the P3 and the layer went to different places.
+[50:17.060 --> 50:23.060]  So that would be why the data doesn't show the same kind of pattern.
+[50:23.060 --> 50:40.060]  And then on the bottom is for looking in the vertical, same idea, 2D histogram of the drop number concentration versus altitude for the P3 during RX6-1, the P3 during RX6-2, and then the layer during RX6-2.
+[50:40.060 --> 50:57.060]  Okay, so on the next one here, now what I'm showing is from the halo data on the G3, this is the distribution of cloud heights measured by halo.
+[50:57.060 --> 51:07.060]  So for each of the flights here, the black label at the top shows places where the G3 and the P3 were both doing cloud sampling in the same place.
+[51:07.060 --> 51:15.060]  So you can kind of see the distribution of cloud heights measured by the LiDAR across RX6-1 and then RX6-2.
+[51:15.060 --> 51:32.060]  For the black flights where we had combined data, we can then take all of that and distill it down into a 1D profile of cloud heights measured by the HSRL and then the in situ measurements of cloud.
+[51:32.060 --> 51:50.060]  So you would expect because the LiDAR is detecting cloud top that the peaks in those distributions are a little bit higher, but overall the both aircraft essentially captured the same type of distribution of low level clouds over the sea ice.
+[51:50.060 --> 51:57.060]  Okay, and then lastly, this is again not to try and talk about relationships, but rather just to talk about dynamic range.
+[51:57.060 --> 52:17.060]  So on here, on the left we have, for each time we did a wall, the drop number concentration, and this is a range, Alexei Korolev provided a nice summary of all of the walls showing a range of the drop number concentration plotted against the number
+[52:17.060 --> 52:29.060]  concentration from the puddles, the UHSAS from Matt, and the red points are aerosol data that was collected above the cloud, and the blue points are aerosol data that was collected below the cloud.
+[52:29.060 --> 52:41.060]  So this gives you an idea of the kind of range of conditions that we saw across the entirety of RX6, and then on the right the same thing, this time comparing drop number concentration with ice number concentration.
+[52:41.060 --> 52:52.060]  So these are kind of a jumping off point for our aerosol and cloud breakout discussion, which I think is not going to happen till tomorrow.
+[52:52.060 --> 53:04.060]  And the question that we thought we might pose the team was to say, okay, so we have measurements of aerosols, we have measurements of cloud, we have this question about trying to understand Arctic cloud lifecycle.
+[53:04.060 --> 53:18.060]  Well, what can we do with the RX6 measurements specifically to actually show evidence that aerosols are influencing Arctic cloud lifecycle, and how do we do that?
+[53:18.060 --> 53:30.060]  That's it.
+[53:31.060 --> 53:41.060]  Great to actually start the discussion right now, and you and I would put you on the spot and have you answer your own question.
+[53:41.060 --> 53:58.060]  In the interest of time, though, I would love for you all if you have immediate thoughts about this already to just jot down a few notes so that your discussions won't get lost for tomorrow.
+[53:58.060 --> 54:09.060]  We had two joint breakouts planned on this topic anyway, so we'll just consolidate that in tomorrow's joint breakout.
+[54:09.060 --> 54:22.060]  Just a fair warning that the cryo and radiation presentation that is last for today, that it's of a little different nature.
+[54:22.060 --> 54:32.060]  So then we can bring this up next, which is why I'm asking you again if you have thoughts about the cloud aerosol pieces to just jot it down.
+[54:32.060 --> 54:49.060]  I also wanted to just give you a quick compliment that I thought this was really nicely done in terms of illustrating this idea of having both stories and statistics in one and the same slide set.
+[54:50.060 --> 55:03.060]  I don't have to tell you what I mean by this. I also wanted to say that behind some of these plots that Ewan just showed, there is actually a lot of work that went into this.
+[55:03.060 --> 55:13.060]  I would say, for example, has a whole spreadsheet where he goes through all of these cases.
+[55:13.060 --> 55:28.060]  Armin and contributors have whole spreadsheets where this sort of information is captured, and we need to think about how to best convey that detailed information to data users.
+[55:28.060 --> 55:45.060]  I hope that we can dedicate part of this workshop to figuring out how to do that so that this doesn't fall by the wayside, because it's an intermediate step to digesting this into science results.
+[55:45.060 --> 56:01.060]  So I won't take up any more time. I just wanted to throw this out there to advertise all of this work and then maybe go to, now I don't know who is going to, I think it's between Lynette and Kerry,
+[56:02.060 --> 56:10.060]  but also Armin did this nicely, acknowledging all of the great work by the working groups and you acknowledge the leads.
+[56:10.060 --> 56:18.060]  So maybe you guys can do that as well for your groups, because there's actually been a lot of really productive meetings.
+[56:18.060 --> 56:22.060]  So thank you all for that great work.
+[56:22.060 --> 56:28.060]  I would say, mic yourself up with this one again.
+[56:28.060 --> 56:46.060]  Okay, so I'm going to, I'm going to give him the other mic.
+[56:46.060 --> 56:51.060]  Yes, is it on? Okay. All right.
+[56:51.060 --> 57:02.060]  So yeah, we're going to talk about some emerging chrysleric and radiation science activities and yeah, like, okay, earlier it was too close to my mouth.
+[57:02.060 --> 57:05.060]  Is this better? Okay.
+[57:05.060 --> 57:10.060]  Yeah. And again, thanks to everyone involved.
+[57:10.060 --> 57:17.060]  Both of the working groups.
+[57:17.060 --> 57:35.060]  Yeah. No, that's fine. Yeah, so we take it a little different tack on this than the other groups and it was more of organizing our thoughts around the type of observations or the type of observing strategies that we got while we were in the, in the field and we, at least for the
+[57:35.060 --> 57:53.060]  relevant ones for the cryo in the radiation remote sensing, we boil those down, it's kind of four broad observing strategies where it was the buoy and surface characterization flights, if you recall those targeting really the surface radiation budget, the sea ice itself and then some
+[57:53.060 --> 58:10.060]  remote sensing objectives and the cloud walls which, you know, leading on is obvious of importance to the, to the cloud and aerosol group but there's a very, really strong interest from the remote sensing side and that as well, which will show another slide and then the
+[58:10.060 --> 58:16.060]  radiation is putting it all together and doing radiative calculations.
+[58:16.060 --> 58:27.060]  You know, interested in that the surface BRDF bowling alleys, those are, that's self-explanatory, we all know what that was, we were hunting clear sky to do the BRDF work and Albedo, the sea ice.
+[58:27.060 --> 58:36.060]  Very important for the, obviously for the radiation budget and cryo, important for the remote sensing because it's our boundary condition underneath for aerosol or cloud remote sensing.
+[58:36.060 --> 58:52.060]  And then this sea ice anomaly that we captured, where was that north of Ellesmere station north, yeah, so, you know, trying to capture those characteristics of drivers and so when that put a really nice summary of all the
+[58:52.060 --> 59:09.060]  18 arc six flights there on the right, color coded to the, to the theme flights and you can see where we sampled and, you know, some flights we actually got a couple of these objectives or these observing strategies in the flight.
+[59:09.060 --> 59:27.060]  So this is what we came up with it was really is just to start the discussions within our breakout groups as to how we started addressing, you know, not that we're in person and talking to each other face to face, getting at that surface radiation budget characterization cryo objectives and
+[59:27.060 --> 59:31.060]  improve remote sensing retrievals.
+[59:31.060 --> 59:49.060]  All right. Yeah, so the first one is. So one of the, one of the goals of arc six is to understand how the sea ice evolves throughout the start up like before melt and through the melt and the height of mountain summer and one of those science questions was to
+[59:49.060 --> 01:00:07.060]  understand how the coupling between the radiative processes and see ice influences the summer sea ice belt. So, for this, you know, we wanted to use the buoy data supplemented with our arc six flights to get a bigger picture of that sea ice area that we returned to multiple times
+[01:00:07.060 --> 01:00:22.060]  during the campaign and kind of understand so Patrick in his buoy talk showed how each of the buoys had initial conditions that were different.
+[01:00:22.060 --> 01:00:42.060]  Some, some of the buoys had more snow, and some had less and some buoys more more of the ice was melted and other buoys less so like what caused that what atmospheric factors cause that was it because of more like a snowfall event that fell on the ice
+[01:00:42.060 --> 01:00:59.060]  because of, you know, more clear sky, certain types of clouds, changing albedo, all these things. So that's kind of what we want to do. Yeah, so for the sea ice characters characterization we needed clear sky so these were the the four flight dates where
+[01:00:59.060 --> 01:01:13.060]  we did some flights around the buoys collecting that clear sky. And we hope to use the Elvis data to get like the surface elevation and topography how that evolved throughout the campaign, and also melt ponds.
+[01:01:14.060 --> 01:01:26.060]  Another thing for that was interesting this past summer was that the the sea ice freeboards from ice at to showed us that pre melt in April.
+[01:01:27.060 --> 01:01:39.060]  In our buoy area, we had this large gradient of sea ice thick or CS freeboard anomalies. This could be due to thicker ice the normal or a thicker snowpack, depending.
+[01:01:39.060 --> 01:01:59.060]  You see this gradient where the ice is, or the freeboards lower closer to Greenland and becomes away. This is backwards becomes thicker and then thinner out towards the North Pole. And then, at the end of the melt season in August, once the sea ice starts to
+[01:01:59.060 --> 01:02:12.060]  refreeze, this, the freeboards actually were higher than average. So we, you know, what atmospheric factors are attributed to this change.
+[01:02:12.060 --> 01:02:14.060]  Oh, my slide. Yeah.
+[01:02:15.060 --> 01:02:29.060]  So this was just a reminder for us because we haven't really talked about cloud walls within radiation remote sensing too much other than we know we got them. We've been focusing more on the surface which I think is the next slide but
+[01:02:29.060 --> 01:02:38.060]  as a reminder to us for our conversations tomorrow we had what six flights at least where we got really good cloud walls between
+[01:02:38.060 --> 01:02:41.060]  and I think
+[01:02:41.060 --> 01:02:54.060]  most of these were coordination other it is with the g3 and p3 although maybe the I wasn't in the same 725 might not have had the g3 yet right. Yeah.
+[01:02:54.060 --> 01:03:07.060]  But the rest we had a good coordination between both aircraft and we often tried to coordinate when the, you know, the least that the coordination point the g3 over flying the p3 when the p3 was in the cloud, doing the poor poising.
+[01:03:08.060 --> 01:03:21.060]  And that really helps for the radiation side in the remote sensing for us for cloud or she was especially is you know how do you characterize these things in a forward model to do the inversion.
+[01:03:21.060 --> 01:03:29.060]  Also then for the radiation budget calculations you know if you're composed of crystals mixed phase liquid whatever.
+[01:03:30.060 --> 01:03:46.060]  And then there's from the remote sensing side also we also tried to coordinate when the p3 was above the cloud so that we can start working on synergy between the light R and the polarimeter RSP on the p3 hopefully to do some synergistic algorithms there.
+[01:03:46.060 --> 01:03:59.060]  And so how, again, because we hadn't actually thought about how we start teeing up our work on the with the cloud walls this was a way to get us to think about how we could use these data together.
+[01:03:59.060 --> 01:04:07.060]  Knowing what we've seen in the talks before all the data sets that we have that can inform on our work.
+[01:04:07.060 --> 01:04:15.060]  You know what we could do to tie together I guess you might as well go to the next one which is the bowling alleys.
+[01:04:15.060 --> 01:04:19.060]  These are the fun ones were just clear sky and we're flying back and forth.
+[01:04:19.060 --> 01:04:30.060]  We got what's five bowling alley flights, of course, July 29 was the p3 only the first to the 31st and the fifth of June.
+[01:04:30.060 --> 01:04:36.060]  I think I was the, it was my first two flight scientists flights in the G3 I thought I was clear sky guy for a while.
+[01:04:36.060 --> 01:04:53.060]  And I ended up getting clouds but because it's been doing a lot of work on this trying to put together the data to create, you know, both the Albedo and the spectral BRDF multi angle BRDF, which will then feed into our surface radiation budget calculations and the remote sensing
+[01:04:53.060 --> 01:05:15.060]  variables for both adverse and the satellites when we got we were under flying satellites so as a reminder we're we're trying to put together we're mapping with Averson G and Halo the White Ark curtains mapping the whole scene p3 is doing a helix or this bumper bowling within our raster region to do that multi angle characterization from RSP.
+[01:05:15.060 --> 01:05:42.060]  We have all the Albedo the broad man and short way or broad man and spectral radiation observations from the p3 which will be very, or is being very is used heavily by Vikas and his work, and that wide field of view camera, which he's using to evaluate the BRDF but this has been the focus of most of our work and radiation right now, and doing the surface characterizations so
+[01:05:43.060 --> 01:05:58.060]  you know the next steps for us is to think about how we then take what Vikas is doing and wrap it into the broader questions of surface radiation budget. And so that's for us to think about tomorrow and how that feeds into the cryo work the the sea ice melt.
+[01:05:59.060 --> 01:06:00.060]  So,
+[01:06:01.060 --> 01:06:02.060]  I only had two slides.
+[01:06:03.060 --> 01:06:20.060]  And so yeah I alluded to this earlier but I guess this last one is like a case study kind of we happen to see this large opening that formed in the sea ice in late July early August.
+[01:06:21.060 --> 01:06:37.060]  It was caused due to strong winds and lots of moisture warm temperatures of blowing up fram straight and it kind of pushed the sea ice away from the coast and even caused the sea ice to
+[01:06:38.060 --> 01:06:44.060]  break up a little bit have a lower concentration that reached up to the North Pole and it lasted a few days.
+[01:06:44.060 --> 01:06:57.060]  And it was anomalous. So I guess one of the things is we want to quantify this sea ice anomaly in the climatology, you know, has it happened before what causes to happen.
+[01:06:58.060 --> 01:07:10.060]  Is this different from other times that happened in the past and then what data can we use for mark six to like explain this or explain the atmospheric conditions that we saw.
+[01:07:11.060 --> 01:07:24.060]  Luckily, we flew over this general area three times, June, six and 13 so pre melt and then one at the height of this sea ice opening.
+[01:07:24.060 --> 01:07:37.060]  And so what we need what would be great so we're working on a paper about this but what we would love from the instrument teams is to discuss more about the data that they collected during these flights that we could use.
+[01:07:37.060 --> 01:07:57.060]  So things like the surface characteristics from Elvis, the forecasts from of the atmospheric and oceanic variables from cast Albedo or BRDF if available radius on data all the radiation terms so we can kind of compute the surface energy budget on those days.
+[01:07:58.060 --> 01:08:15.060]  And we also have buoy Jay. I think that was it. Yeah, which kind of drifted and melt it off in that same area. So kind of hoping to do that. And that was where we wanted to talk with everyone to see what is available that we can use this paper.
+[01:08:15.060 --> 01:08:17.060]  I think that's it.
+[01:08:17.060 --> 01:08:19.060]  August 1.
+[01:08:19.060 --> 01:08:21.060]  Yeah, died.
+[01:08:22.060 --> 01:08:31.060]  RIP should have made that as a figure dying buoy.
+[01:08:31.060 --> 01:08:33.060]  Okay, and that was it. Yeah, right.
+[01:08:33.060 --> 01:08:49.060]  So, I will stop.
+[01:08:49.060 --> 01:08:52.060]  Thank you both.
+[01:08:52.060 --> 01:09:04.060]  Are there any immediate reactions to all three of these slots all the way from volcano to the dying buoy.
+[01:09:04.060 --> 01:09:10.060]  Yes, Michael.
+[01:09:10.060 --> 01:09:25.060]  Real quick, I know Ralph was asking for the instrument teams to start looking at the volcano data and trying to analyze and see if we can detect it and large has done some work with that already so I think we do see some evidence of that.
+[01:09:25.060 --> 01:09:32.060]  I think Ralph you've seen some of those slides right.
+[01:09:32.060 --> 01:09:33.060]  Gotcha.
+[01:09:33.060 --> 01:09:36.060]  Yeah.
+[01:09:36.060 --> 01:09:49.060]  Thank you. So, it doesn't make much sense now to start discussion we had already decided that I decided that.
+[01:09:49.060 --> 01:10:00.060]  So, tomorrow, though, we will have these discussions. So again, please, please write down any thoughts that go beyond what was presented.
+[01:10:00.060 --> 01:10:16.060]  What we'll probably do now is we will take 20 minutes or so to just hang out here and not leave yet and find your, you know, find your people and talk about things.
+[01:10:16.060 --> 01:10:34.060]  And then after the 20 minutes, you can either go back to the hotel and take a break or so, or you can go to the social event, which will be at the Ray back collective. Yes, that is really the name.
+[01:10:34.060 --> 01:10:38.060]  This is Boulder. Are we still being recorded.
+[01:10:38.060 --> 01:10:46.060]  So, the address is 2775 Valmont Road and I will put that on the.
